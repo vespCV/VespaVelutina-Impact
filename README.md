@@ -127,6 +127,5 @@ Only open access databases were used.
 - Predation: Apis_mellifera, Other_species
 - Secondary effects: Colony_survival, Honey_yield, Foraging_activity, Economic_loss
 - Other: Review, Meta_analysis, Gray_literature, ...
-### Extract multiple metrics
 ### Data Extraction Template
 ### Data Extraction
