@@ -32,7 +32,7 @@ Effective management strategies require evidence-based decisions. To date, the q
 ## Literature searches
 **Updated:** 2025-10-30
 
-### Keywords
+### 1. Keywords
 - **Vespa velutina:** ("vespa velutina" OR "asian hornet" OR "yellow-legged hornet")
 - AND
 - **Apis mellifera:**  ("apis mellifera" OR honeybee* OR "honey bee*" OR beekeep* OR apiary* OR "managed pollinator*" OR "bee colony" OR "bee colonies")
@@ -67,7 +67,7 @@ Spain OR Spanish OR
 Sweden OR Swedish OR 
 "United Kingdom" OR Britain OR British OR England OR Scotland OR Wales OR "Northern Ireland")
 
-### Database searches
+### 2. Database searches
 
 Only open access databases were used.
 
@@ -90,15 +90,21 @@ Only open access databases were used.
     - 2.160 records ([sorted for relevance](https://scholar.google.com/scholar?hl=nl&as_sdt=0,5&as_vis=1&q=(%22vespa+velutina%22+OR+%22asian+hornet%22+OR+%22yellow-legged+hornet%22)+AND+(%22apis+mellifera%22+OR+%22honey+bee%22+OR+beekeeping+OR+apiary+OR+%22managed+pollinator%22+OR+%22bee+colony%22)+AND+(Europe+OR+European+OR+Austria+OR+Belgium+OR+Bulgaria+OR+Croatia+OR+Cyprus+OR+Czech+OR+%22Czech+Republic%22+OR+Czechia+OR+Denmark+OR+Estonia+OR+Finland+OR+France+OR+Germany+OR+Greece+OR+Hungary+OR+Ireland+OR+Italy+OR+Latvia+OR+Lithuania+OR+Luxembourg+OR+Malta+OR+Netherlands+OR+Poland+OR+Portugal+OR+Romania+OR+Slovakia+OR+Slovenia+OR+Spain+OR+Sweden+OR+%22United+Kingdom%22)&scisbd=1))
     - 168 records ([sorted for date](https://scholar.google.com/scholar?scisbd=2&q=(%22vespa+velutina%22+OR+%22asian+hornet%22+OR+%22yellow-legged+hornet%22)+AND+(%22apis+mellifera%22+OR+%22honey+bee%22+OR+beekeeping+OR+apiary+OR+%22managed+pollinator%22+OR+%22bee+colony%22)+AND+(Europe+OR+European+OR+Austria+OR+Belgium+OR+Bulgaria+OR+Croatia+OR+Cyprus+OR+Czech+OR+%22Czech+Republic%22+OR+Czechia+OR+Denmark+OR+Estonia+OR+Finland+OR+France+OR+Germany+OR+Greece+OR+Hungary+OR+Ireland+OR+Italy+OR+Latvia+OR+Lithuania+OR+Luxembourg+OR+Malta+OR+Netherlands+OR+Poland+OR+Portugal+OR+Romania+OR+Slovakia+OR+Slovenia+OR+Spain+OR+Sweden+OR+%22United+Kingdom%22)&hl=nl&as_sdt=0,5&as_vis=1)) 
 
-### Citation chaser
-
+### 3. Citation chaser
 [Citation chaser](https://estech.shinyapps.io/citationchaser/)
-- initial chase 2025-10-30: 56 references 
+- initial search 2025-10-30: 56 references 
 
-### Deduplication
+### 4. Deduplication
 [Rayyan](https://new.rayyan.ai/)
 - imported references: 915
 - duplications detected: 347
-- unique references: 612 
+- unique references for phase I screening: 612
 
+### 5. Phase I screening
+[ASReview LAB](https://github.com/asreview/asreview) 
+- relevant articles: 35
+
+### 6. Download PDFs
+- Free online: 33
+- Download requested 2025-11-01: 2
 
