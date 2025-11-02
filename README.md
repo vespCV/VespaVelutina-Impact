@@ -13,7 +13,7 @@ This repository contains exploratory research and preliminary analysis to determ
 
 ## Project overview
 
-Nearly a quarter century has passed since _Vespa velutina_ arrived by accident in Europe. And this Asian hornet* with its yellow legs is using her wings to spread over a large part of Europe. For the protein to raise the next generation, they don't make it difficult for themselves. In Europe domesticated bees (_Apis mellifera_) are widely available and easy to catch. So, let's find out what is published about the contribution of the **yellow-legged hornet** to the decline of Western **honeybee** populations.
+Nearly a quarter century has passed since _Vespa velutina_ arrived by accident in Europe. And this Asian hornet with its yellow legs is using her wings to spread over a large part of Europe. Adult workers need protein-rich prey to feed the developing larvae in their nests, which they obtain primarily from insects. They don't make it difficult for themselves—in Europe domesticated bees (_Apis mellifera_) are widely available and easy to catch. So, let's find out what is published about the contribution of the **yellow-legged hornet** to the decline of Western **honeybee** populations.
 
 **Primary Objective:**
 - Quantify the impact of _Vespa velutina_ predation on managed _Apis mellifera_ colonies in Europe.
