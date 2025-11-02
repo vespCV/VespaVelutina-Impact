@@ -3,7 +3,7 @@
 ## Project Status
 
 **Current Phase:** Data extraction  
-**Status:** Work in progress  
+**Status:** Work in progress
 
 This repository contains exploratory research compiling available articles on the impact of *Vespa velutina* (Asian hornet) on honeybees (*Apis mellifera*) in Europe. The aim is to develop an online summary in a continuously updated, structured data repository (inspired on [InvaCost](https://github.com/Farewe/invacost)) that documents impact, which can be continuously updated as new research becomes available.
 
@@ -102,21 +102,31 @@ Only open access databases were used.
 
 ### 5. Phase I screening
 [ASReview LAB](https://github.com/asreview/asreview)
-- relevant articles: 35
-
 #### Inclusion Criteria
-- English, Dutch, German
-- Observation in Europe
+- Language is English, Dutch, or German
+- Contains predation data and/or secondary effect data
+- Study type is observational or experimental with field component
 
 #### Exclusion Criteria
-- Not English, -Dutch, -German
-- Non Europe
 - No Apis mellifera data
 - No Vespa velutina data
+- Non-European location
+- Not English, -Dutch, -German language
 - Simulation studies, models, prediction, laboratory conditions
 - Gray literature
+- Only nest removal methods (no impact data)
+- Duplicate (data) of already included study
 
 ### 6. Download PDFs
 - Free online: 33
 - Download requested 2025-11-01: 2
 
+# Next steps
+## Data Extraction
+### Tag articles
+- Predation: Apis_mellifera, Other_species
+- Secondary effects: Colony_survival, Honey_yield, Foraging_activity, Economic_loss
+- Other: Review, Meta_analysis, Gray_literature, ...
+### Extract multiple metrics
+### Data Extraction Template
+### Data Extraction
