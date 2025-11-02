@@ -101,8 +101,20 @@ Only open access databases were used.
 - unique references for phase I screening: 612
 
 ### 5. Phase I screening
-[ASReview LAB](https://github.com/asreview/asreview) 
+[ASReview LAB](https://github.com/asreview/asreview)
 - relevant articles: 35
+
+#### Inclusion Criteria
+- English, Dutch, German
+- Observation in Europe
+
+#### Exclusion Criteria
+- Not English, -Dutch, -German
+- Non Europe
+- No Apis mellifera data
+- No Vespa velutina data
+- Simulation studies, models, prediction, laboratory conditions
+- Gray literature
 
 ### 6. Download PDFs
 - Free online: 33
