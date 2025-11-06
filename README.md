@@ -2,7 +2,7 @@
 
 ## Project Status
 
-**Current Phase:** Data extraction  
+**Current Phase:** Phase II screening
 **Status:** Work in progress
 
 This repository contains exploratory research compiling available articles on the impact of *Vespa velutina* (Asian hornet) on honeybees (*Apis mellifera*) in Europe. The aim is to develop an online summary in a continuously updated, structured data repository (inspired on [InvaCost](https://github.com/Farewe/invacost)) that documents impact, which can be continuously updated as new research becomes available.
@@ -10,29 +10,46 @@ This repository contains exploratory research compiling available articles on th
 ## Table of Contents
 - [Project Overview](#project-overview)
 - [Rationale](#rationale)
-- [Literature Searches](#literature-searches)
+- [1. Literature searches](#1-literature-searches)
+  - [1.1 Keywords](#11-keywords)
+  - [1.2. Database searches](#12-database-searches)
+  - [1.3 Citation chaser](#13-citation-chaser)
+  - [1.4 Deduplication](#14-deduplication)
+- [2. Phase I screening](#2-phase-i-screening)
+  - [2.1. ASReview LAB screening](#21-asreview-lab-screening)
+  - [2.2 Download PDFs](#22-download-pdfs)
+- [3 Phase II screening](#3-phase-ii-screening)
+  - [3.2 Full-text screening](#32-full-text-screening)
+  - [3.1 Code template preparation](#31-code-template-preparation)
+- [4 Data Extraction](#4-data-extraction)
+  - [4.1 Data Extraction](#41-data-extraction)
 
 ## Project Overview
 
 Nearly a quarter century has passed since _Vespa velutina_ arrived by accident in Europe. And this Asian hornet with its yellow legs is using her wings to spread over a large part of Europe. Adult workers need protein-rich prey to feed the developing larvae in their nests, which they obtain primarily from insects. They don't make it difficult for themselves—in Europe domesticated bees (_Apis mellifera_) are widely available and easy to catch. So, let's find out what is published about the contribution of the **yellow-legged hornet** to the decline of Western **honeybee** populations.
 
-**Primary Objective:**
-- Quantify the impact of _Vespa velutina_ predation on managed _Apis mellifera_ in Europe.
+**Population:** _Apis mellifera_ colonies in Europe
 
-**Secondary Objectives:**
-- Assess effects on bee health and beekeeping productivity, including:
-  - Colony losses and survival
-  - Reduced foraging activity
-  - Honey yield reductions
-  - Economic consequences for apiculture
+**Comparison:** Colonies without _Vespa velutina_ predation/presence
+
+**O (Outcome):** Impact measures including:
+- Predation rates
+- Colony loss
+- Foraging activity
+    - Other behavior changes
+- Honey production
+- Economic losses
+    - Nest removal expenses
+
+**Note:** Many observational studies lack explicit control groups. 
 
 ## Rationale
 Effective management strategies require evidence-based decisions. To date, the quantitative evidence base for predation impacts and associated economic consequences remains fragmented. This exploratory work aims to assess whether sufficient evidence exists to conduct a systematic review or meta-analysis that may contribute to better-informed decisions about management policies, nest removal strategies, and beekeeping practices.
 
-## Literature searches
+## 1. Literature searches
 **Updated:** 2025-10-30
 
-### 1. Keywords
+### 1.1 Keywords
 - **Vespa velutina:** ("vespa velutina" OR "asian hornet" OR "yellow-legged hornet")
 - AND
 - **Apis mellifera:**  ("apis mellifera" OR honeybee* OR "honey bee*" OR beekeep* OR apiary* OR "managed pollinator*" OR "bee colony" OR "bee colonies")
@@ -67,7 +84,7 @@ Spain OR Spanish OR
 Sweden OR Swedish OR 
 "United Kingdom" OR Britain OR British OR England OR Scotland OR Wales OR "Northern Ireland")
 
-### 2. Database searches
+### 1.2. Database searches
 
 Only open access databases were used.
 
@@ -90,18 +107,19 @@ Only open access databases were used.
     - 2.160 records ([sorted for relevance](https://scholar.google.com/scholar?hl=nl&as_sdt=0,5&as_vis=1&q=(%22vespa+velutina%22+OR+%22asian+hornet%22+OR+%22yellow-legged+hornet%22)+AND+(%22apis+mellifera%22+OR+%22honey+bee%22+OR+beekeeping+OR+apiary+OR+%22managed+pollinator%22+OR+%22bee+colony%22)+AND+(Europe+OR+European+OR+Austria+OR+Belgium+OR+Bulgaria+OR+Croatia+OR+Cyprus+OR+Czech+OR+%22Czech+Republic%22+OR+Czechia+OR+Denmark+OR+Estonia+OR+Finland+OR+France+OR+Germany+OR+Greece+OR+Hungary+OR+Ireland+OR+Italy+OR+Latvia+OR+Lithuania+OR+Luxembourg+OR+Malta+OR+Netherlands+OR+Poland+OR+Portugal+OR+Romania+OR+Slovakia+OR+Slovenia+OR+Spain+OR+Sweden+OR+%22United+Kingdom%22)&scisbd=1))
     - 168 records ([sorted for date](https://scholar.google.com/scholar?scisbd=2&q=(%22vespa+velutina%22+OR+%22asian+hornet%22+OR+%22yellow-legged+hornet%22)+AND+(%22apis+mellifera%22+OR+%22honey+bee%22+OR+beekeeping+OR+apiary+OR+%22managed+pollinator%22+OR+%22bee+colony%22)+AND+(Europe+OR+European+OR+Austria+OR+Belgium+OR+Bulgaria+OR+Croatia+OR+Cyprus+OR+Czech+OR+%22Czech+Republic%22+OR+Czechia+OR+Denmark+OR+Estonia+OR+Finland+OR+France+OR+Germany+OR+Greece+OR+Hungary+OR+Ireland+OR+Italy+OR+Latvia+OR+Lithuania+OR+Luxembourg+OR+Malta+OR+Netherlands+OR+Poland+OR+Portugal+OR+Romania+OR+Slovakia+OR+Slovenia+OR+Spain+OR+Sweden+OR+%22United+Kingdom%22)&hl=nl&as_sdt=0,5&as_vis=1)) 
 
-### 3. Citation chaser
+### 1.3 Citation chaser
 [Citation chaser](https://estech.shinyapps.io/citationchaser/)
-- initial search 2025-10-30: 56 references 
+- initial search 2025-10-30: 56 references
 
-### 4. Deduplication
+### 1.4 Deduplication
 [Rayyan](https://new.rayyan.ai/)
 - imported references: 915
 - duplications detected: 347
 - unique references for phase I screening: 612
 
-### 5. Phase I screening
-[ASReview LAB](https://github.com/asreview/asreview)
+## 2. Phase I screening
+### 2.1. ASReview LAB screening
+[ASReview LAB](https://github.com/asreview/asreview) screening based on title and abstract
 #### Inclusion Criteria
 - Language is English, Dutch, or German
 - Contains predation data and/or secondary effect data
@@ -113,19 +131,44 @@ Only open access databases were used.
 - Non-European location
 - Not English, -Dutch, -German language
 - Simulation studies, models, prediction, laboratory conditions
+- Reviews (check for missed articles with citation chaser)
 - Gray literature
 - Only nest removal methods (no impact data)
 - Duplicate (data) of already included study
 
-### 6. Download PDFs
+### 2.2 Download PDFs
 - Free online: 33
-- Download requested 2025-11-01: 2
+- PDF requested 2025-11-01: 2
+- `pdf_phaseI.csv` contains the list with the included articles for phase II screening
 
-# Next steps
-## Data Extraction
-### Tag articles
-- Predation: Apis_mellifera, Other_species
-- Secondary effects: Colony_survival, Honey_yield, Foraging_activity, Economic_loss
-- Other: Review, Meta_analysis, Gray_literature, ...
-### Data Extraction Template
-### Data Extraction
+## 3 Phase II screening
+### 3.2 Full-text screening
+Screening based on full text and supplemental material.
+#### Inclusion critria
+- Quantifiable data
+    - Apis_mellifera_predation
+    - Other_species_predation
+    - Colony_loss
+    - Foraging_activity
+        - Other_behavior_changes (tbd)
+    - Honey_yield
+    - Economic_loss
+        - Nest_removal_expenses (tbd)
+#### Added exclusion critria
+- Editorial
+- Review_ or _meta-analysis
+- No_quantifiable-data
+- Gray_literature
+- PDF_not_available (free or after request to the author)
+### 3.1 Code template preparation
+`pdf_phaseII.csv` contains the list with the included articles for phase II screening. 
+
+The extraction file includes columns for all outcome types:
+- Article identification 
+- Predation data
+- Colony survival data
+- Foraging activity data
+- Honey yield data
+- Economic data
+## 4 Data Extraction
+### 4.1 Data Extraction
