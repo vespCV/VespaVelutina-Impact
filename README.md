@@ -2,8 +2,8 @@
 
 ## Project Status
 
-**Current Phase:** Phase II screening
-**Status:** Work in progress
+- **Current Phase:** Phase II screening
+- **Status:** Work in progress
 
 This repository contains exploratory research compiling available articles on the impact of *Vespa velutina* (Asian hornet) on honeybees (*Apis mellifera*) in Europe. The aim is to develop an online summary in a continuously updated, structured data repository (inspired on [InvaCost](https://github.com/Farewe/invacost)) that documents impact, which can be continuously updated as new research becomes available.
 
