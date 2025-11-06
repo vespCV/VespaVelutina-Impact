@@ -3,5 +3,11 @@
 
 # Ignore virtual environment folder
 .venv/
+.xlsx
+.cursor/rules/
 
+# Ignore pdfs
+.pdf
 
+# Archive
+archive/
