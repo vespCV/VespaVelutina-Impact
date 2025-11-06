@@ -5,7 +5,7 @@
 - **Current Phase:** Phase II screening
 - **Status:** Work in progress
 
-This repository contains exploratory research compiling available articles on the impact of *Vespa velutina* (Asian hornet) on honeybees (*Apis mellifera*) in Europe. The aim is to develop an online summary in a continuously updated, structured data repository (inspired on [InvaCost](https://github.com/Farewe/invacost)) that documents impact, which can be continuously updated as new research becomes available.
+This repository contains available articles on the impact of *Vespa velutina* (Asian hornet) on honeybees (*Apis mellifera*) in Europe. The aim is to develop an online summary of published data in a monthly updated repository.
 
 ## Table of Contents
 - [Project Overview](#project-overview)
@@ -19,8 +19,8 @@ This repository contains exploratory research compiling available articles on th
   - [2.1. ASReview LAB screening](#21-asreview-lab-screening)
   - [2.2 Download PDFs](#22-download-pdfs)
 - [3 Phase II screening](#3-phase-ii-screening)
-  - [3.2 Full-text screening](#32-full-text-screening)
-  - [3.1 Code template preparation](#31-code-template-preparation)
+  - [3.1 Full-text screening](#31-full-text-screening)
+  - [3.2 Code template preparation](#32-code-template-preparation)
 - [4 Data Extraction](#4-data-extraction)
   - [4.1 Data Extraction](#41-data-extraction)
 
@@ -32,7 +32,7 @@ Nearly a quarter century has passed since _Vespa velutina_ arrived by accident i
 
 **Comparison:** Colonies without _Vespa velutina_ predation/presence
 
-**O (Outcome):** Impact measures including:
+**Outcome:** Impact measures including:
 - Predation rates
 - Colony loss
 - Foraging activity
@@ -142,7 +142,7 @@ Only open access databases were used.
 - `pdf_phaseI.csv` contains the list with the included articles for phase II screening
 
 ## 3 Phase II screening
-### 3.2 Full-text screening
+### 3.1 Full-text screening
 Screening based on full text and supplemental material.
 #### Inclusion critria
 - Quantifiable data
@@ -160,7 +160,7 @@ Screening based on full text and supplemental material.
 - No_quantifiable-data
 - Gray_literature
 - PDF_not_available (free or after request to the author)
-### 3.1 Code template preparation
+### 3.2 Code template preparation
 `pdf_phaseII.csv` contains the list with the included articles for phase II screening. 
 
 The extraction file includes columns for all outcome types:
