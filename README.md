@@ -137,39 +137,31 @@ Only open access databases were used.
 - Duplicate (data) of already included study
 
 ### 2.2 Download PDFs
-- Free online: 33
-- PDF requested 2025-11-01: 2
+- Free online: 32
+- PDF requested 2025-11-01: 1
 - `pdf_phaseI.csv` contains the list with the included articles for phase II screening
 
 ## 3 Phase II screening
 ### 3.1 Full-text screening
-Screening based on full text and supplemental material.
+Screening based on full text and supplemental material (if available). `_updata_phase_II.md is used to instruct Cursor.AI to extract the quantitative items from the pdf's. First inclusion- and excludion criteria are extracted, subsequent additional quantifiable data are extracted. Short notes were allowed. The results are saved in a .md file with the similar name as the pdf.
 #### Inclusion critria
-- Quantifiable data
-    - Apis_mellifera_predation
-    - Other_species_predation
-    - Colony_loss
-    - Foraging_activity
-        - Other_behavior_changes (tbd)
-    - Honey_yield
-    - Economic_loss
-        - Nest_removal_expenses (tbd)
+- Apis_mellifera_predation
+- Other_species_predation
+- Colony_loss
+- Foraging_activity
+- Other_behavior_changes
+- Honey_yield
+- Economic_loss
+- Management_costs
 #### Added exclusion critria
-- Editorial
-- Review_ or _meta-analysis
-- No_quantifiable-data
-- Gray_literature
-- PDF_not_available (free or after request to the author)
+- Editorial: 1
+- Review_ or _meta-analysis: 3
+- No_quantifiable-data: 0
+- Gray_literature: 0
+- PDF_not_available: 1
 ### 3.2 Code template preparation
 `pdf_phaseII.csv` contains the list with the included articles for phase II screening. 
 
-The extraction file includes columns for all outcome types:
-- Article identification 
-- Predation data
-- Colony survival data
-- Foraging activity data
-- Honey yield data
-- Economic data
 ## 4 Data Extraction
 ### 4.1 Data Extraction
 Draft data extraction of the quatitative data for each pdf is done with cursor.ai
