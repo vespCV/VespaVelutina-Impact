@@ -172,3 +172,4 @@ The extraction file includes columns for all outcome types:
 - Economic data
 ## 4 Data Extraction
 ### 4.1 Data Extraction
+Draft data extraction of the quatitative data for each pdf is done with cursor.ai
