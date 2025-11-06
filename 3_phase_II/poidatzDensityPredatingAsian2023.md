@@ -7,7 +7,7 @@
 - **Publication Year**: 2023
 - **Title**: Density of predating Asian hornets at hives disturbs the 3D flight performance of honey bees and decreases predation success
 - **Journal**: Ecology and Evolution
-- **DOI**: 10.1002/ece3.10419
+- **DOI**: 10.1002/ece3.9902
 
 ### Exclusion/Inclusion Criteria
 - **ex_editorial**: 0
