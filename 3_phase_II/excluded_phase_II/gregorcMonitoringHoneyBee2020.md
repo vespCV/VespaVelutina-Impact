@@ -1,5 +1,7 @@
 # QUANTITATIVE DATA EXTRACTION - Gregorc 2020
 
+2025-11-06: Editorial
+
 ## Template-Relevant Data
 
 ### Study Identification

@@ -137,14 +137,14 @@ Only open access databases were used.
 - Duplicate (data) of already included study
 
 ### 2.2 Download PDFs
-- Free online: 32
+- Free online: 33
 - PDF requested 2025-11-01: 1
 - `pdf_phaseI.csv` contains the list with the included articles for phase II screening
 
 ## 3 Phase II screening
 ### 3.1 Full-text screening
-Screening based on full text and supplemental material (if available). `_updata_phase_II.md is used to instruct Cursor.AI to extract the quantitative items from the pdf's. First inclusion- and excludion criteria are extracted, subsequent additional quantifiable data are extracted. Short notes were allowed. The results are saved in a .md file with the similar name as the pdf.
-#### Inclusion critria
+Screening based on full text and supplemental material (if available). `_updata_phase_II.md is used to instruct Cursor.AI to extract the quantitative items from the pdf's. First inclusion- and excludion criteria are extracted, subsequent additional quantifiable data are extracted. Short notes were allowed. The results are saved in a .md file with the similar name as the pdf. Then the were manualy checked, corrected and additional relevant information was added.
+#### Included: 29
 - Apis_mellifera_predation
 - Other_species_predation
 - Colony_loss
@@ -153,7 +153,7 @@ Screening based on full text and supplemental material (if available). `_updata_
 - Honey_yield
 - Economic_loss
 - Management_costs
-#### Added exclusion critria
+#### Excluded: 5
 - Editorial: 1
 - Review_ or _meta-analysis: 3
 - No_quantifiable-data: 0

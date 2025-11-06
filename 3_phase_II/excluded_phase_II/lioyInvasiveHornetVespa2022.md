@@ -1,5 +1,11 @@
 # QUANTITATIVE DATA EXTRACTION - Lioy et al. 2022
 
+2025-11-06:
+Review
+Reference checked: 
+- Blanco 2020 > not included (location US)
+review processed with citation chaser and rayyan
+
 ## Template-Relevant Data
 
 ### Study Identification
