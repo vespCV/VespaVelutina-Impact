@@ -1,11 +1,60 @@
-# Quantitative Data: Diéguez-Antón et al. 2024
+# QUANTITATIVE DATA EXTRACTION - Diéguez-Antón et al. 2024
 
 ## Template-Relevant Data
 
-### Study Design
-- **Type**: Review/Recommendations article
-- **Focus**: Management of honey bee colonies under V. velutina pressure
-- **Geographic scope**: Europe (primarily Galicia, Spain and Portugal)
+### Study Identification
+- **Author**: Diéguez-Antón, A.
+- **Publication Year**: 2024
+- **Title**: Management of honey bee colonies under Vespa velutina pressure
+- **Journal**: Journal of Integrated Pest Management
+- **DOI**: 10.1093/jipm/pmae033
+
+### Exclusion/Inclusion Criteria
+- **ex_editorial**: 0
+- **ex_review**: 1
+- **ex_no_data**: 0
+- **ex_gray**: 0
+- **ex_no_pdf**: 0
+- **in_apis_predation**: 0 (review article, no primary data)
+- **in_other_spec_predation**: 0
+- **in_apis_colony_loss**: 0 (references reported losses but no primary data)
+- **in_apis_foraging**: 0
+- **in_apis_other_behavior**: 0
+- **in_honey_yield**: 0
+- **in_beekeeping_loss**: 0 (references costs but no primary data)
+- **in_management_costs**: 0 (review of management methods, not cost data)
+
+### Observation Types
+- **type_observation_visual**: 0
+- **type_observation_photo**: 0
+- **type_observation_video**: 0
+- **type_pellets**: 0
+- **type_radio_freq**: 0
+- **type_CIO_faeces**: 0
+- **type_costs**: 0
+
+### Location and Time
+- **country**: Not applicable (review article)
+- **start_year**: Not applicable
+- **end_year**: Not applicable
+- **start_month**: Not applicable
+- **end_month**: Not applicable
+
+### Sample Sizes
+- **n_apiaries**: Not applicable (review article)
+- **n_beehives**: Not applicable
+- **n_vespa_nests**: Not applicable
+- **n_vespa_velutina**: Not applicable
+- **distance_hornets_nest**: Not applicable
+
+### Outcomes
+- **outcome_apis_predation**: Not applicable (review article)
+- **outcome_predation_time_of_the_day**: Not applicable
+- **outcome_apis_behavior_foraging**: Not applicable
+- **outcome_other_apis_behavior**: Not applicable
+- **outcome_apis_behavior_paralysis**: Not applicable
+
+## Other Quantitative Data
 
 ### Colony Losses
 - **Reported losses**: 30-80% (European beekeepers)

@@ -1,18 +1,60 @@
-# Quantitative Data: Lioy et al. 2022
+# QUANTITATIVE DATA EXTRACTION - Lioy et al. 2022
 
 ## Template-Relevant Data
 
-### Study Design
-- **Type**: Review article
-- **Literature search period**: 1975-2021
-- **Databases**: Scopus, Web of Science, CAB Direct
-- **Keywords**: Vespa velutina, Vespa velutina nigrithorax, Asian yellow-legged hornet, Asian hornet
-- **Total documents found**: 328 unique documents
-- **Documents excluded**: 28 (unconnected to species)
-- **Documents analyzed**: 300 documents
-- **Documents in non-English**: 19 documents
-- **Documents without accessible full text**: 30 documents
-- **Documents selected for review**: 140 documents
+### Study Identification
+- **Author**: Lioy, S.
+- **Publication Year**: 2022
+- **Title**: The invasive hornet Vespa velutina: distribution, impacts and management options
+- **Journal**: CABI Reviews
+- **DOI**: 10.1079/cabireviews202217030
+
+### Exclusion/Inclusion Criteria
+- **ex_editorial**: 0
+- **ex_review**: 1
+- **ex_no_data**: 0
+- **ex_gray**: 0
+- **ex_no_pdf**: 0
+- **in_apis_predation**: 0 (review article, no primary data)
+- **in_other_spec_predation**: 0 (review article, no primary data)
+- **in_apis_colony_loss**: 0 (review article, no primary data)
+- **in_apis_foraging**: 0
+- **in_apis_other_behavior**: 0
+- **in_honey_yield**: 0
+- **in_beekeeping_loss**: 0 (references costs but no primary data)
+- **in_management_costs**: 0 (references costs but no primary data)
+
+### Observation Types
+- **type_observation_visual**: 0
+- **type_observation_photo**: 0
+- **type_observation_video**: 0
+- **type_pellets**: 0
+- **type_radio_freq**: 0
+- **type_CIO_faeces**: 0
+- **type_costs**: 0
+
+### Location and Time
+- **country**: Not applicable (review article)
+- **start_year**: Not applicable
+- **end_year**: Not applicable
+- **start_month**: Not applicable
+- **end_month**: Not applicable
+
+### Sample Sizes
+- **n_apiaries**: Not applicable (review article)
+- **n_beehives**: Not applicable
+- **n_vespa_nests**: Not applicable
+- **n_vespa_velutina**: Not applicable
+- **distance_hornets_nest**: Not applicable
+
+### Outcomes
+- **outcome_apis_predation**: Not applicable (review article)
+- **outcome_predation_time_of_the_day**: Not applicable
+- **outcome_apis_behavior_foraging**: Not applicable
+- **outcome_other_apis_behavior**: Not applicable
+- **outcome_apis_behavior_paralysis**: Not applicable
+
+## Other Quantitative Data
 
 ### Research Topics Covered
 - **Total topics**: 17 categories

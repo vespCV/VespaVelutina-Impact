@@ -1,16 +1,60 @@
-# Quantitative Data: O'Shea-Wheller et al. 2023
+# QUANTITATIVE DATA EXTRACTION - O'Shea-Wheller et al. 2023
 
 ## Template-Relevant Data
 
-### Study Design
-- **Country**: Spain (Pontevedra province)
-- **Start year**: 2021
-- **Start month**: August
-- **End month**: September
-- **Study duration**: 40 days (9 August - 18 September 2021)
-- **Number of sites**: 12 field sites (selected from 15 initial sites)
-- **Number of colonies**: 36 Bombus terrestris terrestris colonies (3 per site)
-- **Colony type**: Commercially-reared, each with queen and ~80 workers
+### Study Identification
+- **Author**: O'Shea-Wheller, T. A.
+- **Publication Year**: 2023
+- **Title**: Quantifying the impact of an invasive hornet on Bombus terrestris colonies
+- **Journal**: Communications Biology
+- **DOI**: 10.1038/s42003-023-05329-5
+
+### Exclusion/Inclusion Criteria
+- **ex_editorial**: 0
+- **ex_review**: 0
+- **ex_no_data**: 0
+- **ex_gray**: 0
+- **ex_no_pdf**: 0
+- **in_apis_predation**: 0 (study on Bombus terrestris, not Apis mellifera)
+- **in_other_spec_predation**: 1 (Bombus terrestris predation)
+- **in_apis_colony_loss**: 0
+- **in_apis_foraging**: 0
+- **in_apis_other_behavior**: 0
+- **in_honey_yield**: 0
+- **in_beekeeping_loss**: 0
+- **in_management_costs**: 0
+
+### Observation Types
+- **type_observation_visual**: 0
+- **type_observation_photo**: 0
+- **type_observation_video**: 1
+- **type_pellets**: 0
+- **type_radio_freq**: 0
+- **type_CIO_faeces**: 0
+- **type_costs**: 0
+
+### Location and Time
+- **country**: Spain (Pontevedra province)
+- **start_year**: 2021
+- **end_year**: 2021
+- **start_month**: 8 (August)
+- **end_month**: 9 (September)
+
+### Sample Sizes
+- **n_apiaries**: Not applicable (study on Bombus colonies)
+- **n_beehives**: Not applicable
+- **n_vespa_nests**: Not specified
+- **n_vespa_velutina**: 5,302 hornets caught in traps
+- **distance_hornets_nest**: Not specified
+
+### Outcomes
+- **outcome_apis_predation**: Not applicable (study on Bombus, not Apis)
+- **outcome_predation_time_of_the_day**: Yes - video recordings 09:00-17:00 h
+- **outcome_apis_behavior_foraging**: Not applicable (study on Bombus)
+- **outcome_other_apis_behavior**: Not applicable (study on Bombus)
+- **outcome_apis_behavior_paralysis**: Not applicable (study on Bombus)
+
+## Other Quantitative Data
 
 ### Hornet Monitoring
 - **Traps per site**: 2 VespaCatch traps

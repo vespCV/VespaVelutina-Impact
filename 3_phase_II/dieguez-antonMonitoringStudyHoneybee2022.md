@@ -1,21 +1,60 @@
-# Quantitative Data: Diéguez-Antón et al. 2022
+# QUANTITATIVE DATA EXTRACTION - Diéguez-Antón et al. 2022
 
 ## Template-Relevant Data
 
-### Study Design
-- **Country**: Spain (Galicia, NW Spain)
-- **Start year**: 2020
-- **End year**: 2021
-- **Start month**: February
-- **End month**: October
-- **Study period**: February 2020 - October 2021
-- **Number of apiaries**: 1
-- **Number of beehives**: 10 Langstroth hives
-- **Number of monitored colonies**: 2 Apis mellifera colonies
-- **Location**: Agroforestry Training and Experimentation Centre of Sergude, Boqueixón, Spain
-- **Coordinates**: 42°49' N, 8°27' W
-- **Elevation**: 260 m
-- **Apiary orientation**: Southwest
+### Study Identification
+- **Author**: Diéguez-Antón, A.
+- **Publication Year**: 2022
+- **Title**: Monitoring study of honeybee colonies under Vespa velutina pressure
+- **Journal**: Veterinary Sciences
+- **DOI**: 10.3390/vetsci9040183
+
+### Exclusion/Inclusion Criteria
+- **ex_editorial**: 0
+- **ex_review**: 0
+- **ex_no_data**: 0
+- **ex_gray**: 0
+- **ex_no_pdf**: 0
+- **in_apis_predation**: 1
+- **in_other_spec_predation**: 0
+- **in_apis_colony_loss**: 1 (1 colony died)
+- **in_apis_foraging**: 1
+- **in_apis_other_behavior**: 1 (thermoregulation)
+- **in_honey_yield**: 0
+- **in_beekeeping_loss**: 0
+- **in_management_costs**: 0
+
+### Observation Types
+- **type_observation_visual**: 0
+- **type_observation_photo**: 1
+- **type_observation_video**: 0
+- **type_pellets**: 0
+- **type_radio_freq**: 0
+- **type_CIO_faeces**: 0
+- **type_costs**: 0
+
+### Location and Time
+- **country**: Spain (Galicia, NW Spain)
+- **start_year**: 2020
+- **end_year**: 2021
+- **start_month**: 2 (February)
+- **end_month**: 10 (October)
+
+### Sample Sizes
+- **n_apiaries**: 1 apiary
+- **n_beehives**: 2 monitored colonies (out of 10 Langstroth hives)
+- **n_vespa_nests**: Not specified
+- **n_vespa_velutina**: Not specified (hornets counted in photos)
+- **distance_hornets_nest**: Not specified
+
+### Outcomes
+- **outcome_apis_predation**: Yes - hornet sightings monitored via photos
+- **outcome_predation_time_of_the_day**: Yes - photos every hour from 6:00 h to 0:00 h, daily activity period 7:00-21:00 h
+- **outcome_apis_behavior_foraging**: Yes - correlations with environmental conditions analyzed
+- **outcome_other_apis_behavior**: Yes - thermoregulation behavior monitored
+- **outcome_apis_behavior_paralysis**: Not specified
+
+## Other Quantitative Data
 
 ### Environmental Conditions
 - **Climate type**: Atlantic climate

@@ -1,15 +1,60 @@
-# Quantitative Data: Diéguez-Antón et al. 2025
+# QUANTITATIVE DATA EXTRACTION - Diéguez-Antón et al. 2025
 
 ## Template-Relevant Data
 
-### Study Design
-- **Country**: Spain (Galicia, NW Spain)
-- **Start year**: 2021
-- **End year**: 2022
-- **Study period**: February 2021 - November 2022
-- **Number of apiaries**: 3 apiaries
-- **Number of colonies per apiary**: Variable (4-20 colonies)
-- **Monitored colonies**: 2 hives per apiary (6 total)
+### Study Identification
+- **Author**: Diéguez-Antón, A.
+- **Publication Year**: 2025
+- **Title**: Long-term Vespa velutina nigrithorax pressure: Honey bee risk survival to alien invasion
+- **Journal**: Apidologie
+- **DOI**: 10.1007/s13592-025-01158-z
+
+### Exclusion/Inclusion Criteria
+- **ex_editorial**: 0
+- **ex_review**: 0
+- **ex_no_data**: 0
+- **ex_gray**: 0
+- **ex_no_pdf**: 0
+- **in_apis_predation**: 1
+- **in_other_spec_predation**: 0
+- **in_apis_colony_loss**: 1
+- **in_apis_foraging**: 1
+- **in_apis_other_behavior**: 1 (foraging paralysis)
+- **in_honey_yield**: 0
+- **in_beekeeping_loss**: 0
+- **in_management_costs**: 0
+
+### Observation Types
+- **type_observation_visual**: 0
+- **type_observation_photo**: 1
+- **type_observation_video**: 0
+- **type_pellets**: 0
+- **type_radio_freq**: 0
+- **type_CIO_faeces**: 0
+- **type_costs**: 0
+
+### Location and Time
+- **country**: Spain (Galicia, NW Spain)
+- **start_year**: 2021
+- **end_year**: 2022
+- **start_month**: 2 (February)
+- **end_month**: 11 (November)
+
+### Sample Sizes
+- **n_apiaries**: 3 apiaries
+- **n_beehives**: 6 colonies (2 per apiary monitored)
+- **n_vespa_nests**: Not specified
+- **n_vespa_velutina**: Total hornets counted: 11,406 (Apiary 1: 2,860; Apiary 2: 2,074; Apiary 3: 6,472)
+- **distance_hornets_nest**: Not specified
+
+### Outcomes
+- **outcome_apis_predation**: Yes - hornet counts monitored, predation pressure assessed
+- **outcome_predation_time_of_the_day**: Yes - photos every hour from 6:00 am to 11:00 pm
+- **outcome_apis_behavior_foraging**: Yes - foraging paralysis observed when hornet pressure is high
+- **outcome_other_apis_behavior**: Yes - foraging paralysis behavioral response
+- **outcome_apis_behavior_paralysis**: Yes - foraging paralysis observed
+
+## Other Quantitative Data
 
 ### Apiary Locations
 - **Apiary 1**: A Coruña province, 260 m elevation, southwest facing

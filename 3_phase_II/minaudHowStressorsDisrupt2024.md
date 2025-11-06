@@ -1,16 +1,60 @@
-# Quantitative Data: Minaud et al. 2024
+# QUANTITATIVE DATA EXTRACTION - Minaud et al. 2024
 
 ## Template-Relevant Data
 
-### Study Design
-- **Type**: Review article
-- **Literature search period**: 1975-2023
-- **Search string**: "TS=(honey bee* OR honeybee* OR Apis mellifera) AND TS=(winter* OR hibernation) AND TS=(loss* OR mortalit* OR collaps*) NOT TI=(survey)"
-- **Total studies found**: 454 studies (1979-2023)
-- **Additional studies**: 7 from personal bibliographic databases
-- **Studies selected**: 74 studies (after applying 4 criteria)
-- **Studies showing disruptive impacts**: 54 studies (73.0%)
-- **Studies on mitigation methods**: 20 studies (27.0%)
+### Study Identification
+- **Author**: Minaud, É.
+- **Publication Year**: 2024
+- **Title**: How stressors disrupt winter bee physiology and survival
+- **Journal**: Heliyon
+- **DOI**: 10.1016/j.heliyon.2024.e34390
+
+### Exclusion/Inclusion Criteria
+- **ex_editorial**: 0
+- **ex_review**: 1
+- **ex_no_data**: 0
+- **ex_gray**: 0
+- **ex_no_pdf**: 0
+- **in_apis_predation**: 0 (review article, V. velutina mentioned in 1 study but no primary data)
+- **in_other_spec_predation**: 0
+- **in_apis_colony_loss**: 0 (review article, references losses but no primary data)
+- **in_apis_foraging**: 0
+- **in_apis_other_behavior**: 0
+- **in_honey_yield**: 0
+- **in_beekeeping_loss**: 0
+- **in_management_costs**: 0
+
+### Observation Types
+- **type_observation_visual**: 0
+- **type_observation_photo**: 0
+- **type_observation_video**: 0
+- **type_pellets**: 0
+- **type_radio_freq**: 0
+- **type_CIO_faeces**: 0
+- **type_costs**: 0
+
+### Location and Time
+- **country**: Not applicable (review article)
+- **start_year**: Not applicable
+- **end_year**: Not applicable
+- **start_month**: Not applicable
+- **end_month**: Not applicable
+
+### Sample Sizes
+- **n_apiaries**: Not applicable (review article)
+- **n_beehives**: Not applicable
+- **n_vespa_nests**: Not applicable
+- **n_vespa_velutina**: Not applicable
+- **distance_hornets_nest**: Not applicable
+
+### Outcomes
+- **outcome_apis_predation**: Not applicable (review article)
+- **outcome_predation_time_of_the_day**: Not applicable
+- **outcome_apis_behavior_foraging**: Not applicable
+- **outcome_other_apis_behavior**: Not applicable
+- **outcome_apis_behavior_paralysis**: Not applicable
+
+## Other Quantitative Data
 
 ### Trait Categories
 - **Individual traits**: 27 studies (36.5%)

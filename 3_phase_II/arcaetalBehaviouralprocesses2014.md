@@ -1,22 +1,58 @@
-# Quantitative Data: Arca et al. 2014
+# QUANTITATIVE DATA EXTRACTION - Arca et al. 2014
 
 ## Template-Relevant Data
 
-### Study Design
-- **Country**: France (southwest)
-- **Number of apiaries**: 8 apiaries
-- **Number of colonies**: 95 colonies
-- **Predation levels**: Low and high levels
-- **Conditions**: Natural and semi-controlled field conditions
+### Study Identification
+- **Author**: Arca, M.
+- **Publication Year**: 2014
+- **Title**: Defensive behaviour of Apis mellifera against Vespa velutina in France: Testing whether European honeybees can develop an effective collective defence against a new predator
+- **Journal**: Behavioural Processes
+- **DOI**: 10.1016/j.beproc.2014.05.002
 
-### Experimental Setup
-- **Study location**: Southwest France (point of entry of hornet in Europe)
-- **Colony selection**: Subjected to either low or high levels of predation
-- **Observations**: Hornet predatory behaviour and collective response of colonies under attack
+### Exclusion/Inclusion Criteria
+- **ex_editorial**: 0
+- **ex_review**: 0
+- **ex_no_data**: 0
+- **ex_gray**: 0
+- **ex_no_pdf**: 0
+- **in_apis_predation**: 1
+- **in_other_spec_predation**: 0
+- **in_apis_colony_loss**: 0
+- **in_apis_foraging**: 1
+- **in_apis_other_behavior**: 1 (defensive behavior)
+- **in_honey_yield**: 0
+- **in_beekeeping_loss**: 0
+- **in_management_costs**: 0
 
-### Key Findings
-- **Defensive behaviour**: A. mellifera in France exhibit inefficient and unorganized defence against V. velutina
-- **Comparison**: Unlike other regions where honeybees have co-evolved with Vespa predators
+### Observation Types
+- **type_observation_visual**: 1
+- **type_observation_photo**: 0
+- **type_observation_video**: 1
+- **type_pellets**: 0
+- **type_radio_freq**: 0
+- **type_CIO_faeces**: 0
+- **type_costs**: 0
+
+### Location and Time
+- **country**: France (southwest)
+- **start_year**: 2008
+- **end_year**: 2010
+- **start_month**: 8 (August)
+- **end_month**: 10 (October 2008), 9 (September 2010)
+
+### Sample Sizes
+- **n_apiaries**: 8 apiaries
+- **n_beehives**: 95 colonies
+- **n_vespa_nests**: Not specified
+- **n_vespa_velutina**: Not specified (hornets collected in situ for experiments)
+- **distance_hornets_nest**: Not specified
+
+### Outcomes
+- **outcome_apis_predation**: Yes - hornet predatory behaviour observed, balling behaviour studied
+- **outcome_predation_time_of_the_day**: Not specified
+- **outcome_apis_behavior_foraging**: Yes - hive activity (number of honeybees leaving) analyzed during hornet attacks
+- **outcome_other_apis_behavior**: Yes - defensive behaviours (balling, bee-carpet, shimmering, hissing, propolis walls)
+- **outcome_apis_behavior_paralysis**: Not specified
 
 ## Other Quantitative Data
 

@@ -1,13 +1,60 @@
-# Quantitative Data: Herrera et al. 2025
+# QUANTITATIVE DATA EXTRACTION - Herrera et al. 2025
 
 ## Template-Relevant Data
 
-### Study Design
-- **Country**: Spain (Mallorca, Balearic Islands)
-- **Year**: 2016
-- **Number of nests**: 7 nests
-- **Number of meconium samples**: 90 samples (approximately 13 per nest)
-- **Sample collection**: From peripheral cells of combs
+### Study Identification
+- **Author**: Herrera, C.
+- **Publication Year**: 2025
+- **Title**: Assessing predation pressure of Vespa velutina on wild pollinators through DNA metabarcoding of meconium
+- **Journal**: Journal of Zoology
+- **DOI**: 10.1111/jzo.70033
+
+### Exclusion/Inclusion Criteria
+- **ex_editorial**: 0
+- **ex_review**: 0
+- **ex_no_data**: 0
+- **ex_gray**: 0
+- **ex_no_pdf**: 0
+- **in_apis_predation**: 1 (Apis mellifera found in diet)
+- **in_other_spec_predation**: 1 (diverse prey species identified)
+- **in_apis_colony_loss**: 0
+- **in_apis_foraging**: 0
+- **in_apis_other_behavior**: 0
+- **in_honey_yield**: 0
+- **in_beekeeping_loss**: 0
+- **in_management_costs**: 0
+
+### Observation Types
+- **type_observation_visual**: 0
+- **type_observation_photo**: 0
+- **type_observation_video**: 0
+- **type_pellets**: 0
+- **type_radio_freq**: 0
+- **type_CIO_faeces**: 1 (meconium analysis)
+- **type_costs**: 0
+
+### Location and Time
+- **country**: Spain (Mallorca, Balearic Islands)
+- **start_year**: 2016
+- **end_year**: 2016
+- **start_month**: Not specified
+- **end_month**: Not specified
+
+### Sample Sizes
+- **n_apiaries**: Not applicable (study of hornet nests)
+- **n_beehives**: Not applicable
+- **n_vespa_nests**: 7 nests
+- **n_vespa_velutina**: Not specified
+- **distance_hornets_nest**: Not specified
+
+### Outcomes
+- **outcome_apis_predation**: Yes - Apis mellifera identified in prey composition (22.55% of Apidae family)
+- **outcome_predation_time_of_the_day**: Not specified
+- **outcome_apis_behavior_foraging**: Not specified
+- **outcome_other_apis_behavior**: Not specified
+- **outcome_apis_behavior_paralysis**: Not specified
+
+## Other Quantitative Data
 
 ### DNA Sequencing
 - **Sequencing platform**: Illumina MiSeq V3

@@ -1,25 +1,60 @@
-# Quantitative Data: Bouzar et al. 2022
+# QUANTITATIVE DATA EXTRACTION - Bouzar et al. 2022
 
 ## Template-Relevant Data
 
-### Study Design
-- **Country**: France (Indre-et-Loire department)
-- **Sampling campaigns**: 2 campaigns
-- **First campaign**: May-October 2015
-- **Second campaign**: September-October 2016
+### Study Identification
+- **Author**: Bouzar, C.
+- **Publication Year**: 2022
+- **Title**: Chemical and genetic evidences that multiple hornet colonies attack honeybee colonies
+- **Journal**: Insectes Sociaux
+- **DOI**: 10.1007/s00040-022-00853-9
 
-### Sample Collection
-- **First campaign - Nests collected**: 27 nests
-- **First campaign - Population level**: 27 individuals (1 per nest)
-- **First campaign - Colony level**: 5 entire colonies, 20 workers per colony (100 individuals)
-- **Second campaign - Hornets collected**: 188 hornets from 4 apiaries
-- **Second campaign - Hornets per apiary**: 47 per apiary
-- **Final dataset**: 171 hornets (17 excluded: 9 triploid, 8 with amplification issues)
-- **Final distribution**: Apiary 1: 46, Apiary 2: 42, Apiary 3: 41, Apiary 4: 42
+### Exclusion/Inclusion Criteria
+- **ex_editorial**: 0
+- **ex_review**: 0
+- **ex_no_data**: 0
+- **ex_gray**: 0
+- **ex_no_pdf**: 0
+- **in_apis_predation**: 1 (indirect - study of hornet colonies attacking apiaries)
+- **in_other_spec_predation**: 0
+- **in_apis_colony_loss**: 0
+- **in_apis_foraging**: 0
+- **in_apis_other_behavior**: 0
+- **in_honey_yield**: 0
+- **in_beekeeping_loss**: 0
+- **in_management_costs**: 0
 
-### Geographic Distribution
-- **Apiary distances**: 1.5-4 km between apiaries
-- **Location**: Indre-et-Loire department, France
+### Observation Types
+- **type_observation_visual**: 0
+- **type_observation_photo**: 0
+- **type_observation_video**: 0
+- **type_pellets**: 0
+- **type_radio_freq**: 0
+- **type_CIO_faeces**: 0
+- **type_costs**: 0
+
+### Location and Time
+- **country**: France (Indre-et-Loire department)
+- **start_year**: 2015
+- **end_year**: 2016
+- **start_month**: 5 (May)
+- **end_month**: 10 (October)
+
+### Sample Sizes
+- **n_apiaries**: 4 apiaries (second campaign)
+- **n_beehives**: Not specified
+- **n_vespa_nests**: 27 nests (first campaign)
+- **n_vespa_velutina**: 188 hornets collected from 4 apiaries (171 in final dataset after exclusions)
+- **distance_hornets_nest**: 1.5-4 km between apiaries
+
+### Outcomes
+- **outcome_apis_predation**: Not directly measured (study focuses on hornet colony identification)
+- **outcome_predation_time_of_the_day**: Not specified
+- **outcome_apis_behavior_foraging**: Not specified
+- **outcome_other_apis_behavior**: Not specified
+- **outcome_apis_behavior_paralysis**: Not specified
+
+## Other Quantitative Data
 
 ### Genetic Analysis
 - **Microsatellite markers**: 13 markers (10 used after exclusions)
