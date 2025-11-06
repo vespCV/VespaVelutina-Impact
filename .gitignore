@@ -3,11 +3,16 @@
 
 # Ignore virtual environment folder
 .venv/
-.xlsx
+
+# Ignore pre-liminary data files
+data/
+
+# Ignore cursor rules
 .cursor/rules/
 
 # Ignore pdfs
-.pdf
+.pdf/
+pdf included/
 
 # Archive
 archive/
