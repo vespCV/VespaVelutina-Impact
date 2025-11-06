@@ -159,6 +159,7 @@ Screening based on full text and supplemental material (if available). `_updata_
 - No_quantifiable-data: 0
 - Gray_literature: 0
 - PDF_not_available: 1
+- No original data (article based on invacost): 1
 ### 3.2 Code template preparation
 `pdf_phaseII.csv` contains the list with the included articles for phase II screening. 
 
