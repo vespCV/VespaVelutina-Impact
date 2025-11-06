@@ -14,5 +14,8 @@ data/
 .pdf/
 pdf included/
 
+# Ignore excel files
+*.xlsx
+
 # Archive
 archive/
