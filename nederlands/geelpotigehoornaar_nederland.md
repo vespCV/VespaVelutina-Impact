@@ -35,7 +35,7 @@ In dit deel de Nederlandse tekst van het overzicht van de [impact van Vespa velu
 | dec   | 0    | 0    | 0    | 0    | 1    | 6    | 18   | 258  | 0    |
 | **Totaal** | **0** | **2** | **0** | **6** | **7** | **106** | **666** | **2481** | **7768** |
 
-https://waarneming.nl/species/8807/statistics/?year=2025&month=&only_approved=on&sex=&life_stage=&activity=NEST&method=
+[update](https://waarneming.nl/species/8807/statistics/?year=2025&month=&only_approved=on&sex=&life_stage=&activity=NEST&method=)
 Van de gemelde nesten in 2024 zijn er ongeveer 2000 verwijderd.
 
 **Opmerkingen**:
