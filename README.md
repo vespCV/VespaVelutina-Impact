@@ -23,6 +23,30 @@ This repository contains available articles on the impact of *Vespa velutina* (A
   - [3.2 Code template preparation](#32-code-template-preparation)
 - [4 Data Extraction](#4-data-extraction)
   - [4.1 Data Extraction](#41-data-extraction)
+  - [4.2 Predation Data](#42-predation-data)
+    - [4.2.1 Predation Rates and Success](#421-predation-rates-and-success)
+    - [4.2.2 Prey Composition](#422-prey-composition)
+  - [4.3 Colony Survival and Loss](#43-colony-survival-and-loss)
+    - [4.3.1 Colony Survival](#431-colony-survival)
+    - [4.3.2 Mortality Factors](#432-mortality-factors)
+  - [4.4 Apis mellifera behavior](#44-apis-mellifera-behavior)
+    - [4.4.1 Foraging Paralysis Thresholds](#441-foraging-paralysis-thresholds)
+    - [4.4.2 Activity Reductions](#442-activity-reductions)
+  - [4.5 Economic Impact](#45-economic-impact)
+    - [4.5.1 Invacost](#451-invacost)
+  - [4.6 Background data](#46-background-data)
+    - [4.6.1 Study Locations](#461-study-locations)
+    - [4.6.2 Apiaries and Colonies](#462-apiaries-and-colonies)
+    - [4.6.3 Hornet Nests Studied](#463-hornet-nests-studied)
+  - [4.7 Notes and biases](#47-notes-and-biases)
+    - [4.7.1 Study Locations](#471-study-locations)
+    - [4.7.2 Methodological Heterogeneity](#472-methodological-heterogeneity)
+- [5. Key Quantitative Findings Summary](#5-key-quantitative-findings-summary)
+  - [5.1 Predation Pressure](#51-predation-pressure)
+  - [5.2 Colony Survival](#52-colony-survival)
+  - [5.3 _Apis mellifera_ behavior](#53-apis-mellifera-behavior)
+  - [5.3 Economic Impact](#53-economic-impact)
+- [Notes](#notes)
 
 ## Project Overview
 
@@ -35,13 +59,13 @@ Nearly a quarter century has passed since _Vespa velutina_ arrived by accident i
 **Outcome:** Impact measures including:
 - Predation rates
 - Colony loss
-- Foraging activity
-    - Other behavior changes
-- Honey production
-- Economic losses
-    - Nest removal expenses
+- _Apis mellifera_ behavior changes
+- Economic impact
 
-**Note:** Many observational studies lack explicit control groups. 
+**Note:** 
+- Many observational studies lack explicit control groups.
+- Study locations are mainly in Spain and France
+- Economic impact is 
 
 ## Rationale
 Effective management strategies require evidence-based decisions. To date, the quantitative evidence base for predation impacts and associated economic consequences remains fragmented. This exploratory work aims to assess whether sufficient evidence exists to conduct a systematic review or meta-analysis that may contribute to better-informed decisions about management policies, nest removal strategies, and beekeeping practices.
@@ -164,5 +188,113 @@ Screening based on full text and supplemental material (if available). `_updata_
 `pdf_phaseII.csv` contains the list with the included articles for phase II screening. 
 
 ## 4 Data Extraction
+
+**Quantitative data** extracted from 33 studies on the impact of *Vespa velutina* on *Apis mellifera* in Europe.
+
 ### 4.1 Data Extraction
-Draft data extraction of the quatitative data for each pdf is done with cursor.ai
+Draft data extraction of the quatitative data for each pdf is done with Cursor.ai and checked manually.
+### 4.2 Predation Data
+#### 4.2.1 Predation Rates and Success
+
+#### 4.2.2 Prey Composition 
+
+### 4.3 Colony Survival and Loss
+#### 4.3.1 Colony Survival
+
+#### 4.3.2 Mortality Factors
+
+### 4.4 Apis mellifera behavior
+
+#### 4.4.1 Foraging Paralysis Thresholds
+
+#### 4.4.2 Activity Reductions
+
+### 4.5 Economic Impact
+Invacost
+
+### 4.6 Background data
+#### 4.6.1 Invacost
+
+
+#### 4.6.1 Study Locations
+| Country | Number of Studies | Key Findings |
+|---------|-------------------|--------------|
+| France | [Count] | Highest number of studies, longest invasion history |
+| Spain | [Count] | Multiple regions (Galicia, Catalonia, Mallorca) |
+| Portugal | [Count] | [Findings] |
+| United Kingdom | [Count] | Early detection and eradication efforts |
+| Italy | [Count] | [Findings] |
+| Other | [Count] | [Findings] |
+
+### 4.6.2 Apiaries and Colonies
+
+| Study | Apiaries | Colonies | Nests | Hornets | Notes |
+|-------|----------|----------|-------|---------|-------|
+| Arca et al. 2014 | 8 | 95 | Not specified | Variable | Defensive behavior study |
+| Monceau et al. 2013 | 2 | 23 | Not specified | 2,810 trapped | Predation pressure |
+| Requier et al. 2018 | 75 | 131 | Not specified | 0-20 observed | Foraging paralysis |
+| Requier et al. 2020 | 22 | 44 | Not specified | 0-20 observed | Muzzle effectiveness |
+| Diéguez-Antón et al. 2022 | 1 | 2 | Not specified | Variable | Photo monitoring |
+| Diéguez-Antón et al. 2025 | 3 | 6 | Not specified | 11,406 total | Long-term pressure |
+| Rojas-Nossa et al. 2022 | 3 | Variable | Not specified | 4,359 captured | Electric harps |
+| Jacques et al. 2017 | 5,798 | Variable | Not applicable | Not applicable | Pan-European study |
+
+### 4.6.3 Hornet Nests Studied
+
+| Study | Nests | Method | Location |
+|-------|-------|--------|----------|
+| Rome et al. 2021 | 16 | Pellet collection | France |
+| Verdasca et al. 2021 | 12 | Metabarcoding | Portugal |
+| Herrera et al. 2025 | 7 | Meconium analysis | Spain (Mallorca) |
+| Pedersen et al. 2025 | 103 | Larval gut contents | Multiple countries |
+| Stainton et al. 2023 | 5 | Larval gut contents | UK |
+
+### 4.7 Notes and biases
+### 4.7.1 Study Locations
+
+| Country | Number of Studies | Key Findings |
+|---------|-------------------|--------------|
+| France | [Count] | Highest number of studies, longest invasion history |
+| Spain | [Count] | Multiple regions (Galicia, Catalonia, Mallorca) |
+| Portugal | [Count] | [Findings] |
+| United Kingdom | [Count] | Early detection and eradication efforts |
+| Italy | [Count] | [Findings] |
+| Other | [Count] | [Findings] |
+
+
+### 4.7.2 Methodological Heterogeneity
+
+- Different observation methods (visual, video, photo, trapping)
+- Varying time periods and frequencies
+- Different sample sizes and study designs
+- Geographic and temporal variation
+- Inconsistent statistical reporting
+
+
+## 5. Key Quantitative Findings Summary
+
+### 5.1 Predation Pressure
+- **Range**: 0-20+ hornets simultaneously at apiaries
+- **Peak periods**: July-October (varies by location)
+- **Success rate**: 2.4% (video tracking) to 76.4% (inside hive)
+- **Honeybee in diet**: 22-98% depending on method and location
+
+### 5.2 Colony Survival
+- **Survival rates**: 35-78% depending on protection methods
+- **Risk threshold**: ≥5 hornets poses risk to colony survival
+
+### 5.3 _Apis mellifera_ behavior
+- **Foraging paralysis**: Complete at ≥12.6 hornets
+
+### 5.3 Economic Impact
+Invacost
+
+
+## Notes
+
+- This synthesis is based on extracted quantitative data from included studies
+- Numbers are reported as found in original studies
+- Ranges and means are presented where available
+- Statistical significance is noted where reported
+- Methodological differences between studies should be considered when interpreting results
+- This summary is made with a human in the loop, when you see an error please make an issue.
