@@ -1,4 +1,4 @@
-# Impact van Geelpoothoornaar op gedomesticeerde honingbijen in Nederland
+# Impact van Aziatische hoornaar (Geelpoothoornaar) op gedomesticeerde honingbijen in Nederland
 _Echte mannen eten geen honing, die kauwen op bijen_ — Loesje
 
 ## Project status
