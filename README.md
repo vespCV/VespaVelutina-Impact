@@ -651,6 +651,7 @@ The InvaCost database is a comprehensive global repository documenting economic 
 | United Kingdom | 2 | Early detection and eradication efforts |
 | Europe (pan-European) | 1 | EPILOBEE study across 17 countries |
 | Multiple countries | 1 | Pedersen et al. 2025 (Jersey, France, Spain, UK) |
+
 ![Study locations](images/study_locations.jpg)
 ### 4.6.2 Apiaries and Colonies
 
@@ -707,7 +708,7 @@ The InvaCost database is a comprehensive global repository documenting economic 
 5. **Small sample sizes per study**: Many studies have small sample sizes (2-6 colonies, 1-3 apiaries), limiting statistical power for meta-analysis.
 6. **Diverse study designs**: Mix of experimental interventions (muzzles, electric harps), observational studies, and modeling approaches cannot be meaningfully combined in a single meta-analysis.
 
-## 5 [EXPERIMENTAL] Update hornet hotspots 
+## 5 [WORK IN PROGRESS] Update hornet hotspots 
 
 ### 5.1 Removal Priority Index (RPI)
 
