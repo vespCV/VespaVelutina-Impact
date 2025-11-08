@@ -7,6 +7,7 @@ _If bees only gathered nectar from perfect flowers, they wouldn't be able to mak
 
 ## Table of Contents
 - [Summary](#summary)
+  - [Predation Pressure](#predation-pressure)
   - [Colony Survival](#colony-survival)
   - [Behavioral Changes](#behavioral-changes)
   - [Economic Impact](#economic-impact)
@@ -41,18 +42,19 @@ _If bees only gathered nectar from perfect flowers, they wouldn't be able to mak
     - [4.6.2 Apiaries and Colonies](#462-apiaries-and-colonies)
     - [4.6.3 Hornet Nests Studied](#463-hornet-nests-studied)
   - [4.7 Notes and biases](#47-notes-and-biases)
-    - [4.7.1 Study Locations](#471-study-locations)
-    - [4.7.2 Methodological Heterogeneity](#472-methodological-heterogeneity)
-- [5. Key Quantitative Findings Summary](#5-key-quantitative-findings-summary)
-  - [5.1 Predation Pressure](#51-predation-pressure)
-  - [5.2 Colony Survival](#52-colony-survival)
-  - [5.3 _Apis mellifera_ behavior](#53-apis-mellifera-behavior)
-  - [5.3 Economic Impact](#53-economic-impact)
+    - [4.7.1 Methodological Heterogeneity](#471-methodological-heterogeneity)
 - [Notes](#notes)
+  - [Meta-Analysis Feasibility Assessment](#meta-analysis-feasibility-assessment)
 
 ## Summary
 
 This repository synthesizes evidence from **30 scientific studies** to quantify the impact of Asian hornet (_Vespa velutina_) on domestic honeybee colonies (_Apis mellifera) in Europe/the Netherlands.
+
+### Predation Pressure
+- **Range**: 0-20+ hornets simultaneously at apiaries — [see details](#421-predation-rates-and-success)
+- **Peak periods**: July-October (varies by location) — [see details](#422-prey-composition)
+- **Success rate**: 2.4% (video tracking) to 76.4% (inside hive) — [see details](#421-predation-rates-and-success)
+- **Honeybee in diet**: 22-98% depending on method and location — [see details](#422-prey-composition)
 
 ### Colony Survival
 - Without protection: **35-56%** of colonies survive under high hornet pressure (Requier et al. 2020; Rojas-Nossa et al. 2022) — [see details](#431-colony-survival)
@@ -66,7 +68,17 @@ This repository synthesizes evidence from **30 scientific studies** to quantify 
 - Protection measures can reduce foraging paralysis by up to 41% (Requier et al. 2020) — [see details](#441-foraging-paralysis-thresholds)
 
 ### Economic Impact
-The InvaCost database provides a comprehensive global repository of economic costs of invasive alien species, including *Vespa velutina*. Data can be accessed via the website, GitHub repository, or R package for analysis. — [see details](#453-invacost-database)
+
+**France** (Requier et al. 2023 — [see details](#451-colony-loss-costs)):
+- **Low impact scenario**: €2.8 million per year in colony losses (2.6% of all colonies)
+- **High impact scenario**: €30.8 million per year (29.2% of all colonies)
+- **Cost per colony lost**: €100 replacement cost
+- **Economic damage is 2-3× higher than control costs** (€11.9M/year for nest removal)
+- **Note**: Analysis originally based on preprint version; published 2023. Data based on spatial modeling; France-specific analysis only
+
+**Other countries**: Quantitative economic impact studies are limited. Spain has aggregated cost data for all invasive species (€232 million 1997-2022; Angulo et al. 2021), but *Vespa velutina*-specific costs are not separately reported. Portugal and Belgium lack quantitative economic impact studies. — [see details](#452-other-countries)
+
+**Invacost Database**: The InvaCost database provides a comprehensive global repository of economic costs of invasive alien species, including *Vespa velutina*. Data can be accessed via the website, GitHub repository, or R package for analysis. — [see details](#453-invacost-database)
 
 
 ## Project Overview
@@ -641,19 +653,8 @@ The InvaCost database is a comprehensive global repository documenting economic 
 | Requier et al. 2023 | 1,260 | Field observations | France (4 districts) |
 
 ### 4.7 Notes and biases
-### 4.7.1 Study Locations
 
-| Country | Number of Studies | Key Findings |
-|---------|-------------------|--------------|
-| France | [Count] | Highest number of studies, longest invasion history |
-| Spain | [Count] | Multiple regions (Galicia, Catalonia, Mallorca) |
-| Portugal | [Count] | [Findings] |
-| United Kingdom | [Count] | Early detection and eradication efforts |
-| Italy | [Count] | [Findings] |
-| Other | [Count] | [Findings] |
-
-
-### 4.7.2 Methodological Heterogeneity
+#### 4.7.1 Methodological Heterogeneity
 
 - Different observation methods (visual, video, photo, trapping)
 - Varying time periods and frequencies
@@ -662,40 +663,16 @@ The InvaCost database is a comprehensive global repository documenting economic 
 - Inconsistent statistical reporting
 
 
-## 5. Key Quantitative Findings Summary
+## Notes
 
-### 5.1 Spread
+- This synthesis is based on extracted quantitative data from included studies
+- Numbers are reported as found in original studies
+- Ranges and means are presented where available
+- Statistical significance is noted where reported
+- Methodological differences between studies should be considered when interpreting results
+- This summary is made with a human in the loop, when you see an error please create an issue.
 
-### 5.2 Impact
-#### 5.2.1 Predation Pressure
-- **Range**: 0-20+ hornets simultaneously at apiaries
-- **Peak periods**: July-October (varies by location)
-- **Success rate**: 2.4% (video tracking) to 76.4% (inside hive)
-- **Honeybee in diet**: 22-98% depending on method and location
-
-#### 5.2.2 Bee Colony Survival
-- **Survival rates**: 35-78% depending on protection methods
-- **Risk threshold**: ≥5 hornets poses risk to colony survival
-
-#### 5.2.3 _Apis mellifera_ behavior
-- **Foraging paralysis**: Complete at ≥12.6 hornets
-
-#### 5.2.4 Economic Impact
-
-**Colony Loss Costs (France, Requier et al. 2023)**:
-- **Low predation scenario**: €2.8 million/year (2.6% of livestock, 2.4% of honey revenues)
-- **High predation scenario**: €30.8 million/year (29.2% of livestock, 26.6% of honey revenues)
-- **Colony replacement cost**: €100 per colony
-- **Comparison**: Damage cost up to 3× higher than control costs (€11.9M/year)
-
-**Invacost Database**:
-- **Website**: https://invacost.fr/  
-- **GitHub Repository**: https://github.com/Farewe/invacost  
-- **Data Format**: CSV/Excel bestanden, R package
-
-### 5.3 Management responses
-
-### 5.4 Meta-Analysis Feasibility Assessment
+### Meta-Analysis Feasibility Assessment
 
 **Conclusion: Meta-analysis is not feasible with the current dataset.**
 
@@ -708,12 +685,3 @@ The InvaCost database is a comprehensive global repository documenting economic 
 6. **Diverse study designs**: Mix of experimental interventions (muzzles, electric harps), observational studies, and modeling approaches cannot be meaningfully combined in a single meta-analysis.
 
 **Alternative approach**: Narrative synthesis with quantitative summary tables (as presented in this repository) is the most appropriate method for synthesizing these heterogeneous studies.
-
-## Notes
-
-- This synthesis is based on extracted quantitative data from included studies
-- Numbers are reported as found in original studies
-- Ranges and means are presented where available
-- Statistical significance is noted where reported
-- Methodological differences between studies should be considered when interpreting results
-- This summary is made with a human in the loop, when you see an error please create an issue.
