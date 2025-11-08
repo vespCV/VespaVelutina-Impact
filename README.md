@@ -1,16 +1,9 @@
 # Impact of Vespa velutina on Apis mellifera in Europe
-_If bees only gathered nectar from perfect flowers, they wouldn’t be able to make even a single drop of honey_ – Matshona Dhliwayo
+_If bees only gathered nectar from perfect flowers, they wouldn't be able to make even a single drop of honey_ – Matshona Dhliwayo
 
-
-## Project Status
-
-- **Current Phase:** Data extraction
-- **Status:** Work in progress
+- **Status:** Complete - ready for monthly updates
 - **Updated:** 2025-11-08
-
-This repository contains available articles on the impact of *Vespa velutina* (Asian hornet) on honeybees (*Apis mellifera*) in Europe. The aim is to develop an online summary of published data in a monthly updated repository.
-
-Klik [hier]() voor de nederlandse versie.
+- Klik [hier]() voor de nederlandse versie.
 
 ## Table of Contents
 - [Project Overview](#project-overview)
@@ -52,6 +45,27 @@ Klik [hier]() voor de nederlandse versie.
   - [5.3 _Apis mellifera_ behavior](#53-apis-mellifera-behavior)
   - [5.3 Economic Impact](#53-economic-impact)
 - [Notes](#notes)
+
+## Summary
+
+This repository synthesizes evidence from **30 scientific studies** to quantify the impact of Asian hornet (_Vespa velutina_) on domestic honeybee colonies (_Apis mellifera) in Europe/the Netherlands.
+
+**Colony Survival:**
+- Without protection: **35-56%** of colonies survive under high hornet pressure (Requier et al. 2020; Rojas-Nossa et al. 2022) — [see details](#431-colony-survival)
+- With protection (electric harps, muzzles): **55-78%** survival (Requier et al. 2020; Rojas-Nossa et al. 2022) — [see details](#431-colony-survival)
+- **Risk threshold**: When you see **≥5 hornets** at your apiary, your colonies are at risk (Diéguez-Antón et al. 2025) — [see details](#432-mortality-factors)
+- **Colony loss**: is multifactoral, influence of the hornet cannot be separated from other causes of colony loss — [see details](#43-colony-survival-and-loss)
+
+**Economic Impact (France):**
+- **Low impact scenario**: €2.8 million per year in colony losses (2.6% of all colonies) (Requier et al. 2023) — [see details](#45-economic-impact)
+- **High impact scenario**: €30.8 million per year (29.2% of all colonies) (Requier et al. 2023) — [see details](#45-economic-impact)
+- **Cost per colony lost**: €100 replacement cost (Requier et al. 2020a, cited in Requier et al. 2023)
+- **Economic damage is 2-3× higher than control costs** (€11.9M/year for nest removal) (Barbet-Massin et al. 2020, cited in Requier et al. 2023) — [see details](#45-economic-impact)
+
+**Behavioral Changes:**
+- Bees stop foraging when **≥12.6 hornets** are present (foraging paralysis) (Requier et al. 2019) — [see details](#441-foraging-paralysis-thresholds)
+- This leads to colony starvation and winter mortality (Requier et al. 2019) — [see details](#44-apis-mellifera-behavior)
+- Protection measures can reduce foraging paralysis by up to 41% (Requier et al. 2020) — [see details](#441-foraging-paralysis-thresholds)
 
 ## Project Overview
 
@@ -191,11 +205,13 @@ Screening based on full text and supplemental material (if available). `_updata_
 - PDF_not_available: 1
 - No original data (article based on invacost): 1
 ### 3.2 Code template preparation
-`pdf_phaseII.csv` contains the list with the included articles for phase II screening. 
+`_pdf_phase_II.csv` contains the master dataset with all included articles for phase II screening and data extraction. This CSV file serves as the primary data source for all quantitative analyses.
 
 ## 4 Data Extraction
 
-**Quantitative data** extracted from 33 studies on the impact of *Vespa velutina* on *Apis mellifera* in Europe.
+**Quantitative data** extracted from 34 studies (30 included, 4 excluded) on the impact of *Vespa velutina* on *Apis mellifera* in Europe.
+
+**Master Dataset**: `3_phase_II/_pdf_phase_II.csv` contains all extracted quantitative data, study characteristics, inclusion/exclusion criteria, and outcome measures.
 
 ### 4.1 Data Extraction
 Draft data extraction of the quatitative data for each pdf is done with Cursor.ai and checked manually.
@@ -641,6 +657,19 @@ Draft data extraction of the quatitative data for each pdf is done with Cursor.a
 
 ### 5.3 Management responses
 
+### 5.4 Meta-Analysis Feasibility Assessment
+
+**Conclusion: Meta-analysis is not feasible with the current dataset.**
+
+**Reasons:**
+1. **High methodological heterogeneity**: Studies use different observation methods (visual counts, video tracking, trapping, DNA metabarcoding, pellet analysis), making direct comparison of effect sizes problematic.
+2. **Inconsistent outcome measures**: Predation rates, survival percentages, and behavioral changes are measured using different metrics, timeframes, and units across studies.
+3. **Lack of standardized control groups**: Most studies are observational without explicit control groups, making it difficult to calculate comparable effect sizes.
+4. **Geographic and temporal variation**: Studies span different countries, years, and seasons, with varying hornet population densities and beekeeping practices.
+5. **Small sample sizes per study**: Many studies have small sample sizes (2-6 colonies, 1-3 apiaries), limiting statistical power for meta-analysis.
+6. **Diverse study designs**: Mix of experimental interventions (muzzles, electric harps), observational studies, and modeling approaches cannot be meaningfully combined in a single meta-analysis.
+
+**Alternative approach**: Narrative synthesis with quantitative summary tables (as presented in this repository) is the most appropriate method for synthesizing these heterogeneous studies.
 
 ## Notes
 
@@ -649,4 +678,4 @@ Draft data extraction of the quatitative data for each pdf is done with Cursor.a
 - Ranges and means are presented where available
 - Statistical significance is noted where reported
 - Methodological differences between studies should be considered when interpreting results
-- This summary is made with a human in the loop, when you see an error please make an issue.
+- This summary is made with a human in the loop, when you see an error please create an issue.
