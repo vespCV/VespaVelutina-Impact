@@ -208,8 +208,6 @@ Draft data extraction of the quatitative data for each pdf is done with Cursor.a
 | Poidatz et al. 2023 | Success rate (bees entering hive) | 69.46% | 126 events | France | - | 4× higher for bees entering vs leaving |
 | Poidatz et al. 2023 | Success rate (bees leaving hive) | 15.27% | 126 events | France | - | - |
 | Poidatz et al. 2023 | Peak success (hornet number) | ~8 hornets | 5,175 interactions | France | - | Peak success at ~8 hornets, then decreases |
-| Arca et al. 2014 | Hornets killed by balling (outside) | 9.5% | 95 colonies | France | 2008-2010 | Only 9.5% hornets killed by balling in 5 min |
-| Arca et al. 2014 | Hornets killed (inside hive) | 76.4% | 55 hornets | France | 2008-2010 | 42 out of 55 hornets killed inside hive |
 | Perrard et al. 2009 | Attack success rate | 25% | 359 attacks | France | 2007 | Average 4 trials necessary to catch one honeybee |
 | Perrard et al. 2009 | Honeybee predation rate (captive) | 37.5 honeybees/day | 1 captive colony | France | 2007 | 25 to 50 honeybees per day (mean 37.5) |
 | Monceau et al. 2013 | Maximum captures (hornet number) | 9 hornets | 2 hives | France | 2009 | Maximum captures at 9 hornets per hive |
@@ -336,6 +334,8 @@ Draft data extraction of the quatitative data for each pdf is done with Cursor.a
 | Arca et al. 2014 | Balling size (10-20 bees) | 20 colonies (21%) | 95 colonies | France | 2008-2010 | - |
 | Arca et al. 2014 | Balling size (20-30 bees) | 15 colonies (16%) | 95 colonies | France | 2008-2010 | - |
 | Arca et al. 2014 | Balling size (>30 bees) | 1 colony (1%) | 95 colonies | France | 2008-2010 | - |
+| Arca et al. 2014 | Hornets killed by balling (outside) | 9.5% | 95 colonies | France | 2008-2010 | Only 9.5% hornets killed by balling in 5 min |
+| Arca et al. 2014 | Hornets killed (inside hive) | 76.4% | 55 hornets | France | 2008-2010 | 42 out of 55 hornets killed inside hive |
 | Arca et al. 2014 | Hornet hovering distance | ~15 cm | NA | France | 2008-2010 | About 15 cm from hive entrance |
 | Monceau et al. 2013 | Flying activity pattern | Decreased | 2 hives | France | 2009 | Higher early morning, decreased afternoon/evening |
 | Monceau et al. 2013 | Seasonal activity pattern | Decreased | 2 hives | France | 2009 | Higher in July, decreased throughout summer until October |
