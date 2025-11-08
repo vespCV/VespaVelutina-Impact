@@ -167,6 +167,7 @@ Only open access databases were used.
 
 ### 2.2 Download PDFs
 - Free online: 32
+- Free pre-print: 1
 - PDF requested 2025-11-01: 1
 - `pdf_phaseI.csv` contains the list with the included articles for phase II screening
 
@@ -507,6 +508,41 @@ Draft data extraction of the quatitative data for each pdf is done with Cursor.a
 - Pattern: Maximal under very low flight activity, decreases with increased flight activity
 
 ### 4.5 Economic Impact
+
+#### 4.5.1 Colony Loss Costs (Requier et al. 2023, France)
+
+**National Economic Costs (Yearly)**
+
+| Scenario | Colonies Lost | Percentage of Livestock | Economic Cost (€) | Impact vs Honey Revenues |
+|----------|---------------|------------------------|-------------------|--------------------------|
+| Low predation (1 hornet/nest) | 27,821 | 2.6% | €2.8 million | 2.4% |
+| High predation (20 hornets/nest) | 308,379 | 29.2% | €30.8 million | 26.6% |
+
+**Key Metrics**:
+- **Colony replacement cost**: €100 per colony (Requier et al. 2020a)
+- **National honey production (2015)**: 14,490 tons
+- **National honey revenue (2015)**: €116 million (at €8/kg)
+- **Colonies at risk**: 98.2% (1,017,713 out of 1,056,314 colonies)
+- **Average loss per township (low scenario)**: 10.2% (sd = 15.3%)
+- **Average loss per township (high scenario)**: 48.3% (sd = 25.7%)
+
+**Regional Economic Costs (High Predation Scenario)**:
+- **Average regional cost**: €1.3 million per year
+- **Range**: €0.4 million (Corse) to €5.5 million (Occitanie)
+- **Regional economic impact**: Average 21.9% of honey revenues
+- **Regional impact range**: 13.2% (Bourgogne-Franche-Comté) to 96.5% (Normandie)
+
+**Comparison with Control Costs**:
+- **Control cost (France, yearly)**: €11.9 million (Barbet-Massin et al. 2020)
+- **Damage cost vs control cost**: Up to 3× higher (€30.8M vs €11.9M)
+
+**Methodological Notes**:
+- Based on spatial modeling combining field data (1,260 nests over 28,348 km²), niche modeling, and BEEHAVE agent-based simulations
+- Low scenario likely underestimated (1 hornet/nest < observed mean of 2.3)
+- High scenario based on maximum observed values (realistic but extreme)
+- Real economic cost likely between low and high scenarios
+
+#### 4.5.2 Invacost Database
 **Website**: https://invacost.fr/  
 **GitHub Repository**: https://github.com/Farewe/invacost  
 **Data Format**: CSV/Excel bestanden, R package
@@ -533,6 +569,7 @@ Draft data extraction of the quatitative data for each pdf is done with Cursor.a
 | Monceau et al. 2013 | 2 | 23 | Not specified | 2,810 trapped | Predation pressure |
 | Requier et al. 2018 | 75 | 131 | Not specified | 0-20 observed | Foraging paralysis |
 | Requier et al. 2020 | 22 | 44 | Not specified | 0-20 observed | Muzzle effectiveness |
+| Requier et al. 2023 | 51 plots | Variable (4-24 per apiary) | 1,260 | Variable | Economic cost study |
 | Diéguez-Antón et al. 2022 | 1 | 2 | Not specified | Variable | Photo monitoring |
 | Diéguez-Antón et al. 2025 | 3 | 6 | Not specified | 11,406 total | Long-term pressure |
 | Rojas-Nossa et al. 2022 | 3 | Variable | Not specified | 4,359 captured | Electric harps |
@@ -547,6 +584,7 @@ Draft data extraction of the quatitative data for each pdf is done with Cursor.a
 | Herrera et al. 2025 | 7 | Meconium analysis | Spain (Mallorca) |
 | Pedersen et al. 2025 | 103 | Larval gut contents | Multiple countries |
 | Stainton et al. 2023 | 5 | Larval gut contents | UK |
+| Requier et al. 2023 | 1,260 | Field observations | France (4 districts) |
 
 ### 4.7 Notes and biases
 ### 4.7.1 Study Locations
@@ -588,10 +626,18 @@ Draft data extraction of the quatitative data for each pdf is done with Cursor.a
 #### 5.2.3 _Apis mellifera_ behavior
 - **Foraging paralysis**: Complete at ≥12.6 hornets
 
-#### 5.2.3 Economic Impact
-**Website**: https://invacost.fr/  
-**GitHub Repository**: https://github.com/Farewe/invacost  
-**Data Format**: CSV/Excel bestanden, R package
+#### 5.2.4 Economic Impact
+
+**Colony Loss Costs (France, Requier et al. 2023)**:
+- **Low predation scenario**: €2.8 million/year (2.6% of livestock, 2.4% of honey revenues)
+- **High predation scenario**: €30.8 million/year (29.2% of livestock, 26.6% of honey revenues)
+- **Colony replacement cost**: €100 per colony
+- **Comparison**: Damage cost up to 3× higher than control costs (€11.9M/year)
+
+**Invacost Database**:
+- **Website**: https://invacost.fr/  
+- **GitHub Repository**: https://github.com/Farewe/invacost  
+- **Data Format**: CSV/Excel bestanden, R package
 
 ### 5.3 Management responses
 
