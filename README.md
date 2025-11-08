@@ -3,7 +3,7 @@ _If bees only gathered nectar from perfect flowers, they wouldn't be able to mak
 
 - **Status:** Complete - ready for monthly updates
 - **Updated:** 2025-11-08
-- Klik [hier]() voor de nederlandse versie.
+- Klik [hier](nederlands/LEESME.md) voor de nederlandse versie.
 
 ## Table of Contents
 - [Summary](#summary)
@@ -612,12 +612,12 @@ The InvaCost database is a comprehensive global repository documenting economic 
 #### 4.6.1 Study Locations
 | Country | Number of Studies | Key Findings |
 |---------|-------------------|--------------|
-| France | [Count] | Highest number of studies, longest invasion history |
-| Spain | [Count] | Multiple regions (Galicia, Catalonia, Mallorca) |
-| Portugal | [Count] | [Findings] |
-| United Kingdom | [Count] | Early detection and eradication efforts |
-| Italy | [Count] | [Findings] |
-| Other | [Count] | [Findings] |
+| France | 17 | Highest number of studies, longest invasion history |
+| Spain | 5 | Multiple regions (Galicia, Catalonia, Mallorca) |
+| Portugal | 1 | Metabarcoding studies on prey composition |
+| United Kingdom | 2 | Early detection and eradication efforts |
+| Europe (pan-European) | 1 | EPILOBEE study across 17 countries |
+| Multiple countries | 1 | Pedersen et al. 2025 (Jersey, France, Spain, UK) |
 
 ### 4.6.2 Apiaries and Colonies
 
