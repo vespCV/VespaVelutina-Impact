@@ -33,7 +33,7 @@ Note: Secundaire nesten worden niet afzonderlijk gemeld op waarnemingen.nl Neste
 **Vergelijking met België** (Oost-Vlaanderen): 2021: ~50 nesten → 2023: ~1,500 nesten = **30× over 2 jaar** (≈5.48×/jaar in vroege fase)
 
 ### Analyse van gemiste nesten 2024 (op basis van reproductie en groei 2025)
-![Scenario's groei aantal nesten](https://github.com/vespCV/VespaVelutina-Impact/blob/main/images/scenarios_nesten.jpg?raw=true)
+![Scenario's groei aantal nesten](https://github.com/vespCV/VespaVelutina-Impact/blob/main/images/scenarios_nesten_linear.jpg?raw=true)
 **Aannames**:
 - Groei: 5.48× (zoals in Oost-Vlaanderen)
 - Uit ieder gemist nest komen 6 nieuwe nesten

@@ -108,3 +108,4 @@ In 2024 en 2025 nesten verwijderen via professionele bestrijder. Onderzoek naar 
 |
 
 Niet opgenomen: bestrijders zonder vermelding van tarieven of bestrijders die werken met poeder (mogelijk vermelden niet alle bestrijders dit op hun site; geen van hen vermeld gebruik van zuiger).
+
