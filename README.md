@@ -43,15 +43,25 @@ This repository synthesizes evidence from **30 scientific studies** to quantify 
 - **Consequence**: Foraging paralysis leads to colony starvation and winter mortality (Requier et al. 2019) — [see details](#44-apis-mellifera-behavior)
 
 ### Economic Impact of _Vespa velutina_ on _Apis mellifera_
+- **Data source**: InvaCost database — [see details](#453-invacost-database)
+- The InvaCost database provides a comprehensive global repository of economic costs of invasive alien species, including *Vespa velutina*. Data can be accessed via the website, GitHub repository, or R package for analysis.
 
-**Data source**: InvaCost database — [see details](#453-invacost-database)
+### Quick Reference: Key Thresholds and Observations
 
-The InvaCost database provides a comprehensive global repository of economic costs of invasive alien species, including *Vespa velutina*. Data can be accessed via the website, GitHub repository, or R package for analysis.
-
+| Metric | Threshold/Observation | Study | Context |
+|--------|----------------------|-------|---------|
+| Minimum risk | ≥5 _Vespa velutina_ at apiary | Diéguez-Antón et al. 2025 | Colony survival risk |
+| High risk | ≥10 _Vespa velutina_ at apiary | Diéguez-Antón et al. 2025 | Colony survival risk |
+| Foraging decline | >10 _Vespa velutina_ per hive | Monceau et al. 2018 | Bee behavior |
+| Foraging paralysis | ≥12.6 _Vespa velutina_ | Requier et al. 2019 | Complete foraging stop |
+| Peak predation period | July-October | Multiple | Seasonal pattern |
+| Peak daily activity | 13:00-15:00 h | Multiple | Time of day |
+| Optimal temperature | 15-26°C | Diéguez-Antón et al. 2022, 2025 | _Vespa velutina_ activity |
+| Colony survival (unprotected) | 35-56% | Requier et al. 2020; Rojas-Nossa et al. 2022 | High pressure conditions |
+| Colony survival (protected) | 55-78% | Requier et al. 2020; Rojas-Nossa et al. 2022 | With protection measures |
 
 ## Table of Contents
 - [Summary](#summary)
-  - [Quick Reference: Key Thresholds and Observations](#quick-reference-key-thresholds-and-observations)
   - [Predation Pressure on _Apis mellifera_](#predation-pressure-on-apis-mellifera)
   - [Domesticated Honeybee Colony Survival](#domesticated-honeybee-colony-survival)
   - [Behavioral Changes of _Apis mellifera_](#behavioral-changes-of-apis-mellifera)
@@ -92,7 +102,8 @@ The InvaCost database provides a comprehensive global repository of economic cos
   - [5.1 Removal Priority Index (RPI)](#51-removal-priority-index-rpi)
   - [5.2 Monthly Outputs](#52-monthly-outputs)
 - [Notes](#notes)
-  - [Meta-Analysis Feasibility Assessment](#meta-analysis-feasibility-assessment)
+  - [Quick Reference: Key Thresholds and Observations](#quick-reference-key-thresholds-and-observations)
+  - [Limitations](#limitations)
   
 ## Project Overview
 
@@ -113,7 +124,7 @@ Nearly a quarter century has passed since _Vespa velutina_ arrived by accident i
   - High methodological heterogeneity
   - Inconsistent outcome measures
   - Lack of explicit control groups
-  - Limited to free online literature databases and available PDFs.
+  - This overview is limited to free online literature databases and available PDFs.
 
 ## 1. Literature searches
 **Updated:** 2025-10-30
@@ -472,12 +483,12 @@ Draft data extraction of the quantitative data for each PDF is done with Cursor.
 
 **Defensive Behaviors**
 
-**Arca et al. 2014** (France, 2008-2010, 95 colonies)
+**Arca et al. 2014** (France, 2008-2010, 95 colonies, simulated attacks)
 - **Colony activity**: Dramatic drop when _Vespa velutina_ present
 - **Bee-carpet formation**:
   - 30-60% increase: 14 colonies
   - 60-80% increase: 17 colonies
-  - >80% increase: 48 colonies
+  - > 80% increase: 48 colonies
   - Patterns: 42% large gathering, 20% coordinated behavior, 38% no coordination
   - **Balling behavior** (*Apis mellifera*):
     - Occurrence: 68 colonies (72%) exhibited balling
@@ -485,7 +496,7 @@ Draft data extraction of the quantitative data for each PDF is done with Cursor.
       - <10 bees: 31 colonies (33%)
       - 10-20 bees: 20 colonies (21%)
       - 20-30 bees: 15 colonies (16%)
-      - >30 bees: 1 colony (1%)
+      - > 30 bees: 1 colony (1%)
     - Effectiveness:
       - Outside hive (natural conditions): **9.5%** _Vespa velutina_ killed by balling in 5 min
       - Inside hive (experimental conditions): **76.4%** _Vespa velutina_ killed (42/55) — Note: _Vespa velutina_ do not naturally enter hives; this was experimental
@@ -684,20 +695,6 @@ The InvaCost database is a comprehensive global repository documenting economic 
 - Statistical significance is noted where reported
 - Methodological differences between studies should be considered when interpreting results
 - This summary is made with a human in the loop, when you see an error please create an issue.
-
-### Quick Reference: Key Thresholds and Observations
-
-| Metric | Threshold/Observation | Study | Context |
-|--------|----------------------|-------|---------|
-| Minimum risk | ≥5 _Vespa velutina_ at apiary | Diéguez-Antón et al. 2025 | Colony survival risk |
-| High risk | ≥10 _Vespa velutina_ at apiary | Diéguez-Antón et al. 2025 | Colony survival risk |
-| Foraging decline | >10 _Vespa velutina_ per hive | Monceau et al. 2018 | Bee behavior |
-| Foraging paralysis | ≥12.6 _Vespa velutina_ | Requier et al. 2019 | Complete foraging stop |
-| Peak predation period | July-October | Multiple | Seasonal pattern |
-| Peak daily activity | 13:00-15:00 h | Multiple | Time of day |
-| Optimal temperature | 15-26°C | Diéguez-Antón et al. 2022, 2025 | _Vespa velutina_ activity |
-| Colony survival (unprotected) | 35-56% | Requier et al. 2020; Rojas-Nossa et al. 2022 | High pressure conditions |
-| Colony survival (protected) | 55-78% | Requier et al. 2020; Rojas-Nossa et al. 2022 | With protection measures |
 
 ### Limitations
 1. **High methodological heterogeneity**: Studies use different observation methods (visual counts, video tracking, trapping, DNA metabarcoding, pellet analysis), making direct comparison of effect sizes problematic.

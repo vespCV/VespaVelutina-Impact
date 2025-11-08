@@ -43,11 +43,22 @@ Deze repository synthetiseert bewijs uit **30 wetenschappelijke studies** om de 
 - **Gevolg**: Foerageerparalyse leidt tot kolonieverhongering en wintersterfte (Requier et al. 2019) — [zie details](#44-apis-mellifera-gedrag)
 
 ### Economische impact van _Vespa velutina_ op _Apis mellifera_
+- **Databron**: InvaCost database — [zie details](#453-invacost-database)
+- De InvaCost database biedt een uitgebreide wereldwijde repository van economische kosten van invasieve uitheemse soorten, inclusief *Vespa velutina*. Data kan worden benaderd via de website, GitHub repository, of R package voor analyse.
 
-**Databron**: InvaCost database — [zie details](#453-invacost-database)
+### Snelle Referentie: Kern Drempelwaarden en Observaties
 
-De InvaCost database biedt een uitgebreide wereldwijde repository van economische kosten van invasieve uitheemse soorten, inclusief *Vespa velutina*. Data kan worden benaderd via de website, GitHub repository, of R package voor analyse.
-
+| Metriek | Drempel/Observatie | Studie | Context |
+|--------|----------------------|-------|---------|
+| Minimum risico | ≥5 _Vespa velutina_ bij bijenstand | Diéguez-Antón et al. 2025 | Kolonie overlevingsrisico |
+| Hoog risico | ≥10 _Vespa velutina_ bij bijenstand | Diéguez-Antón et al. 2025 | Kolonie overlevingsrisico |
+| Foerageerafname | >10 _Vespa velutina_ per kast | Monceau et al. 2018 | Bijengedrag |
+| Foerageerparalyse | ≥12,6 _Vespa velutina_ | Requier et al. 2019 | Volledige foerageerstop |
+| Piek predatieperiode | Juli-oktober | Meerdere | Seizoenspatroon |
+| Piek dagelijkse activiteit | 13:00-15:00 uur | Meerdere | Tijdstip van de dag |
+| Optimale temperatuur | 15-26°C | Diéguez-Antón et al. 2022, 2025 | _Vespa velutina_ activiteit |
+| Kolonie overleving (onbeschermd) | 35-56% | Requier et al. 2020; Rojas-Nossa et al. 2022 | Hoge druk omstandigheden |
+| Kolonie overleving (beschermd) | 55-78% | Requier et al. 2020; Rojas-Nossa et al. 2022 | Met beschermingsmaatregelen |
 
 ## Inhoudsopgave
 - [Samenvatting](#samenvatting)
@@ -55,6 +66,7 @@ De InvaCost database biedt een uitgebreide wereldwijde repository van economisch
   - [Overleving van gedomesticeerde honingbijkolonies](#overleving-van-gedomesticeerde-honingbijkolonies)
   - [Gedragsveranderingen van _Apis mellifera_](#gedragsveranderingen-van-apis-mellifera)
   - [Economische impact van _Vespa velutina_ op _Apis mellifera_](#economische-impact-van-vespa-velutina-op-apis-mellifera)
+  - [Snelle Referentie: Kern Drempelwaarden en Observaties](#snelle-referentie-kern-drempelwaarden-en-observaties)
 - [1. Literatuurzoekacties](#1-literatuurzoekacties)
   - [1.1 Trefwoorden](#11-trefwoorden)
   - [1.2. Databasesearch](#12-databasesearch)
@@ -91,7 +103,6 @@ De InvaCost database biedt een uitgebreide wereldwijde repository van economisch
   - [5.1 Verwijderingsprioriteitsindex (RPI)](#51-verwijderingsprioriteitsindex-rpi)
   - [5.2 Maandelijkse Outputs](#52-maandelijkse-outputs)
 - [Notities](#notities)
-  - [Snelle Referentie: Kern Drempelwaarden en Observaties](#snelle-referentie-kern-drempelwaarden-en-observaties)
   - [Beperkingen](#beperkingen)
   
 ## Projectoverzicht
@@ -113,7 +124,7 @@ Bijna een kwart eeuw is verstreken sinds _Vespa velutina_ per ongeluk in Europa 
   - Hoge methodologische heterogeniteit
   - Inconsistente uitkomstmetingen
   - Gebrek aan expliciete controlegroepen
-  - Beperkt tot gratis online literatuurdatabases en beschikbare PDF's.
+  - Dit overzicht is beperkt tot gratis online literatuurdatabases en beschikbare PDF's.
 
 ## 1. Literatuurzoekacties
 **Bijgewerkt:** 2025-10-30
@@ -472,12 +483,12 @@ Conceptuele data extractie van de kwantitatieve data voor elke PDF wordt gedaan 
 
 **Defensieve Gedragingen**
 
-**Arca et al. 2014** (Frankrijk, 2008-2010, 95 kolonies)
+**Arca et al. 2014** (Frankrijk, 2008-2010, 95 kolonies, gesimuleerde aanvallen)
 - **Kolonieactiviteit**: Dramatische daling wanneer _Vespa velutina_ aanwezig
 - **Bijentapijt vorming**:
   - 30-60% toename: 14 kolonies
   - 60-80% toename: 17 kolonies
-  - >80% toename: 48 kolonies
+  - > 80% toename: 48 kolonies
   - Patronen: 42% grote verzameling, 20% gecoördineerd gedrag, 38% geen coördinatie
   - **Balling gedrag** (*Apis mellifera*):
     - Voorkomen: 68 kolonies (72%) vertoonden balling
@@ -485,7 +496,7 @@ Conceptuele data extractie van de kwantitatieve data voor elke PDF wordt gedaan 
       - <10 bijen: 31 kolonies (33%)
       - 10-20 bijen: 20 kolonies (21%)
       - 20-30 bijen: 15 kolonies (16%)
-      - >30 bijen: 1 kolonie (1%)
+      - > 30 bijen: 1 kolonie (1%)
     - Effectiviteit:
       - Buiten kast (natuurlijke omstandigheden): **9,5%** _Vespa velutina_ gedood door balling in 5 min
       - In kast (experimentele omstandigheden): **76,4%** _Vespa velutina_ gedood (42/55) — Opmerking: _Vespa velutina_ gaan niet natuurlijk kasten binnen; dit was experimenteel
@@ -684,20 +695,6 @@ De InvaCost database is een uitgebreide wereldwijde repository die economische k
 - Statistisch significantie wordt genoteerd waar gerapporteerd
 - Methodologische verschillen tussen studies moeten worden overwogen bij interpretatie van resultaten
 - Deze samenvatting is gemaakt met een mens in de loop, wanneer u een fout ziet, maak dan een issue aan.
-
-### Snelle Referentie: Kern Drempelwaarden en Observaties
-
-| Metriek | Drempel/Observatie | Studie | Context |
-|--------|----------------------|-------|---------|
-| Minimum risico | ≥5 _Vespa velutina_ bij bijenstand | Diéguez-Antón et al. 2025 | Kolonie overlevingsrisico |
-| Hoog risico | ≥10 _Vespa velutina_ bij bijenstand | Diéguez-Antón et al. 2025 | Kolonie overlevingsrisico |
-| Foerageerafname | >10 _Vespa velutina_ per kast | Monceau et al. 2018 | Bijengedrag |
-| Foerageerparalyse | ≥12,6 _Vespa velutina_ | Requier et al. 2019 | Volledige foerageerstop |
-| Piek predatieperiode | Juli-oktober | Meerdere | Seizoenspatroon |
-| Piek dagelijkse activiteit | 13:00-15:00 uur | Meerdere | Tijdstip van de dag |
-| Optimale temperatuur | 15-26°C | Diéguez-Antón et al. 2022, 2025 | _Vespa velutina_ activiteit |
-| Kolonie overleving (onbeschermd) | 35-56% | Requier et al. 2020; Rojas-Nossa et al. 2022 | Hoge druk omstandigheden |
-| Kolonie overleving (beschermd) | 55-78% | Requier et al. 2020; Rojas-Nossa et al. 2022 | Met beschermingsmaatregelen |
 
 ### Beperkingen
 1. **Hoge methodologische heterogeniteit**: Studies gebruiken verschillende observatiemethoden (visuele tellingen, videotracking, vangen, DNA metabarcoding, pellet analyse), waardoor directe vergelijking van effectgroottes problematisch is.
