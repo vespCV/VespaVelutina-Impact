@@ -1,15 +1,30 @@
-## Schatting van gemiste nesten 
+# Scenario's gemiste nesten
 
 Concept: 2025-11-07
 
-**Definitie**: Secundaire nesten worden niet afzonderlijk gemeld op waarnemingen.nl Nesten gemeld in juni-december(evt jan-feb opvolgende jaar) aangenomen dat hiervan >90% secundaire nesten betreft. [te verifieren]
+Scenario's op basis van waarnemingen.nl meldingen, maximaal waargenomen nestdichtheden in Frankrijk en verschillende detectie- en verwijderingsgraden.
 
-### Huidige situatie
+## Inhoud
+
+1. [Huidige situatie](#huidige-situatie)
+   - [Waargenomen trends](#waargenomen-trends)
+   - [Belangrijkste bevindingen](#belangrijkste-bevindingen)
+2. [Scenario's](#scenarios)
+   - [Maximale aantal nesten in Nederland](#maximale-aantal-nesten-in-nederland)
+3. [Implicaties voor bestrijding](#implicaties-voor-bestrijding)
+   - [Benodigde capaciteit bestrijders](#benodigde-capaciteit-bestrijders)
+   - [Opsporing via detector in apiaria](#opsporing-via-detector-in-apiaria)
+4. [Samenvatting](#samenvatting)
+5. [Aannames en beperkingen](#aannames-en-beperkingen)
+6. [Referenties](#referenties)
+
+## Huidige situatie
 
 **Bekende cijfers** (waarnemingen.nl, nesten gemeld in juni-november):
 - 2024 (juni-november): 1,887 gemeld, 1,521 verwijderd (80.6% verwijderingsgraad)
 - 2025 (juni-7 november): 6,569 gemeld (verwijderingscijfers nog niet beschikbaar)[Nog updaten aan eind van 2025]
 - Totaal 2024: 2,481 gemeld, 2,000 verwijderd (80.6%)
+Note: Secundaire nesten worden niet afzonderlijk gemeld op waarnemingen.nl Nesten gemeld in juni-december(evt jan-feb opvolgende jaar) aangenomen dat hiervan >90% secundaire nesten betreft. [te verifieren]
 
 ### Waargenomen trends
 
@@ -24,7 +39,7 @@ Concept: 2025-11-07
 3. **Detectiegraad**: aanname 80% (2025-2028).
 4. **Verwijderingsgraad kritiek**: 80.6% in 2024. Verificatie van 60% verwijderingsgraad in België nodig ([te verifiëren]).
 
-### Projecties
+## Scenario's
 
 **Aannames**: 80.6% verwijderingsgraad, 80% detectiegraad vanaf 2025. Gebaseerd op nesten gemeld op waarnemingen.nl in 2024-2025 juni-november. [updaten incl gemiste nesten van 15 nov-december]
 
@@ -83,9 +98,9 @@ Concept: 2025-11-07
 
 Bij bereiken van nestdichtheid zal groei afvlakken door dichtheidsafhankelijke factoren. Scenario B en C houden hier rekening mee. Scenario C toont het effect van verbeterde detectie (90%) en verwijdering (95%).
 
-### Implicaties voor bestrijding
+## Implicaties voor bestrijding
 
-#### Benodigde capaciteit bestrijders
+### Benodigde capaciteit bestrijders
 
 **Capaciteit**: 275-500 nesten/jaar (Zeeland 2024: 275 nesten/bestrijder)
 
@@ -115,7 +130,7 @@ Bij bereiken van nestdichtheid zal groei afvlakken door dichtheidsafhankelijke f
 
 **Seizoensgebonden piek**: Vraag geconcentreerd in juni-november.
 
-#### Opsporing via detector in apiaria
+### Opsporing via detector in apiaria
 
 **Nederland**: ~10,000-11,080 imkers, ~17,000-19,000 bijenstanden (apiaria).  
 **Vliegbereik Vespa velutina**: Primair ~1 km rond nest (Poidatz et al. 2018), maximum tot 8 km mogelijk.
@@ -134,8 +149,9 @@ Bij bereiken van nestdichtheid zal groei afvlakken door dichtheidsafhankelijke f
 - **Scenario A**: Onhaalbaar gezien het aantal nesten (~1,352,046 in 2028). Dichtheidsafhankelijke factoren zullen groei waarschijnlijk beperken voordat deze aantallen worden bereikt.
 
 **Beperking**: detectie graad, is het mogelijk meer dan 95% te halen. Dit lijkt onwaarschijnlijk.
+[te verifieren: locaties van bijenkasten]
 
-### Samenvatting
+## Samenvatting
 
 1. **Verwijderingsgraad verhogen**: Van 80.6% naar 95%+ voorkomt ~2,886 potentiële nieuwe nesten in 2025. Kritiek gezien de hoge waargenomen groei (3.48×). Scenario C toont het effect van 95% verwijdering.
 2. **Detectiegraad verhogen**: Van 80% naar 90% detectiegraad (Scenario C) resulteert in lagere totale aantallen en betere controle. Vereist intensieve monitoring en voorlichting.
@@ -144,7 +160,7 @@ Bij bereiken van nestdichtheid zal groei afvlakken door dichtheidsafhankelijke f
 5. **Dichtheidsafhankelijke factoren**: Scenario B en C houden rekening met afnemende groei bij hogere dichtheden. Monitoring nodig om te bepalen wanneer deze factoren effectief worden.
 6. **Scenario C als streefdoel**: Scenario C (90% detectie, 95% verwijdering) toont aanzienlijke reductie in nestaantallen vergeleken met Scenario B. Dit vereist geïntensiveerde inspanningen maar is haalbaar met voldoende middelen en coördinatie.
 
-### Aannames en beperkingen
+## Aannames en beperkingen
 
 - **Groeifactor**: Waargenomen 3.48× (2024-2025). Toekomstige groei onzeker; Scenario A gebruikt 5.48× (gebaseerd op Oost-Vlaanderen vroege fase), Scenario B en C modelleren afnemende groei (3.0× → 2.5× → 2.2×).
 - **Reproductiefactor**: 6 nesten per niet-verwijderd nest (5-7 range) - [te verifiëren met literatuur]
@@ -155,7 +171,7 @@ Bij bereiken van nestdichtheid zal groei afvlakken door dichtheidsafhankelijke f
 - **België verwijderingsgraad**: 60% genoemd maar niet geverifieerd - [te verifiëren]
 - **België groei**: Oost-Vlaanderen 2021-2023: ~5.48×/jaar in vroege fase, mogelijk niet representatief voor latere fases.
 
-### Referenties
+## Referenties
 
 - Waarnemingen: [waarnemingen.nl](https://waarneming.nl/species/8807/statistics/), vespavelutina_nederland.md
 - Nestdichtheden: Lioy et al. 2022 (CABI Reviews, DOI: 10.1079/cabireviews202217030)
