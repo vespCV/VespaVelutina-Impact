@@ -96,14 +96,7 @@ This repository synthesizes evidence from **30 scientific studies** to quantify 
     - [4.6.1 Study Locations](#461-study-locations)
     - [4.6.2 Apiaries and Colonies](#462-apiaries-and-colonies)
     - [4.6.3 _Vespa velutina_ Nests Studied](#463-vespa-velutina-nests-studied)
-  - [4.7 Notes and biases](#47-notes-and-biases)
-    - [4.7.1 Methodological Heterogeneity](#471-methodological-heterogeneity)
-- [5 [EXPERIMENTAL] Planning and Prioritization](#5-experimental-planning-and-prioritization)
-  - [5.1 Removal Priority Index (RPI)](#51-removal-priority-index-rpi)
-  - [5.2 Monthly Outputs](#52-monthly-outputs)
-- [Notes](#notes)
-  - [Quick Reference: Key Thresholds and Observations](#quick-reference-key-thresholds-and-observations)
-  - [Limitations](#limitations)
+  - [4.7 Limitations](#47-limitations)
   
 ## Project Overview
 
@@ -678,32 +671,16 @@ The InvaCost database is a comprehensive global repository documenting economic 
 | Stainton et al. 2023 | 5 | Larval gut contents | UK |
 | Requier et al. 2023 | 1,260 | Field observations | France (4 districts) |
 
-### 4.7 Notes and biases
+### 4.7 Limitations
 
-#### 4.7.1 Methodological Heterogeneity
-
-- Different observation methods (visual, video, photo, trapping)
-- Varying time periods and frequencies
-- Different sample sizes and study designs
-- Geographic and temporal variation
-- Inconsistent statistical reporting
-<img src="images/observation_methods.jpg" alt="Observation methods" width="450">
-
-<img src="images/outcome_types.jpg" alt="Outcome types" width="450">
-
-## Notes
-
-- This synthesis is based on extracted quantitative data from included studies
-- Numbers are reported as found in original studies
-- Ranges and means are presented where available
-- Statistical significance is noted where reported
-- Methodological differences between studies should be considered when interpreting results
-- This summary is made with a human in the loop, when you see an error please create an issue.
-
-### Limitations
 1. **High methodological heterogeneity**: Studies use different observation methods (visual counts, video tracking, trapping, DNA metabarcoding, pellet analysis), making direct comparison of effect sizes problematic.
 2. **Inconsistent outcome measures**: Predation rates, survival percentages, and behavioral changes are measured using different metrics, timeframes, and units across studies.
 3. **Lack of standardized control groups**: Most studies are observational without explicit control groups, making it difficult to calculate comparable effect sizes.
 4. **Geographic and temporal variation**: Studies span different countries, years, and seasons, with varying _Vespa velutina_ population densities and beekeeping practices.
 5. **Small sample sizes per study**: Many studies have small sample sizes (2-6 colonies, 1-3 apiaries), limiting statistical power for meta-analysis.
 6. **Diverse study designs**: Mix of experimental interventions (muzzles, electric harps), observational studies, and modeling approaches cannot be meaningfully combined in a single meta-analysis.
+<img src="images/observation_methods.jpg" alt="Observation methods" width="450">
+
+<img src="images/outcome_types.jpg" alt="Outcome types" width="450">
+
+

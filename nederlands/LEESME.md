@@ -97,13 +97,7 @@ Deze repository synthetiseert bewijs uit **30 wetenschappelijke studies** om de 
     - [4.6.1 Studielocaties](#461-studielocaties)
     - [4.6.2 Bijenstanden en Kolonies](#462-bijenstanden-en-kolonies)
     - [4.6.3 Bestudeerde _Vespa velutina_ Nesten](#463-bestudeerde-vespa-velutina-nesten)
-  - [4.7 Notities en bias](#47-notities-en-bias)
-    - [4.7.1 Methodologische Heterogeniteit](#471-methodologische-heterogeniteit)
-- [5 [EXPERIMENTEEL] Planning en Prioritering](#5-experimenteel-planning-en-prioritering)
-  - [5.1 Verwijderingsprioriteitsindex (RPI)](#51-verwijderingsprioriteitsindex-rpi)
-  - [5.2 Maandelijkse Outputs](#52-maandelijkse-outputs)
-- [Notities](#notities)
-  - [Beperkingen](#beperkingen)
+  - [4.7 Beperkingen](#47-beperkingen)
   
 ## Projectoverzicht
 
@@ -678,29 +672,10 @@ De InvaCost database is een uitgebreide wereldwijde repository die economische k
 | Stainton et al. 2023 | 5 | Larvaal darminhoud | VK |
 | Requier et al. 2023 | 1.260 | Veldobservaties | Frankrijk (4 districten) |
 
-### 4.7 Notities en bias
-
-#### 4.7.1 Methodologische Heterogeniteit
-
-- Verschillende observatiemethoden (visueel, video, foto, vangen)
-- Variërende tijdsperioden en frequenties
-- Verschillende steekproefgroottes en studieontwerpen
-- Geografische en temporele variatie
-- Inconsistente statistische rapportage
+### 4.7 Beperkingen
 <img src="../images/observation_methods.jpg" alt="Observatiemethoden" width="450">
 
 <img src="../images/outcome_types.jpg" alt="Uitkomsttypen" width="450">
-
-## Notities
-
-- Deze synthese is gebaseerd op geëxtraheerde kwantitatieve data uit geïncludeerde studies
-- Aantallen worden gerapporteerd zoals gevonden in originele studies
-- Bereiken en gemiddelden worden gepresenteerd waar beschikbaar
-- Statistisch significantie wordt genoteerd waar gerapporteerd
-- Methodologische verschillen tussen studies moeten worden overwogen bij interpretatie van resultaten
-- Deze samenvatting is gemaakt met een mens in de loop, wanneer u een fout ziet, maak dan een issue aan.
-
-### Beperkingen
 1. **Hoge methodologische heterogeniteit**: Studies gebruiken verschillende observatiemethoden (visuele tellingen, videotracking, vangen, DNA metabarcoding, pellet analyse), waardoor directe vergelijking van effectgroottes problematisch is.
 2. **Inconsistente uitkomstmetingen**: Predatiesnelheden, overlevingspercentages en gedragsveranderingen worden gemeten met verschillende metrieken, tijdsframes en eenheden over studies heen.
 3. **Gebrek aan gestandaardiseerde controlegroepen**: De meeste studies zijn observationeel zonder expliciete controlegroepen, waardoor het moeilijk is om vergelijkbare effectgroottes te berekenen.
