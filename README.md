@@ -12,31 +12,46 @@ This repository synthesizes evidence from **30 scientific studies** to quantify 
 
 ### Predation Pressure on _Apis mellifera_
 - **Honeybee in diet**: 22-98% depending on method and location — [see details](#422-prey-composition)
-- Biomass consumption per _Vespa velutina_ colony: **11.32 kg** of insects per season
-- Prey consumption per _Vespa velutina_ colony: **97,246 honeybee-equivalent** per season
-- **Range**: 0-20+ _Vespa velutina_ simultaneously at apiaries — [see details](#421-predation-rates-and-success)
+- **Per _Vespa velutina_ colony consumption**: 
+  - **11.32 kg** of insects per season
+  - **97,246 honeybee-equivalent** per season
+- **Observed _Vespa velutina_ counts at apiaries**: 
+  - 0-4: Low pressure (observed in studies)
+  - 5-9: Moderate pressure (minimum risk threshold: Diéguez-Antón et al. 2025)
+  - 10-12: High pressure (foraging decline observed: Monceau et al. 2018)
+  - ≥13: Very high pressure (foraging paralysis threshold: Requier et al. 2019)
 - **Peak periods**: July-October (varies by location) — [see details](#422-prey-composition)
 - **Predation success rate**: 2.4% (video tracking of natural predation at hive entrance) — [see details](#421-predation-rates-and-success)
 
 ### Domesticated Honeybee Colony Survival
-- Without protection: **35-56%** of colonies survive under high _Vespa velutina_ pressure (Requier et al. 2020; Rojas-Nossa et al. 2022) — [see details](#431-colony-survival)
-- With protection (electric harps, muzzles): **55-78%** survival (Requier et al. 2020; Rojas-Nossa et al. 2022) — [see details](#431-colony-survival)
-- **Risk threshold**: When you see **≥5 _Vespa velutina_** at your apiary, your colonies are at risk (Diéguez-Antón et al. 2025) — [see details](#432-mortality-factors)
+- **Without protection**: **35-56%** of colonies survive under high _Vespa velutina_ pressure (Requier et al. 2020; Rojas-Nossa et al. 2022) — [see details](#431-colony-survival)
+- **With protection** (electric harps, muzzles): **55-78%** survival (Requier et al. 2020; Rojas-Nossa et al. 2022) — [see details](#431-colony-survival)
+- **Timing of colony losses**: 
+  - During predation period: **2.5%** of colonies (Requier et al. 2019)
+  - During winter (January-May): Majority of losses occur (Requier et al. 2019)
+- **Risk threshold**: **≥5 _Vespa velutina_** at apiary (Diéguez-Antón et al. 2025) — [see details](#432-mortality-factors)
 - **Colony loss**: is multifactoral, influence of _Vespa velutina_ cannot be separated from other causes of colony loss — [see details](#43-colony-survival-and-loss)
 
 ### Behavioral Changes of _Apis mellifera_
-- Bees stop foraging when **≥12.6 _Vespa velutina_** are present (foraging paralysis) (Requier et al. 2019) — [see details](#441-foraging-paralysis-thresholds)
-- This leads to colony starvation and winter mortality (Requier et al. 2019) — [see details](#44-apis-mellifera-behavior)
-- Protection measures can reduce foraging paralysis by up to 41% (Requier et al. 2020) — [see details](#441-foraging-paralysis-thresholds)
-- **Defensive behavior** (*Apis mellifera*): 9.5% of _Vespa velutina_ killed by balling outside hive in natural conditions; 76.4% killed when experimentally placed inside hive (Arca et al. 2014) — [see details](#442-activity-reductions)
+- **Foraging paralysis threshold**: **≥12.6 _Vespa velutina_** present (Requier et al. 2019) — [see details](#441-foraging-paralysis-thresholds)
+- **Foraging decline threshold**: **>10 _Vespa velutina_** per hive (Monceau et al. 2018)
+- **Activity reduction with protection**: Up to **41%** reduction in foraging paralysis (Requier et al. 2020) — [see details](#441-foraging-paralysis-thresholds)
+- **Defensive behavior effectiveness** (*Apis mellifera*):
+  - Natural conditions (outside hive): **9.5%** of _Vespa velutina_ killed by balling (Arca et al. 2014)
+  - Experimental conditions (inside hive): **76.4%** killed (Arca et al. 2014)
+  - Note: _Vespa velutina_ do not naturally enter hives; this was experimental — [see details](#442-activity-reductions)
+- **Consequence**: Foraging paralysis leads to colony starvation and winter mortality (Requier et al. 2019) — [see details](#44-apis-mellifera-behavior)
 
 ### Economic Impact of _Vespa velutina_ on _Apis mellifera_
 
-**Invacost Database**: The InvaCost database provides a comprehensive global repository of economic costs of invasive alien species, including *Vespa velutina*. Data can be accessed via the website, GitHub repository, or R package for analysis. — [see details](#453-invacost-database)
+**Data source**: InvaCost database — [see details](#453-invacost-database)
+
+The InvaCost database provides a comprehensive global repository of economic costs of invasive alien species, including *Vespa velutina*. Data can be accessed via the website, GitHub repository, or R package for analysis.
 
 
 ## Table of Contents
 - [Summary](#summary)
+  - [Quick Reference: Key Thresholds and Observations](#quick-reference-key-thresholds-and-observations)
   - [Predation Pressure on _Apis mellifera_](#predation-pressure-on-apis-mellifera)
   - [Domesticated Honeybee Colony Survival](#domesticated-honeybee-colony-survival)
   - [Behavioral Changes of _Apis mellifera_](#behavioral-changes-of-apis-mellifera)
@@ -78,7 +93,7 @@ This repository synthesizes evidence from **30 scientific studies** to quantify 
   
 ## Project Overview
 
-Nearly a quarter century has passed since _Vespa velutina_ arrived by accident in Europe. And this Asian hornet (_Vespa velutina_) with its yellow legs is using her wings to spread over a large part of Europe. Adult workers need protein-rich prey to feed the developing larvae in their nests, which they obtain primarily from insects. They don't make it difficult for themselves—in Europe domesticated bees (_Apis mellifera_) are widely available and easy to catch. So, let's find out what is published about the contribution of the **yellow-legged hornet** (_Vespa velutina_) to the decline of Western **honeybee** populations.
+Nearly a quarter century has passed since _Vespa velutina_ arrived by accident in Europe. And this Asian hornet (_Vespa velutina_) with its yellow legs is using her wings to spread over a large part of Europe. Adult workers need protein-rich prey to feed the developing larvae in their nests, which they obtain primarily from insects. They don't make it difficult for themselves—in Europe domesticated bees (_Apis mellifera_) are widely available and easy to catch. So, let's find out what is published about the potential impact of the yellow-legged hornet (_Vespa velutina_) on Western honeybee (_Apis mellifera_) populations.
 
 **Population:** _Apis mellifera_ colonies in Europe
 
@@ -667,16 +682,24 @@ The InvaCost database is a comprehensive global repository documenting economic 
 - Methodological differences between studies should be considered when interpreting results
 - This summary is made with a human in the loop, when you see an error please create an issue.
 
-### Meta-Analysis Feasibility Assessment
+### Quick Reference: Key Thresholds and Observations
 
-**Conclusion: Meta-analysis is not feasible with the current dataset.**
+| Metric | Threshold/Observation | Study | Context |
+|--------|----------------------|-------|---------|
+| Minimum risk | ≥5 _Vespa velutina_ at apiary | Diéguez-Antón et al. 2025 | Colony survival risk |
+| High risk | ≥10 _Vespa velutina_ at apiary | Diéguez-Antón et al. 2025 | Colony survival risk |
+| Foraging decline | >10 _Vespa velutina_ per hive | Monceau et al. 2018 | Bee behavior |
+| Foraging paralysis | ≥12.6 _Vespa velutina_ | Requier et al. 2019 | Complete foraging stop |
+| Peak predation period | July-October | Multiple | Seasonal pattern |
+| Peak daily activity | 13:00-15:00 h | Multiple | Time of day |
+| Optimal temperature | 15-26°C | Diéguez-Antón et al. 2022, 2025 | _Vespa velutina_ activity |
+| Colony survival (unprotected) | 35-56% | Requier et al. 2020; Rojas-Nossa et al. 2022 | High pressure conditions |
+| Colony survival (protected) | 55-78% | Requier et al. 2020; Rojas-Nossa et al. 2022 | With protection measures |
 
-**Reasons:**
+### Limitations
 1. **High methodological heterogeneity**: Studies use different observation methods (visual counts, video tracking, trapping, DNA metabarcoding, pellet analysis), making direct comparison of effect sizes problematic.
 2. **Inconsistent outcome measures**: Predation rates, survival percentages, and behavioral changes are measured using different metrics, timeframes, and units across studies.
 3. **Lack of standardized control groups**: Most studies are observational without explicit control groups, making it difficult to calculate comparable effect sizes.
-4. **Geographic and temporal variation**: Studies span different countries, years, and seasons, with varying hornet population densities and beekeeping practices.
+4. **Geographic and temporal variation**: Studies span different countries, years, and seasons, with varying _Vespa velutina_ population densities and beekeeping practices.
 5. **Small sample sizes per study**: Many studies have small sample sizes (2-6 colonies, 1-3 apiaries), limiting statistical power for meta-analysis.
 6. **Diverse study designs**: Mix of experimental interventions (muzzles, electric harps), observational studies, and modeling approaches cannot be meaningfully combined in a single meta-analysis.
-
-**Alternative approach**: Narrative synthesis with quantitative summary tables (as presented in this repository) is the most appropriate method for synthesizing these heterogeneous studies.

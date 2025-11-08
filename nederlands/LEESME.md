@@ -12,27 +12,41 @@ Deze repository synthetiseert bewijs uit **30 wetenschappelijke studies** om de 
 
 ### Predatiedruk op _Apis mellifera_
 - **Honingbij in dieet**: 22-98% afhankelijk van methode en locatie — [zie details](#422-prooisamenstelling)
-- Biomassa consumptie per _Vespa velutina_ kolonie: **11,32 kg** insecten per seizoen
-- Prooiconsumptie per _Vespa velutina_ kolonie: **97.246 honingbij-equivalent** per seizoen
-- **Bereik**: 0-20+ _Vespa velutina_ gelijktijdig bij bijenstanden — [zie details](#421-predatiesnelheden-en-succes)
+- **Per _Vespa velutina_ kolonie consumptie**: 
+  - **11,32 kg** insecten per seizoen
+  - **97.246 honingbij-equivalent** per seizoen
+- **Waargenomen _Vespa velutina_ tellingen bij bijenstanden**: 
+  - 0-4: Lage druk (waargenomen in studies)
+  - 5-9: Matige druk (minimum risicodrempel: Diéguez-Antón et al. 2025)
+  - 10-12: Hoge druk (foerageerafname waargenomen: Monceau et al. 2018)
+  - ≥13: Zeer hoge druk (foerageerparalyse drempel: Requier et al. 2019)
 - **Piekperioden**: juli-oktober (varieert per locatie) — [zie details](#422-prooisamenstelling)
 - **Predatiesuccespercentage**: 2,4% (videotracking van natuurlijke predatie bij kastingang) — [zie details](#421-predatiesnelheden-en-succes)
 
 ### Overleving van gedomesticeerde honingbijkolonies
-- Zonder bescherming: **35-56%** van de kolonies overleeft onder hoge _Vespa velutina_ druk (Requier et al. 2020; Rojas-Nossa et al. 2022) — [zie details](#431-kolonie-overleving)
-- Met bescherming (elektrische harpen, snuitmaskers): **55-78%** overleving (Requier et al. 2020; Rojas-Nossa et al. 2022) — [zie details](#431-kolonie-overleving)
-- **Risicodrempel**: Wanneer u **≥5 _Vespa velutina_** bij uw bijenstand ziet, lopen uw kolonies risico (Diéguez-Antón et al. 2025) — [zie details](#432-mortaliteitsfactoren)
+- **Zonder bescherming**: **35-56%** van de kolonies overleeft onder hoge _Vespa velutina_ druk (Requier et al. 2020; Rojas-Nossa et al. 2022) — [zie details](#431-kolonie-overleving)
+- **Met bescherming** (elektrische harpen, snuitmaskers): **55-78%** overleving (Requier et al. 2020; Rojas-Nossa et al. 2022) — [zie details](#431-kolonie-overleving)
+- **Timing van kolonieverliezen**: 
+  - Tijdens predatieperiode: **2,5%** van de kolonies (Requier et al. 2019)
+  - Tijdens winter (januari-mei): Meerderheid van verliezen treedt op (Requier et al. 2019)
+- **Risicodrempel**: **≥5 _Vespa velutina_** bij bijenstand (Diéguez-Antón et al. 2025) — [zie details](#432-mortaliteitsfactoren)
 - **Kolonieverlies**: is multifactorieel, de invloed van _Vespa velutina_ kan niet worden gescheiden van andere oorzaken van kolonieverlies — [zie details](#43-kolonie-overleving-en-verlies)
 
 ### Gedragsveranderingen van _Apis mellifera_
-- Bijen stoppen met foerageren wanneer **≥12,6 _Vespa velutina_** aanwezig zijn (foerageerparalyse) (Requier et al. 2019) — [zie details](#441-foerageerparalyse-drempelwaarden)
-- Dit leidt tot kolonieverhongering en wintersterfte (Requier et al. 2019) — [zie details](#44-apis-mellifera-gedrag)
-- Beschermingsmaatregelen kunnen foerageerparalyse met tot 41% verminderen (Requier et al. 2020) — [zie details](#441-foerageerparalyse-drempelwaarden)
-- **Defensief gedrag** (*Apis mellifera*): 9,5% van _Vespa velutina_ gedood door balling buiten de kast onder natuurlijke omstandigheden; 76,4% gedood wanneer experimenteel in de kast geplaatst (Arca et al. 2014) — [zie details](#442-activiteitsreducties)
+- **Foerageerparalyse drempel**: **≥12,6 _Vespa velutina_** aanwezig (Requier et al. 2019) — [zie details](#441-foerageerparalyse-drempelwaarden)
+- **Foerageerafname drempel**: **>10 _Vespa velutina_** per kast (Monceau et al. 2018)
+- **Activiteitsreductie met bescherming**: Tot **41%** reductie in foerageerparalyse (Requier et al. 2020) — [zie details](#441-foerageerparalyse-drempelwaarden)
+- **Defensief gedrag effectiviteit** (*Apis mellifera*):
+  - Natuurlijke omstandigheden (buiten kast): **9,5%** van _Vespa velutina_ gedood door balling (Arca et al. 2014)
+  - Experimentele omstandigheden (in kast): **76,4%** gedood (Arca et al. 2014)
+  - Opmerking: _Vespa velutina_ gaan niet natuurlijk kasten binnen; dit was experimenteel — [zie details](#442-activiteitsreducties)
+- **Gevolg**: Foerageerparalyse leidt tot kolonieverhongering en wintersterfte (Requier et al. 2019) — [zie details](#44-apis-mellifera-gedrag)
 
 ### Economische impact van _Vespa velutina_ op _Apis mellifera_
 
-**Invacost Database**: De InvaCost database biedt een uitgebreide wereldwijde repository van economische kosten van invasieve uitheemse soorten, inclusief *Vespa velutina*. Data kan worden benaderd via de website, GitHub repository, of R package voor analyse. — [zie details](#453-invacost-database)
+**Databron**: InvaCost database — [zie details](#453-invacost-database)
+
+De InvaCost database biedt een uitgebreide wereldwijde repository van economische kosten van invasieve uitheemse soorten, inclusief *Vespa velutina*. Data kan worden benaderd via de website, GitHub repository, of R package voor analyse.
 
 
 ## Inhoudsopgave
@@ -74,7 +88,8 @@ Deze repository synthetiseert bewijs uit **30 wetenschappelijke studies** om de 
   - [4.7 Notities en bias](#47-notities-en-bias)
     - [4.7.1 Methodologische Heterogeniteit](#471-methodologische-heterogeniteit)
 - [Notities](#notities)
-  - [Meta-Analyse Haalbaarheidsbeoordeling](#meta-analyse-haalbaarheidsbeoordeling)
+  - [Snelle Referentie: Kern Drempelwaarden en Observaties](#snelle-referentie-kern-drempelwaarden-en-observaties)
+  - [Beperkingen](#beperkingen)
   
 ## Projectoverzicht
 
@@ -667,18 +682,26 @@ De InvaCost database is een uitgebreide wereldwijde repository die economische k
 - Methodologische verschillen tussen studies moeten worden overwogen bij interpretatie van resultaten
 - Deze samenvatting is gemaakt met een mens in de loop, wanneer u een fout ziet, maak dan een issue aan.
 
-### Meta-Analyse Haalbaarheidsbeoordeling
+### Snelle Referentie: Kern Drempelwaarden en Observaties
 
-**Conclusie: Meta-analyse is niet haalbaar met de huidige dataset.**
+| Metriek | Drempel/Observatie | Studie | Context |
+|--------|----------------------|-------|---------|
+| Minimum risico | ≥5 _Vespa velutina_ bij bijenstand | Diéguez-Antón et al. 2025 | Kolonie overlevingsrisico |
+| Hoog risico | ≥10 _Vespa velutina_ bij bijenstand | Diéguez-Antón et al. 2025 | Kolonie overlevingsrisico |
+| Foerageerafname | >10 _Vespa velutina_ per kast | Monceau et al. 2018 | Bijengedrag |
+| Foerageerparalyse | ≥12,6 _Vespa velutina_ | Requier et al. 2019 | Volledige foerageerstop |
+| Piek predatieperiode | Juli-oktober | Meerdere | Seizoenspatroon |
+| Piek dagelijkse activiteit | 13:00-15:00 uur | Meerdere | Tijdstip van de dag |
+| Optimale temperatuur | 15-26°C | Diéguez-Antón et al. 2022, 2025 | _Vespa velutina_ activiteit |
+| Kolonie overleving (onbeschermd) | 35-56% | Requier et al. 2020; Rojas-Nossa et al. 2022 | Hoge druk omstandigheden |
+| Kolonie overleving (beschermd) | 55-78% | Requier et al. 2020; Rojas-Nossa et al. 2022 | Met beschermingsmaatregelen |
 
-**Redenen:**
+### Beperkingen
 1. **Hoge methodologische heterogeniteit**: Studies gebruiken verschillende observatiemethoden (visuele tellingen, videotracking, vangen, DNA metabarcoding, pellet analyse), waardoor directe vergelijking van effectgroottes problematisch is.
 2. **Inconsistente uitkomstmetingen**: Predatiesnelheden, overlevingspercentages en gedragsveranderingen worden gemeten met verschillende metrieken, tijdsframes en eenheden over studies heen.
 3. **Gebrek aan gestandaardiseerde controlegroepen**: De meeste studies zijn observationeel zonder expliciete controlegroepen, waardoor het moeilijk is om vergelijkbare effectgroottes te berekenen.
 4. **Geografische en temporele variatie**: Studies beslaan verschillende landen, jaren en seizoenen, met variërende _Vespa velutina_ populatiedichtheden en imkerpraktijken.
 5. **Kleine steekproefgroottes per studie**: Veel studies hebben kleine steekproefgroottes (2-6 kolonies, 1-3 bijenstanden), wat de statistische kracht voor meta-analyse beperkt.
 6. **Diverse studieontwerpen**: Mix van experimentele interventies (snuitmaskers, elektrische harpen), observationele studies en modelleringsbenaderingen kunnen niet zinvol worden gecombineerd in een enkele meta-analyse.
-
-**Alternatieve benadering**: Narratieve synthese met kwantitatieve samenvattende tabellen (zoals gepresenteerd in deze repository) is de meest geschikte methode voor het synthetiseren van deze heterogene studies.
 
 _De Nederlandse vertaling is automatisch gegeneerd door Cursor.ai_
