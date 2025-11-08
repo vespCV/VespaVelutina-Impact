@@ -641,6 +641,7 @@ The InvaCost database is a comprehensive global repository documenting economic 
 **Note**: The database aggregates cost data from multiple sources. Users should verify data quality and methodology for specific entries. Some entries may represent aggregated costs (e.g., all invasive species in a region) rather than species-specific costs.
 
 ### 4.6 Background data
+![Study timeline](5_visualisation_reporting/study_timeline.jpg)
 #### 4.6.1 Study Locations
 | Country | Number of Studies | Key Findings |
 |---------|-------------------|--------------|
@@ -650,7 +651,7 @@ The InvaCost database is a comprehensive global repository documenting economic 
 | United Kingdom | 2 | Early detection and eradication efforts |
 | Europe (pan-European) | 1 | EPILOBEE study across 17 countries |
 | Multiple countries | 1 | Pedersen et al. 2025 (Jersey, France, Spain, UK) |
-
+![Study locatons](5_visualisation_reporting/study_locations.jpg)
 ### 4.6.2 Apiaries and Colonies
 
 | Study | Apiaries | Colonies | Nests | _Vespa velutina_ | Notes |
@@ -685,7 +686,8 @@ The InvaCost database is a comprehensive global repository documenting economic 
 - Different sample sizes and study designs
 - Geographic and temporal variation
 - Inconsistent statistical reporting
-
+![observation methods](5_visualisation_reporting/observation_methods.jpg)
+![outcome types](5_visualisation_reporting/outcome_types.jpg)
 
 ## Notes
 
