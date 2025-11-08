@@ -5,6 +5,36 @@ _If bees only gathered nectar from perfect flowers, they wouldn't be able to mak
 - **Updated:** 2025-11-08
 - Klik [hier](nederlands/LEESME.md) voor de nederlandse versie.
 
+
+## Summary
+
+This repository synthesizes evidence from **30 scientific studies** to quantify the impact of Asian hornet (_Vespa velutina_) on domestic honeybee colonies (_Apis mellifera_) in Europe.
+
+### Predation Pressure on _Apis mellifera_
+- **Honeybee in diet**: 22-98% depending on method and location — [see details](#422-prey-composition)
+- Biomass consumption per hornet colony: **11.32 kg** of insects per season
+- Prey consumption per hornet colony: **97,246 honeybee-equivalent** per season
+- **Range**: 0-20+ hornets simultaneously at apiaries — [see details](#421-predation-rates-and-success)
+- **Peak periods**: July-October (varies by location) — [see details](#422-prey-composition)
+- **Predation success rate**: 2.4% (video tracking of natural predation at hive entrance) — [see details](#421-predation-rates-and-success)
+
+### Domesticated Honeybee Colony Survival
+- Without protection: **35-56%** of colonies survive under high hornet pressure (Requier et al. 2020; Rojas-Nossa et al. 2022) — [see details](#431-colony-survival)
+- With protection (electric harps, muzzles): **55-78%** survival (Requier et al. 2020; Rojas-Nossa et al. 2022) — [see details](#431-colony-survival)
+- **Risk threshold**: When you see **≥5 hornets** at your apiary, your colonies are at risk (Diéguez-Antón et al. 2025) — [see details](#432-mortality-factors)
+- **Colony loss**: is multifactoral, influence of the hornet cannot be separated from other causes of colony loss — [see details](#43-colony-survival-and-loss)
+
+### Behavioral Changes of _Apis mellifera_
+- Bees stop foraging when **≥12.6 hornets** are present (foraging paralysis) (Requier et al. 2019) — [see details](#441-foraging-paralysis-thresholds)
+- This leads to colony starvation and winter mortality (Requier et al. 2019) — [see details](#44-apis-mellifera-behavior)
+- Protection measures can reduce foraging paralysis by up to 41% (Requier et al. 2020) — [see details](#441-foraging-paralysis-thresholds)
+- **Defensive behavior** (*Apis mellifera*): 9.5% of hornets killed by balling outside hive in natural conditions; 76.4% killed when experimentally placed inside hive (Arca et al. 2014) — [see details](#442-activity-reductions)
+
+### Economic Impact of _Vespa velutina_ on _Apis mellifera_
+
+**Invacost Database**: The InvaCost database provides a comprehensive global repository of economic costs of invasive alien species, including *Vespa velutina*. Data can be accessed via the website, GitHub repository, or R package for analysis. — [see details](#453-invacost-database)
+
+
 ## Table of Contents
 - [Summary](#summary)
   - [Predation Pressure on _Apis mellifera_](#predation-pressure-on-apis-mellifera)
@@ -45,36 +75,7 @@ _If bees only gathered nectar from perfect flowers, they wouldn't be able to mak
     - [4.7.1 Methodological Heterogeneity](#471-methodological-heterogeneity)
 - [Notes](#notes)
   - [Meta-Analysis Feasibility Assessment](#meta-analysis-feasibility-assessment)
-
-## Summary
-
-This repository synthesizes evidence from **30 scientific studies** to quantify the impact of Asian hornet (_Vespa velutina_) on domestic honeybee colonies (_Apis mellifera_) in Europe.
-
-### Predation Pressure on _Apis mellifera_
-- **Honeybee in diet**: 22-98% depending on method and location — [see details](#422-prey-composition)
-- Biomass consumption per hornet colony: **11.32 kg** of insects per season
-- Prey consumption per hornet colony: **97,246 honeybee-equivalent** per season
-- **Range**: 0-20+ hornets simultaneously at apiaries — [see details](#421-predation-rates-and-success)
-- **Peak periods**: July-October (varies by location) — [see details](#422-prey-composition)
-- **Predation success rate**: 2.4% (video tracking of natural predation at hive entrance) — [see details](#421-predation-rates-and-success)
-
-### Domesticated Honeybee Colony Survival
-- Without protection: **35-56%** of colonies survive under high hornet pressure (Requier et al. 2020; Rojas-Nossa et al. 2022) — [see details](#431-colony-survival)
-- With protection (electric harps, muzzles): **55-78%** survival (Requier et al. 2020; Rojas-Nossa et al. 2022) — [see details](#431-colony-survival)
-- **Risk threshold**: When you see **≥5 hornets** at your apiary, your colonies are at risk (Diéguez-Antón et al. 2025) — [see details](#432-mortality-factors)
-- **Colony loss**: is multifactoral, influence of the hornet cannot be separated from other causes of colony loss — [see details](#43-colony-survival-and-loss)
-
-### Behavioral Changes of _Apis mellifera_
-- Bees stop foraging when **≥12.6 hornets** are present (foraging paralysis) (Requier et al. 2019) — [see details](#441-foraging-paralysis-thresholds)
-- This leads to colony starvation and winter mortality (Requier et al. 2019) — [see details](#44-apis-mellifera-behavior)
-- Protection measures can reduce foraging paralysis by up to 41% (Requier et al. 2020) — [see details](#441-foraging-paralysis-thresholds)
-- **Defensive behavior** (*Apis mellifera*): 9.5% of hornets killed by balling outside hive in natural conditions; 76.4% killed when experimentally placed inside hive (Arca et al. 2014) — [see details](#442-activity-reductions)
-
-### Economic Impact of _Vespa velutina_ on _Apis mellifera_
-
-**Invacost Database**: The InvaCost database provides a comprehensive global repository of economic costs of invasive alien species, including *Vespa velutina*. Data can be accessed via the website, GitHub repository, or R package for analysis. — [see details](#453-invacost-database)
-
-
+  
 ## Project Overview
 
 Nearly a quarter century has passed since _Vespa velutina_ arrived by accident in Europe. And this Asian hornet with its yellow legs is using her wings to spread over a large part of Europe. Adult workers need protein-rich prey to feed the developing larvae in their nests, which they obtain primarily from insects. They don't make it difficult for themselves—in Europe domesticated bees (_Apis mellifera_) are widely available and easy to catch. So, let's find out what is published about the contribution of the **yellow-legged hornet** to the decline of Western **honeybee** populations.
@@ -286,8 +287,8 @@ Draft data extraction of the quantitative data for each PDF is done with Cursor.
 |--------|-------------|--------|---------|
 | Apis mellifera in diet | 22.55% - 98.1% | Various | Multiple |
 | Apis mellifera found in all nests | 100% | Metabarcoding | Pedersen et al. 2025 |
-| Prey consumption per colony | 97,246 honeybee-equivalent/season | Pellet analysis | Rome et al. 2021 |
-| Biomass consumption per colony | 11.32 kg/season | Pellet analysis | Rome et al. 2021 |
+| Prey consumption per hornet colony | 97,246 honeybee-equivalent/season | Pellet analysis | Rome et al. 2021 |
+| Biomass consumption per hornet colony | 11.32 kg/season | Pellet analysis | Rome et al. 2021 |
 | Proportion hive production consumed | 40% | Pellet analysis | Rome et al. 2021 |
 
 **Detailed Findings**

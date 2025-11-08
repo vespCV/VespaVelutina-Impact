@@ -5,6 +5,36 @@ _Als bijen alleen nectar verzamelden van perfecte bloemen, zouden ze niet eens �
 - **Bijgewerkt:** 2025-11-08
 - Click [here](../README.md) for the English version.
 
+
+## Samenvatting
+
+Deze repository synthetiseert bewijs uit **30 wetenschappelijke studies** om de impact van de Aziatische hoornaar (_Vespa velutina_) op gedomesticeerde honingbijkolonies (_Apis mellifera_) in Europa te kwantificeren.
+
+### Predatiedruk op _Apis mellifera_
+- **Honingbij in dieet**: 22-98% afhankelijk van methode en locatie — [zie details](#422-prooisamenstelling)
+- Biomassa consumptie per hoornaarkolonie: **11,32 kg** insecten per seizoen
+- Prooiconsumptie per hoornaarkolonie: **97.246 honingbij-equivalent** per seizoen
+- **Bereik**: 0-20+ hoornaars gelijktijdig bij bijenstanden — [zie details](#421-predatiesnelheden-en-succes)
+- **Piekperioden**: juli-oktober (varieert per locatie) — [zie details](#422-prooisamenstelling)
+- **Predatiesuccespercentage**: 2,4% (videotracking van natuurlijke predatie bij kastingang) — [zie details](#421-predatiesnelheden-en-succes)
+
+### Overleving van gedomesticeerde honingbijkolonies
+- Zonder bescherming: **35-56%** van de kolonies overleeft onder hoge hoornaardruk (Requier et al. 2020; Rojas-Nossa et al. 2022) — [zie details](#431-kolonie-overleving)
+- Met bescherming (elektrische harpen, snuitmaskers): **55-78%** overleving (Requier et al. 2020; Rojas-Nossa et al. 2022) — [zie details](#431-kolonie-overleving)
+- **Risicodrempel**: Wanneer u **≥5 hoornaars** bij uw bijenstand ziet, lopen uw kolonies risico (Diéguez-Antón et al. 2025) — [zie details](#432-mortaliteitsfactoren)
+- **Kolonieverlies**: is multifactorieel, de invloed van de hoornaar kan niet worden gescheiden van andere oorzaken van kolonieverlies — [zie details](#43-kolonie-overleving-en-verlies)
+
+### Gedragsveranderingen van _Apis mellifera_
+- Bijen stoppen met foerageren wanneer **≥12,6 hoornaars** aanwezig zijn (foerageerparalyse) (Requier et al. 2019) — [zie details](#441-foerageerparalyse-drempelwaarden)
+- Dit leidt tot kolonieverhongering en wintersterfte (Requier et al. 2019) — [zie details](#44-apis-mellifera-gedrag)
+- Beschermingsmaatregelen kunnen foerageerparalyse met tot 41% verminderen (Requier et al. 2020) — [zie details](#441-foerageerparalyse-drempelwaarden)
+- **Defensief gedrag** (*Apis mellifera*): 9,5% van de hoornaars gedood door balling buiten de kast onder natuurlijke omstandigheden; 76,4% gedood wanneer experimenteel in de kast geplaatst (Arca et al. 2014) — [zie details](#442-activiteitsreducties)
+
+### Economische impact van _Vespa velutina_ op _Apis mellifera_
+
+**Invacost Database**: De InvaCost database biedt een uitgebreide wereldwijde repository van economische kosten van invasieve uitheemse soorten, inclusief *Vespa velutina*. Data kan worden benaderd via de website, GitHub repository, of R package voor analyse. — [zie details](#453-invacost-database)
+
+
 ## Inhoudsopgave
 - [Samenvatting](#samenvatting)
   - [Predatiedruk op _Apis mellifera_](#predatiedruk-op-apis-mellifera)
@@ -45,36 +75,7 @@ _Als bijen alleen nectar verzamelden van perfecte bloemen, zouden ze niet eens �
     - [4.7.1 Methodologische Heterogeniteit](#471-methodologische-heterogeniteit)
 - [Notities](#notities)
   - [Meta-Analyse Haalbaarheidsbeoordeling](#meta-analyse-haalbaarheidsbeoordeling)
-
-## Samenvatting
-
-Deze repository synthetiseert bewijs uit **30 wetenschappelijke studies** om de impact van de Aziatische hoornaar (_Vespa velutina_) op gedomesticeerde honingbijkolonies (_Apis mellifera_) in Europa te kwantificeren.
-
-### Predatiedruk op _Apis mellifera_
-- **Honingbij in dieet**: 22-98% afhankelijk van methode en locatie — [zie details](#422-prooisamenstelling)
-- Biomassa consumptie per hoornaarkolonie: **11,32 kg** insecten per seizoen
-- Prooiconsumptie per hoornaarkolonie: **97.246 honingbij-equivalent** per seizoen
-- **Bereik**: 0-20+ hoornaars gelijktijdig bij bijenstanden — [zie details](#421-predatiesnelheden-en-succes)
-- **Piekperioden**: juli-oktober (varieert per locatie) — [zie details](#422-prooisamenstelling)
-- **Predatiesuccespercentage**: 2,4% (videotracking van natuurlijke predatie bij kastingang) — [zie details](#421-predatiesnelheden-en-succes)
-
-### Overleving van gedomesticeerde honingbijkolonies
-- Zonder bescherming: **35-56%** van de kolonies overleeft onder hoge hoornaardruk (Requier et al. 2020; Rojas-Nossa et al. 2022) — [zie details](#431-kolonie-overleving)
-- Met bescherming (elektrische harpen, snuitmaskers): **55-78%** overleving (Requier et al. 2020; Rojas-Nossa et al. 2022) — [zie details](#431-kolonie-overleving)
-- **Risicodrempel**: Wanneer u **≥5 hoornaars** bij uw bijenstand ziet, lopen uw kolonies risico (Diéguez-Antón et al. 2025) — [zie details](#432-mortaliteitsfactoren)
-- **Kolonieverlies**: is multifactorieel, de invloed van de hoornaar kan niet worden gescheiden van andere oorzaken van kolonieverlies — [zie details](#43-kolonie-overleving-en-verlies)
-
-### Gedragsveranderingen van _Apis mellifera_
-- Bijen stoppen met foerageren wanneer **≥12,6 hoornaars** aanwezig zijn (foerageerparalyse) (Requier et al. 2019) — [zie details](#441-foerageerparalyse-drempelwaarden)
-- Dit leidt tot kolonieverhongering en wintersterfte (Requier et al. 2019) — [zie details](#44-apis-mellifera-gedrag)
-- Beschermingsmaatregelen kunnen foerageerparalyse met tot 41% verminderen (Requier et al. 2020) — [zie details](#441-foerageerparalyse-drempelwaarden)
-- **Defensief gedrag** (*Apis mellifera*): 9,5% van de hoornaars gedood door balling buiten de kast onder natuurlijke omstandigheden; 76,4% gedood wanneer experimenteel in de kast geplaatst (Arca et al. 2014) — [zie details](#442-activiteitsreducties)
-
-### Economische impact van _Vespa velutina_ op _Apis mellifera_
-
-**Invacost Database**: De InvaCost database biedt een uitgebreide wereldwijde repository van economische kosten van invasieve uitheemse soorten, inclusief *Vespa velutina*. Data kan worden benaderd via de website, GitHub repository, of R package voor analyse. — [zie details](#453-invacost-database)
-
-
+  
 ## Projectoverzicht
 
 Bijna een kwart eeuw is verstreken sinds _Vespa velutina_ per ongeluk in Europa arriveerde. En deze Aziatische hoornaar met haar gele poten gebruikt haar vleugels om zich te verspreiden over een groot deel van Europa. Volwassen werksters hebben eiwitrijke prooien nodig om de ontwikkelende larven in hun nesten te voeden, die ze voornamelijk uit insecten halen. Ze maken het zichzelf niet moeilijk—in Europa zijn gedomesticeerde bijen (_Apis mellifera_) ruim beschikbaar en gemakkelijk te vangen. Laten we dus uitzoeken wat er gepubliceerd is over de bijdrage van de **gele poten hoornaar** aan de achteruitgang van Westerse **honingbij**populaties.
