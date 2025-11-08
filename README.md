@@ -6,8 +6,10 @@ _If bees only gathered nectar from perfect flowers, they wouldn't be able to mak
 - Klik [hier]() voor de nederlandse versie.
 
 ## Table of Contents
-- [Project Overview](#project-overview)
-- [Rationale](#rationale)
+- [Summary](#summary)
+  - [Colony Survival](#colony-survival)
+  - [Behavioral Changes](#behavioral-changes)
+  - [Economic Impact](#economic-impact)
 - [1. Literature searches](#1-literature-searches)
   - [1.1 Keywords](#11-keywords)
   - [1.2. Database searches](#12-database-searches)
@@ -31,7 +33,9 @@ _If bees only gathered nectar from perfect flowers, they wouldn't be able to mak
     - [4.4.1 Foraging Paralysis Thresholds](#441-foraging-paralysis-thresholds)
     - [4.4.2 Activity Reductions](#442-activity-reductions)
   - [4.5 Economic Impact](#45-economic-impact)
-    - [4.5.1 Invacost](#451-invacost)
+    - [4.5.1 Colony Loss Costs](#451-colony-loss-costs)
+    - [4.5.2 Other Countries](#452-other-countries)
+    - [4.5.3 Invacost Database](#453-invacost-database)
   - [4.6 Background data](#46-background-data)
     - [4.6.1 Study Locations](#461-study-locations)
     - [4.6.2 Apiaries and Colonies](#462-apiaries-and-colonies)
@@ -50,22 +54,20 @@ _If bees only gathered nectar from perfect flowers, they wouldn't be able to mak
 
 This repository synthesizes evidence from **30 scientific studies** to quantify the impact of Asian hornet (_Vespa velutina_) on domestic honeybee colonies (_Apis mellifera) in Europe/the Netherlands.
 
-**Colony Survival:**
+### Colony Survival
 - Without protection: **35-56%** of colonies survive under high hornet pressure (Requier et al. 2020; Rojas-Nossa et al. 2022) — [see details](#431-colony-survival)
 - With protection (electric harps, muzzles): **55-78%** survival (Requier et al. 2020; Rojas-Nossa et al. 2022) — [see details](#431-colony-survival)
 - **Risk threshold**: When you see **≥5 hornets** at your apiary, your colonies are at risk (Diéguez-Antón et al. 2025) — [see details](#432-mortality-factors)
 - **Colony loss**: is multifactoral, influence of the hornet cannot be separated from other causes of colony loss — [see details](#43-colony-survival-and-loss)
 
-**Economic Impact (France):**
-- **Low impact scenario**: €2.8 million per year in colony losses (2.6% of all colonies) (Requier et al. 2023) — [see details](#45-economic-impact)
-- **High impact scenario**: €30.8 million per year (29.2% of all colonies) (Requier et al. 2023) — [see details](#45-economic-impact)
-- **Cost per colony lost**: €100 replacement cost (Requier et al. 2020a, cited in Requier et al. 2023)
-- **Economic damage is 2-3× higher than control costs** (€11.9M/year for nest removal) (Barbet-Massin et al. 2020, cited in Requier et al. 2023) — [see details](#45-economic-impact)
-
-**Behavioral Changes:**
+### Behavioral Changes
 - Bees stop foraging when **≥12.6 hornets** are present (foraging paralysis) (Requier et al. 2019) — [see details](#441-foraging-paralysis-thresholds)
 - This leads to colony starvation and winter mortality (Requier et al. 2019) — [see details](#44-apis-mellifera-behavior)
 - Protection measures can reduce foraging paralysis by up to 41% (Requier et al. 2020) — [see details](#441-foraging-paralysis-thresholds)
+
+### Economic Impact
+The InvaCost database provides a comprehensive global repository of economic costs of invasive alien species, including *Vespa velutina*. Data can be accessed via the website, GitHub repository, or R package for analysis. — [see details](#453-invacost-database)
+
 
 ## Project Overview
 
@@ -86,6 +88,7 @@ Nearly a quarter century has passed since _Vespa velutina_ arrived by accident i
   - High methodological heterogeneity
   - Inconsistent outcome measures
   - Lack of explicit control groups
+  - Limited to free online literature databases and available pdf's.
 
 ## 1. Literature searches
 **Updated:** 2025-10-30
@@ -150,13 +153,13 @@ Only open access databases were used.
 
 ### 1.3 Citation chaser
 [Citation chaser](https://estech.shinyapps.io/citationchaser/)
-- initial search 2025-10-30: 56 references
+- Initial search 2025-10-30: 56 references
 
 ### 1.4 Deduplication
 [Rayyan](https://new.rayyan.ai/)
-- imported references: 915
-- duplications detected: 347
-- unique references for phase I screening: 612
+- Imported references: 915
+- Duplications detected: 347
+- Unique references for phase I screening: 612
 
 ## 2. Phase I screening
 ### 2.1. ASReview LAB screening
@@ -523,7 +526,11 @@ Draft data extraction of the quatitative data for each pdf is done with Cursor.a
 
 ### 4.5 Economic Impact
 
-#### 4.5.1 Colony Loss Costs (Requier et al. 2023, France)
+#### 4.5.1 Colony Loss Costs
+
+**France (Requier et al. 2023)**
+
+**Note**: This analysis was originally based on a preprint version (published 2023, Science of the Total Environment). The study is France-specific and uses spatial modeling combining field data, niche modeling, and BEEHAVE agent-based simulations. No comparable quantitative economic impact studies are available for other European countries.
 
 **National Economic Costs (Yearly)**
 
@@ -556,15 +563,48 @@ Draft data extraction of the quatitative data for each pdf is done with Cursor.a
 - High scenario based on maximum observed values (realistic but extreme)
 - Real economic cost likely between low and high scenarios
 
-#### 4.5.2 Invacost Database
-**Website**: https://invacost.fr/  
-**GitHub Repository**: https://github.com/Farewe/invacost  
-**Data Format**: CSV/Excel bestanden, R package
+#### 4.5.2 Other Countries
+
+**Spain** (Angulo et al. 2021):
+- Total economic costs of invasive alien species: €232 million (1997-2022)
+- Cost increase: €4 million/year before 2000 → €15 million/year in recent years
+- **Limitation**: Costs aggregated across 174 invasive species; *Vespa velutina*-specific costs not separately reported
+- Study excluded from main analysis (no original *Vespa velutina* data)
+
+**Portugal and Belgium**: No quantitative economic impact studies available. Studies from these countries focus on predation behavior and colony monitoring rather than economic costs.
+
+**Control Cost Projections** (Barbet-Massin et al. 2020):
+- Potential control costs if species fills climatically suitable distribution:
+  - Italy: €9.0M/year
+  - United Kingdom: €8.6M/year
+- **Note**: These are control cost projections, not damage cost estimates
+
+#### 4.5.3 Invacost Database
+
+The InvaCost database is a comprehensive global repository documenting economic costs of invasive alien species worldwide, including *Vespa velutina*. The database provides standardized cost data that can be used for comparative analyses and policy assessments.
+
+**Access and Data Format:**
+- **Website**: https://invacost.fr/
+- **GitHub Repository**: https://github.com/Farewe/invacost
+- **Data Format**: CSV/Excel files, R package (`invacost`)
+- **Citation**: Diagne et al. (2020). High and rising economic costs of biological invasions worldwide. *Nature*, 592, 571-576. https://doi.org/10.1038/s41586-021-03405-6
+
+**Database Contents:**
+- Global coverage of invasive species economic costs
+- Standardized cost categories (damage, management, prevention)
+- Temporal data (costs over time)
+- Geographic data (costs by country/region)
+- Cost type classification (observed vs. potential, robust vs. extrapolated)
+
+**Use for *Vespa velutina* Research:**
+- Filter database for *Vespa velutina*-specific cost entries
+- Compare costs across different countries and time periods
+- Analyze cost trends and patterns
+- Extract data for economic impact assessments
+
+**Note**: The database aggregates cost data from multiple sources. Users should verify data quality and methodology for specific entries. Some entries may represent aggregated costs (e.g., all invasive species in a region) rather than species-specific costs.
 
 ### 4.6 Background data
-#### 4.6.1 Invacost
-
-
 #### 4.6.1 Study Locations
 | Country | Number of Studies | Key Findings |
 |---------|-------------------|--------------|
