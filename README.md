@@ -641,7 +641,7 @@ The InvaCost database is a comprehensive global repository documenting economic 
 **Note**: The database aggregates cost data from multiple sources. Users should verify data quality and methodology for specific entries. Some entries may represent aggregated costs (e.g., all invasive species in a region) rather than species-specific costs.
 
 ### 4.6 Background data
-<img src="images/study_timeline.jpg" alt="Study timeline" width="600">
+<img src="images/study_timeline.jpg" alt="Study timeline" width="450">
 #### 4.6.1 Study Locations
 | Country | Number of Studies | Key Findings |
 |---------|-------------------|--------------|
@@ -652,7 +652,7 @@ The InvaCost database is a comprehensive global repository documenting economic 
 | Europe (pan-European) | 1 | EPILOBEE study across 17 countries |
 | Multiple countries | 1 | Pedersen et al. 2025 (Jersey, France, Spain, UK) |
 
-<img src="images/study_locations.jpg" alt="Study locations" width="600">
+<img src="images/study_locations.jpg" alt="Study locations" width="450">
 ### 4.6.2 Apiaries and Colonies
 
 | Study | Apiaries | Colonies | Nests | _Vespa velutina_ | Notes |
@@ -687,9 +687,9 @@ The InvaCost database is a comprehensive global repository documenting economic 
 - Different sample sizes and study designs
 - Geographic and temporal variation
 - Inconsistent statistical reporting
-<img src="images/observation_methods.jpg" alt="Observation methods" width="600">
+<img src="images/observation_methods.jpg" alt="Observation methods" width="450">
 
-<img src="images/outcome_types.jpg" alt="Outcome types" width="600">
+<img src="images/outcome_types.jpg" alt="Outcome types" width="450">
 
 ## Notes
 
@@ -707,40 +707,3 @@ The InvaCost database is a comprehensive global repository documenting economic 
 4. **Geographic and temporal variation**: Studies span different countries, years, and seasons, with varying _Vespa velutina_ population densities and beekeeping practices.
 5. **Small sample sizes per study**: Many studies have small sample sizes (2-6 colonies, 1-3 apiaries), limiting statistical power for meta-analysis.
 6. **Diverse study designs**: Mix of experimental interventions (muzzles, electric harps), observational studies, and modeling approaches cannot be meaningfully combined in a single meta-analysis.
-
-## 5 [WORK IN PROGRESS] Update hornet hotspots 
-
-### 5.1 Removal Priority Index (RPI)
-
-Purpose: prioritize areas for Asian hornet nest removal in the next month using a transparent, reproducible 0–100 score.
-
-Inputs (normalized; see detailed documentation):
-- Recent vespa velutina/nests intensity (last 30–90 days), weighting secondary nests higher (waarnemingen.nl; GBIF).
-- Apiary/hive density proxy (FAOSTAT national hives scaled subnationally) [to be verified].
-- Seasonal factor (peak July–October; 15–26°C optimal) based on published thresholds.
-- Cost-of-delay multiplier informed by economic impact/control cost literature.
-
-Formula (summary): RPI = 100 × Σ(weight × normalized_input). Initial weights: sightings 0.40; secondary share 0.20; apiary proxy 0.20; season 0.10; cost-of-delay 0.10. Bands and actions:
-- 0–24 Low: Monitor; beekeeper self-protection briefing.
-- 25–49 Moderate: Validate; remove if repeated events ≥5 hornets.
-- 50–74 High: Schedule removal ≤7 days; alert local beekeepers.
-- 75–100 Very High: Immediate removal ≤72 h; surge capacity.
-
-Methodology and variables are specified here: `5_visualisation_reporting/RPI_methodology.md`.
-
-Data sources and URLs: GBIF (`https://www.gbif.org/`), EPPO (`https://gd.eppo.int/`), Vespa‑Watch.nl (`https://vespa-watch.nl/`), FAOSTAT (`https://www.fao.org/faostat/`), InvaCost (`https://invacost.fr/`), EASIN (`https://easin.jrc.ec.europa.eu/`).
-
-Key thresholds referenced: Monceau et al. 2018; Requier et al. 2019, 2020, 2023 [to be verified]; Rojas‑Nossa et al. 2022; Diéguez‑Antón et al. 2025.
-
-Assumptions and limitations:
-- Citizen science data are biased; normalization uses percentile scaling and bands are interpreted with caution.
-- Apiary proxy may be coarse where subnational data are unavailable [to be verified].
-- RPI is decision support, not causal impact.
-
-### 5.2 Monthly Outputs
-
-- Scores (CSV): `4_data_extraction/rpi_scores_202511.csv` (schema documented in `RPI_methodology.md`).
-- Choropleth map: `5_visualisation_reporting/rpi_map_202511.jpg` (RPI bands).
-- Optional: Top 20 areas table: `5_visualisation_reporting/rpi_top20_202511.csv`.
-
-Each monthly artifact must include download dates, filters, and any preprocessing notes consistent with the Data Management Standards.
