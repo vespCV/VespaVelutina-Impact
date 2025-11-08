@@ -636,6 +636,7 @@ The InvaCost database is a comprehensive global repository documenting economic 
 ### 4.6 Background data
 <img src="images/study_timeline.jpg" alt="Study timeline" width="450">
 #### 4.6.1 Study Locations
+
 | Country | Number of Studies | Key Findings |
 |---------|-------------------|--------------|
 | France | 17 | Highest number of studies, longest invasion history |
