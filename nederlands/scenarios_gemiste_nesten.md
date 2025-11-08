@@ -22,15 +22,48 @@ Scenario's op basis van waarnemingen.nl meldingen, maximaal waargenomen nestdich
 
 **Bekende cijfers** (waarnemingen.nl, nesten gemeld in juni-november):
 - 2024 (juni-november): 1,887 gemeld, 1,521 verwijderd (80.6% verwijderingsgraad)
-- 2025 (juni-7 november): 6,569 gemeld (verwijderingscijfers nog niet beschikbaar)[Nog updaten aan eind van 2025]
+- 2025 (juni-7 november): 6,569 gemeld (verwijderingscijfers nog niet beschikbaar). **Cijfers voor 2025 betreffen meldingen t/m 7 november; het uiteindelijke aantal zal hoger liggen.** [Wordt geactualiseerd na einde 2025]
 - Totaal 2024: 2,481 gemeld, 2,000 verwijderd (80.6%)
-Note: Secundaire nesten worden niet afzonderlijk gemeld op waarnemingen.nl Nesten gemeld in juni-december(evt jan-feb opvolgende jaar) aangenomen dat hiervan >90% secundaire nesten betreft. [te verifieren]
+Note: Secundaire nesten worden niet afzonderlijk gemeld op waarnemingen.nl Nesten gemeld in juni-december (eventueel januari–februari van het daaropvolgende jaar) aangenomen dat hiervan >90% secundaire nesten betreft. [te verifieren]
 
 ### Waargenomen trends
 
 **Groei 2024-2025**: 6,569 / 1,887 = **3.48×** [updaten aan eind van 2025; zal nog hoger uitkomen]
 
 **Vergelijking met België** (Oost-Vlaanderen): 2021: ~50 nesten → 2023: ~1,500 nesten = **30× over 2 jaar** (≈5.48×/jaar in vroege fase)
+
+### Analyse van gemiste nesten 2024 (op basis van reproductie en groei 2025)
+
+**Aannames**:
+- Groei: 5.48× (zoals in Oost-Vlaanderen)
+- Uit ieder gemist nest komen 6 nieuwe nesten
+- Reproductie komt van alle gemiste nesten (niet-verwijderd + niet-gedetecteerd)
+- Totaal 2024: 2,481 gemeld, 2,000 verwijderd → 481 niet verwijderd (19.4% van 2,481)
+- Secundaire nesten 2024 (juni-november): 1,887 gemeld, (aanname dat 19.4% ook geld voor secundaire nesten) 1,521 verwijderd → 366 niet verwijderd
+- Secundaire nesten 2025 (juni-november): 6,569 gemeld
+
+**Berekening**:
+- Verwachte nesten 2025 bij 5.48× groei: 1,887 × 5.48 = **10,341 nesten**
+- Werkelijke nesten 2025: **6,569 nesten**
+- Verschil: 10,341 - 6,569 = **3,772 "ontbrekende" nesten**
+- Totale gemiste nesten 2024 (bij reproductiefactor 6): 3,772 / 6 = **~629 nesten**
+
+**Samenstelling gemiste nesten**:
+- Niet-verwijderde nesten totaal 2024: **481 nesten** (19.4% van 2,481 gemeld; bevat primaire + secundaire nesten)
+- Van de 481 niet-verwijderde nesten in totaal worden ~366 ingeschat als secundaire nesten (juni–november)
+- Niet-verwijderde secundaire nesten (juni-november): **366 nesten** (van 1,887 gemeld)
+- Berekend totaal gemist: **~629 nesten**
+- **Niet-gedetecteerde nesten**: 629 - 366 = **~263 nesten** (voor secundaire nesten juni-november)
+
+**Interpretatie**:
+- Reproductie komt van alle gemiste nesten: 366 niet-verwijderd + ~263 niet-gedetecteerd = ~629 nesten
+- Deze 629 nesten produceren: 629 × 6 = 3,774 nieuwe nesten (≈ 3,772 verschil)
+- **Conclusie**: Naast de 366 niet-verwijderde secundaire nesten zijn er vermoedelijk nog ~263 secundaire nesten niet gedetecteerd in 2024 (juni-november)
+
+**Beperkingen**:
+- Deze berekening veronderstelt dat alleen gemiste en niet voor 15 november verwijderde nesten reproduceren
+- Detectiegraad in 2024 is onbekend (berekend op ~88% voor secundaire nesten: 1,887 / (1,887 + 263) ≈ 0.877, maar dit is een vereenvoudiging)
+- Reproductiefactor van 6 nesten per gemist nest is een aanname
 
 ### Belangrijkste bevindingen
 
@@ -43,7 +76,10 @@ Note: Secundaire nesten worden niet afzonderlijk gemeld op waarnemingen.nl Neste
 
 **Aannames**: 80.6% verwijderingsgraad, 80% detectiegraad vanaf 2025. Gebaseerd op nesten gemeld op waarnemingen.nl in 2024-2025 juni-november. [updaten incl gemiste nesten van 15 nov-december]
 
-**Scenario A: Hoge groei** (5.48×/jaar vanaf 2025, gebaseerd op Oost-Vlaanderen groei, dichtheidsafhankelijke vertraging niet meegenomen):
+**Toelichting "Totaal" kolom**: In alle scenario's omvat "Totaal" de geschatte totale nesten inclusief niet-gedetecteerde exemplaren (gecorrigeerd voor detectiegraad).
+
+**Scenario A: Hoge groei** (5.48×/jaar vanaf 2025-2026, gebaseerd op Oost-Vlaanderen groei 2021-2023, dichtheidsafhankelijke vertraging niet meegenomen):
+*Scenario A start vanaf 2025 met de hogere groeifactor van 5.48× (analogie Oost-Vlaanderen 2021–2023). Groei 2024→2025 blijft 3.48× zoals waargenomen. 2025→2026 is het eerste jaar met 5.48× groei.*
 
 | Jaar | Groeifactor | Gemeld | Verwijderd | Niet verwijderd | **Totaal** |
 |------|-------------|--------|------------|-----------------|------------|
@@ -53,9 +89,10 @@ Note: Secundaire nesten worden niet afzonderlijk gemeld op waarnemingen.nl Neste
 | 2027 | 5.48× | ~197,379 | ~159,090 | ~38,289 | **~246,724** |
 | 2028 | 5.48× | ~1,081,637 | ~872,199 | ~209,438 | **~1,352,046** |
 
-2028 zit boven maximale nest dichtheid, zie hieronder.
+*2028 zit boven maximale nestdichtheid, zie hieronder.*
 
 **Scenario B: Conservatief** (afnemende groei: 3.0× → 2.5× → 2.2×, dichtheidsafhankelijke vertraging, 80% detectie, 80.6% verwijdering):
+*De groeifactoren impliceren gemiddeld een reproductiefactor tussen 5–6 nesten per niet-verwijderd nest, in overeenstemming met eerdere aannames.*
 
 | Jaar | Groeifactor | Gemeld | Verwijderd | Niet verwijderd | **Totaal** |
 |------|-------------|--------|------------|-----------------|------------|
@@ -63,9 +100,10 @@ Note: Secundaire nesten worden niet afzonderlijk gemeld op waarnemingen.nl Neste
 | 2025 | 3.48× | 6,569 | ~5,295 | ~1,274 | **~8,211** |
 | 2026 | 3.0× | ~19,707 | ~15,884 | ~3,823 | **~24,634** |
 | 2027 | 2.5× | ~49,268 | ~39,710 | ~9,558 | **~61,585** |
-| 2028 | 2.2× | ~108,390 | ~87,364 | ~21,026 | **~135,488** |
+| 2028 | 2.2× | ~108,390 | ~87,364 | ~21,026 | **135,488** |
 
 **Scenario C: Optimale bestrijding** (afnemende groei: 3.0× → 2.5× → 2.2×, dichtheidsafhankelijke vertraging, 90% detectie, 95% verwijdering):
+*De groeifactoren impliceren gemiddeld een reproductiefactor tussen 5–6 nesten per niet-verwijderd nest, in overeenstemming met eerdere aannames. Bij de hogere verwijderingsgraad van 95% neemt de effectieve reproductie substantieel af, waardoor de groei per saldo trager verloopt dan in Scenario B.*
 
 | Jaar | Groeifactor | Gemeld | Verwijderd | Niet verwijderd | **Totaal** |
 |------|-------------|--------|------------|-----------------|------------|
@@ -73,9 +111,7 @@ Note: Secundaire nesten worden niet afzonderlijk gemeld op waarnemingen.nl Neste
 | 2025 | 3.48× | 6,569 | ~6,241 | ~328 | **~7,299** |
 | 2026 | 3.0× | ~18,720 | ~17,784 | ~936 | **~20,800** |
 | 2027 | 2.5× | ~46,800 | ~44,460 | ~2,340 | **~52,000** |
-| 2028 | 2.2× | ~102,960 | ~97,812 | ~5,148 | **~114,400** |
-
-*Totaal = geschat totaal aantal nesten inclusief niet-gedetecteerde (bij respectievelijk 80% en 90% detectiegraad)*
+| 2028 | 2.2× | ~102,960 | ~97,812 | ~5,148 | **114,400** |
 
 ### Maximale aantal nesten in Nederland
 
@@ -92,9 +128,9 @@ Note: Secundaire nesten worden niet afzonderlijk gemeld op waarnemingen.nl Neste
 - Maximum: ~331,020 nesten
 
 **Vergelijking met projecties**:
-- **Scenario A 2028** (~1,352,046 nesten) = ~408-1,041% van maximale nestdichtheid (verre overschrijding; scenario onrealistisch zonder dichtheidsafhankelijke factoren)
-- **Scenario B 2028** (~135,488 nesten) = ~41-104% van maximale nestdichtheid
-- **Scenario C 2028** (~114,400 nesten) = ~35-88% van maximale nestdichtheid
+- **Scenario A 2028** (~1,352,046 nesten) overschrijdt de theoretische nestdichtheid met **409%** (t.o.v. maximum: 331,020), **489%** (t.o.v. realistisch: 276,210), en **1,041%** (t.o.v. conservatief: 129,870). Verre overschrijding; scenario onrealistisch zonder dichtheidsafhankelijke factoren.
+- **Scenario B 2028** (135,488 nesten) = ~41-104% van maximale nestdichtheid
+- **Scenario C 2028** (114,400 nesten) = ~35-88% van maximale nestdichtheid. Scenario C blijft binnen de realistische maximale nestdichtheid (~114 k vs ~276 k). Daarmee vormt het het enige structureel beheersbare scenario op nationale schaal, mits voldoende middelen en vroege detectie aanwezig zijn.
 
 Bij bereiken van nestdichtheid zal groei afvlakken door dichtheidsafhankelijke factoren. Scenario B en C houden hier rekening mee. Scenario C toont het effect van verbeterde detectie (90%) en verwijdering (95%).
 
@@ -104,31 +140,33 @@ Bij bereiken van nestdichtheid zal groei afvlakken door dichtheidsafhankelijke f
 
 **Capaciteit**: 275-500 nesten/jaar (Zeeland 2024: 275 nesten/bestrijder)
 
+*Bestrijders = benodigde aantal bestrijders bij gegeven capaciteit per bestrijder*
+
 **Scenario A (hoge groei, 5.48×/jaar)**:
 
-| Jaar | Te verwijderen | Conservatief (275/jaar) | Realistisch (400/jaar) | Optimistisch (500/jaar) |
-|------|----------------|------------------------|------------------------|-------------------------|
+| Jaar | Te verwijderen | Bestrijders (275/jaar) | Bestrijders (400/jaar) | Bestrijders (500/jaar) |
+|------|----------------|------------------------|------------------------|------------------------|
 | 2026 | ~29,031 | **106** | **73** | **58** |
 | 2027 | ~159,090 | **579** | **398** | **318** |
 | 2028 | ~872,199 | **3,172** | **2,180** | **1,744** |
 
 **Scenario B (conservatief, 80% detectie, 80.6% verwijdering)**:
 
-| Jaar | Te verwijderen | Conservatief (275/jaar) | Realistisch (400/jaar) | Optimistisch (500/jaar) |
-|------|----------------|------------------------|------------------------|-------------------------|
+| Jaar | Te verwijderen | Bestrijders (275/jaar) | Bestrijders (400/jaar) | Bestrijders (500/jaar) |
+|------|----------------|------------------------|------------------------|------------------------|
 | 2026 | ~15,884 | **58** | **40** | **32** |
 | 2027 | ~39,710 | **144** | **99** | **79** |
 | 2028 | ~87,364 | **318** | **218** | **175** |
 
 **Scenario C (optimale bestrijding, 90% detectie, 95% verwijdering)**:
 
-| Jaar | Te verwijderen | Conservatief (275/jaar) | Realistisch (400/jaar) | Optimistisch (500/jaar) |
-|------|----------------|------------------------|------------------------|-------------------------|
+| Jaar | Te verwijderen | Bestrijders (275/jaar) | Bestrijders (400/jaar) | Bestrijders (500/jaar) |
+|------|----------------|------------------------|------------------------|------------------------|
 | 2026 | ~17,784 | **65** | **44** | **36** |
 | 2027 | ~44,460 | **162** | **111** | **89** |
 | 2028 | ~97,812 | **356** | **245** | **196** |
 
-**Seizoensgebonden piek**: Vraag geconcentreerd in juni-november.
+**Seizoensgebonden piek**: De vraag piekt in juni–november.
 
 ### Opsporing via detector in apiaria
 
@@ -141,14 +179,14 @@ Bij bereiken van nestdichtheid zal groei afvlakken door dichtheidsafhankelijke f
 - **Scenario C**: ~114,400 nesten
 - Bij 1 km vliegbereik: 17,000 apiaria × 3.14 km² = 53,380 km²
 - Nederland: 41,543 km² → **Theoretische dekking: 129%** (volledige dekking met overlap)
-- **Effectieve dekking**: 80-95% (afhankelijk van spreiding apiaria)
+- **Effectieve dekking**: Hoewel de theoretische dekking >100% is, ligt de effectieve dekking vermoedelijk tussen 70–90% vanwege clustering van bijenstanden (apiaria liggen niet uniform verspreid).
 
 **Conclusie**: 
 - **Scenario B**: Geografisch haalbaar bij 1 km vliegbereik. Praktisch uitvoerbaar mits actieve betrokkenheid imkers, vroege detectie (juni-juli), voldoende verwijderingscapaciteit (175-318 bestrijders) en effectieve coördinatie.
 - **Scenario C**: Geografisch haalbaar bij 1 km vliegbereik. Vereist verbeterde detectie (90%) en verwijdering (95%), resulteert in lagere aantallen dan Scenario B. Vereist 196-356 bestrijders in 2028.
 - **Scenario A**: Onhaalbaar gezien het aantal nesten (~1,352,046 in 2028). Dichtheidsafhankelijke factoren zullen groei waarschijnlijk beperken voordat deze aantallen worden bereikt.
 
-**Beperking**: detectie graad, is het mogelijk meer dan 95% te halen. Dit lijkt onwaarschijnlijk.
+**Beperking**: Detectiegraad, is het mogelijk meer dan 95% te halen. Dit lijkt onwaarschijnlijk.
 [te verifieren: locaties van bijenkasten]
 
 ## Samenvatting
