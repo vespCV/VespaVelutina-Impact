@@ -17,5 +17,9 @@ pdf included/
 # Ignore excel files
 *.xlsx
 
-# Archive
+# Ignore python files
+__pycache__/
+*.py
+
+# Ignore archive folder
 archive/

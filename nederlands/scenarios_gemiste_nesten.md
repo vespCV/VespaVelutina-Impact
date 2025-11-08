@@ -17,6 +17,7 @@ Scenario's op basis van waarnemingen.nl meldingen, maximaal waargenomen nestdich
 4. [Samenvatting](#samenvatting)
 5. [Aannames en beperkingen](#aannames-en-beperkingen)
 6. [Referenties](#referenties)
+6. [Disclaimer](#disclaimer)
 
 ## Huidige situatie
 
@@ -217,3 +218,6 @@ Bij bereiken van nestdichtheid zal groei afvlakken door dichtheidsafhankelijke f
 - Apiaria: immaterieelerfgoed.nl, edepot.wur.nl
 - Bestrijder capaciteit: [brabant.nl](https://www.brabant.nl/publish/pages/13642/achtergronddocument-bestrijding-aziatische-hoornaar.pdf)
 - België groei: VRT NWS (2024) - Oost-Vlaanderen: 50 nesten (2021) → 1,500 nesten (2023). [vrt.be](https://www.vrt.be/vrtnws/nl/2024/11/22/oost-vlaanderen-aziatische-hoornaar-nesten-verdelgen/)
+
+## Disclaimer
+Grafieken en berekeningen zijn gegenereerd met behulp van Cursor.AI.
