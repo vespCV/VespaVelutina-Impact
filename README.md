@@ -81,13 +81,11 @@ Nearly a quarter century has passed since _Vespa velutina_ arrived by accident i
 - _Apis mellifera_ behavior changes
 - Economic impact
 
-**Note:** 
-- Many observational studies lack explicit control groups.
-- Study locations are mainly in Spain and France
-- Economic impact is 
-
-## Rationale
-Effective management strategies require evidence-based decisions. To date, the quantitative evidence base for predation impacts and associated economic consequences remains fragmented. This exploratory work aims to assess whether sufficient evidence exists to conduct a systematic review or meta-analysis that may contribute to better-informed decisions about management policies, nest removal strategies, and beekeeping practices.
+**Limitations**
+- Studies on the impact of _Vespa velutina_ on _Apix mellifera_ aren't perfect flowers
+  - High methodological heterogeneity
+  - Inconsistent outcome measures
+  - Lack of explicit control groups
 
 ## 1. Literature searches
 **Updated:** 2025-10-30
