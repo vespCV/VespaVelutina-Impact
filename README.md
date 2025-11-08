@@ -105,7 +105,7 @@ Nearly a quarter century has passed since _Vespa velutina_ arrived by accident i
   - High methodological heterogeneity
   - Inconsistent outcome measures
   - Lack of explicit control groups
-  - This overview is limited to free online literature databases and available PDFs.
+  - Not all PDF's and databases are free online available
 
 ## 1. Literature searches
 **Updated:** 2025-10-30

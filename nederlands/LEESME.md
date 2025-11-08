@@ -106,7 +106,7 @@ Bijna een kwart eeuw is verstreken sinds _Vespa velutina_ per ongeluk in Europa 
   - Hoge methodologische heterogeniteit
   - Inconsistente uitkomstmetingen
   - Gebrek aan expliciete controlegroepen
-  - Dit overzicht is beperkt tot gratis online literatuurdatabases en beschikbare PDF's.
+  - Niet alle PDF's en databases zijn gratis online beschikbaar
 
 ## 1. Literatuurzoekacties
 **Bijgewerkt:** 2025-10-30
