@@ -641,7 +641,7 @@ The InvaCost database is a comprehensive global repository documenting economic 
 **Note**: The database aggregates cost data from multiple sources. Users should verify data quality and methodology for specific entries. Some entries may represent aggregated costs (e.g., all invasive species in a region) rather than species-specific costs.
 
 ### 4.6 Background data
-![Study timeline](5_visualisation_reporting/study_timeline.jpg)
+![Study timeline](https://raw.githubusercontent.com/vespCV/VespaVelutina-Impact/main/images/study_timeline.jpg)
 #### 4.6.1 Study Locations
 | Country | Number of Studies | Key Findings |
 |---------|-------------------|--------------|
@@ -651,7 +651,7 @@ The InvaCost database is a comprehensive global repository documenting economic 
 | United Kingdom | 2 | Early detection and eradication efforts |
 | Europe (pan-European) | 1 | EPILOBEE study across 17 countries |
 | Multiple countries | 1 | Pedersen et al. 2025 (Jersey, France, Spain, UK) |
-![Study locatons](5_visualisation_reporting/study_locations.jpg)
+![Study locatons](https://raw.githubusercontent.com/vespCV/VespaVelutina-Impact/main/images/study_locations.jpg)
 ### 4.6.2 Apiaries and Colonies
 
 | Study | Apiaries | Colonies | Nests | _Vespa velutina_ | Notes |
@@ -686,8 +686,9 @@ The InvaCost database is a comprehensive global repository documenting economic 
 - Different sample sizes and study designs
 - Geographic and temporal variation
 - Inconsistent statistical reporting
-![observation methods](5_visualisation_reporting/observation_methods.jpg)
-![outcome types](5_visualisation_reporting/outcome_types.jpg)
+![Observartion methods](https://raw.githubusercontent.com/vespCV/VespaVelutina-Impact/main/images/observation_methods.jpg)
+
+![outcome types](https://raw.githubusercontent.com/vespCV/VespaVelutina-Impact/main/images/outcome_types.jpg)
 
 ## Notes
 
@@ -706,14 +707,14 @@ The InvaCost database is a comprehensive global repository documenting economic 
 5. **Small sample sizes per study**: Many studies have small sample sizes (2-6 colonies, 1-3 apiaries), limiting statistical power for meta-analysis.
 6. **Diverse study designs**: Mix of experimental interventions (muzzles, electric harps), observational studies, and modeling approaches cannot be meaningfully combined in a single meta-analysis.
 
-## 5 [EXPERIMENTAL] Planning and Prioritization 
+## 5 [EXPERIMENTAL] Update hornet hotspots 
 
 ### 5.1 Removal Priority Index (RPI)
 
-Purpose: prioritize areas for Asian hornet nest removal in the next month using a transparent, reproducible 0–100 score. Audience: provincial coordinators, municipalities, beekeeper organizations.
+Purpose: prioritize areas for Asian hornet nest removal in the next month using a transparent, reproducible 0–100 score.
 
 Inputs (normalized; see detailed documentation):
-- Recent sightings/nests intensity (last 30–90 days), weighting secondary nests higher (Vespa-Watch.nl; GBIF).
+- Recent vespa velutina/nests intensity (last 30–90 days), weighting secondary nests higher (waarnemingen.nl; GBIF).
 - Apiary/hive density proxy (FAOSTAT national hives scaled subnationally) [to be verified].
 - Seasonal factor (peak July–October; 15–26°C optimal) based on published thresholds.
 - Cost-of-delay multiplier informed by economic impact/control cost literature.
