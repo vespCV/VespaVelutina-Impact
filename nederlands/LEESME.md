@@ -12,23 +12,23 @@ Deze repository synthetiseert bewijs uit **30 wetenschappelijke studies** om de 
 
 ### Predatiedruk op _Apis mellifera_
 - **Honingbij in dieet**: 22-98% afhankelijk van methode en locatie — [zie details](#422-prooisamenstelling)
-- Biomassa consumptie per hoornaarkolonie: **11,32 kg** insecten per seizoen
-- Prooiconsumptie per hoornaarkolonie: **97.246 honingbij-equivalent** per seizoen
-- **Bereik**: 0-20+ hoornaars gelijktijdig bij bijenstanden — [zie details](#421-predatiesnelheden-en-succes)
+- Biomassa consumptie per _Vespa velutina_ kolonie: **11,32 kg** insecten per seizoen
+- Prooiconsumptie per _Vespa velutina_ kolonie: **97.246 honingbij-equivalent** per seizoen
+- **Bereik**: 0-20+ _Vespa velutina_ gelijktijdig bij bijenstanden — [zie details](#421-predatiesnelheden-en-succes)
 - **Piekperioden**: juli-oktober (varieert per locatie) — [zie details](#422-prooisamenstelling)
 - **Predatiesuccespercentage**: 2,4% (videotracking van natuurlijke predatie bij kastingang) — [zie details](#421-predatiesnelheden-en-succes)
 
 ### Overleving van gedomesticeerde honingbijkolonies
-- Zonder bescherming: **35-56%** van de kolonies overleeft onder hoge hoornaardruk (Requier et al. 2020; Rojas-Nossa et al. 2022) — [zie details](#431-kolonie-overleving)
+- Zonder bescherming: **35-56%** van de kolonies overleeft onder hoge _Vespa velutina_ druk (Requier et al. 2020; Rojas-Nossa et al. 2022) — [zie details](#431-kolonie-overleving)
 - Met bescherming (elektrische harpen, snuitmaskers): **55-78%** overleving (Requier et al. 2020; Rojas-Nossa et al. 2022) — [zie details](#431-kolonie-overleving)
-- **Risicodrempel**: Wanneer u **≥5 hoornaars** bij uw bijenstand ziet, lopen uw kolonies risico (Diéguez-Antón et al. 2025) — [zie details](#432-mortaliteitsfactoren)
-- **Kolonieverlies**: is multifactorieel, de invloed van de hoornaar kan niet worden gescheiden van andere oorzaken van kolonieverlies — [zie details](#43-kolonie-overleving-en-verlies)
+- **Risicodrempel**: Wanneer u **≥5 _Vespa velutina_** bij uw bijenstand ziet, lopen uw kolonies risico (Diéguez-Antón et al. 2025) — [zie details](#432-mortaliteitsfactoren)
+- **Kolonieverlies**: is multifactorieel, de invloed van _Vespa velutina_ kan niet worden gescheiden van andere oorzaken van kolonieverlies — [zie details](#43-kolonie-overleving-en-verlies)
 
 ### Gedragsveranderingen van _Apis mellifera_
-- Bijen stoppen met foerageren wanneer **≥12,6 hoornaars** aanwezig zijn (foerageerparalyse) (Requier et al. 2019) — [zie details](#441-foerageerparalyse-drempelwaarden)
+- Bijen stoppen met foerageren wanneer **≥12,6 _Vespa velutina_** aanwezig zijn (foerageerparalyse) (Requier et al. 2019) — [zie details](#441-foerageerparalyse-drempelwaarden)
 - Dit leidt tot kolonieverhongering en wintersterfte (Requier et al. 2019) — [zie details](#44-apis-mellifera-gedrag)
 - Beschermingsmaatregelen kunnen foerageerparalyse met tot 41% verminderen (Requier et al. 2020) — [zie details](#441-foerageerparalyse-drempelwaarden)
-- **Defensief gedrag** (*Apis mellifera*): 9,5% van de hoornaars gedood door balling buiten de kast onder natuurlijke omstandigheden; 76,4% gedood wanneer experimenteel in de kast geplaatst (Arca et al. 2014) — [zie details](#442-activiteitsreducties)
+- **Defensief gedrag** (*Apis mellifera*): 9,5% van _Vespa velutina_ gedood door balling buiten de kast onder natuurlijke omstandigheden; 76,4% gedood wanneer experimenteel in de kast geplaatst (Arca et al. 2014) — [zie details](#442-activiteitsreducties)
 
 ### Economische impact van _Vespa velutina_ op _Apis mellifera_
 
@@ -70,7 +70,7 @@ Deze repository synthetiseert bewijs uit **30 wetenschappelijke studies** om de 
   - [4.6 Achtergronddata](#46-achtergronddata)
     - [4.6.1 Studielocaties](#461-studielocaties)
     - [4.6.2 Bijenstanden en Kolonies](#462-bijenstanden-en-kolonies)
-    - [4.6.3 Bestudeerde Hoornaarnesten](#463-bestudeerde-hoornaarnesten)
+    - [4.6.3 Bestudeerde _Vespa velutina_ Nesten](#463-bestudeerde-vespa-velutina-nesten)
   - [4.7 Notities en bias](#47-notities-en-bias)
     - [4.7.1 Methodologische Heterogeniteit](#471-methodologische-heterogeniteit)
 - [Notities](#notities)
@@ -78,17 +78,17 @@ Deze repository synthetiseert bewijs uit **30 wetenschappelijke studies** om de 
   
 ## Projectoverzicht
 
-Bijna een kwart eeuw is verstreken sinds _Vespa velutina_ per ongeluk in Europa arriveerde. En deze Aziatische hoornaar met haar gele poten gebruikt haar vleugels om zich te verspreiden over een groot deel van Europa. Volwassen werksters hebben eiwitrijke prooien nodig om de ontwikkelende larven in hun nesten te voeden, die ze voornamelijk uit insecten halen. Ze maken het zichzelf niet moeilijk—in Europa zijn gedomesticeerde bijen (_Apis mellifera_) ruim beschikbaar en gemakkelijk te vangen. Laten we dus uitzoeken wat er gepubliceerd is over de bijdrage van de **gele poten hoornaar** aan de achteruitgang van Westerse **honingbij**populaties.
+Bijna een kwart eeuw is verstreken sinds _Vespa velutina_ per ongeluk in Europa arriveerde. En deze Aziatische hoornaar (_Vespa velutina_) met haar gele poten gebruikt haar vleugels om zich te verspreiden over een groot deel van Europa. Volwassen werksters hebben eiwitrijke prooien nodig om de ontwikkelende larven in hun nesten te voeden, die ze voornamelijk uit insecten halen. Ze maken het zichzelf niet moeilijk—in Europa zijn gedomesticeerde bijen (_Apis mellifera_) ruim beschikbaar en gemakkelijk te vangen. Laten we dus uitzoeken wat er gepubliceerd is over de bijdrage van de **gele poten hoornaar** (_Vespa velutina_) aan de achteruitgang van Westerse **honingbij**populaties.
 
 **Populatie:** _Apis mellifera_ kolonies in Europa
 
 **Vergelijking:** Kolonies zonder _Vespa velutina_ predatie/aanwezigheid
 
 **Uitkomst:** Impactmetingen inclusief:
-- Predatiesnelheden
-- Kolonieverlies
+- _Apis mellifera_ Predatiesnelheden
+- _Apis mellifera_ Kolonieverlies
 - _Apis mellifera_ gedragsveranderingen
-- Economische impact
+- Economische impact van _Vespa velutina_ op _Apis mellifera_
 
 **Beperkingen**
 - Studies over de impact van _Vespa velutina_ op _Apis mellifera_ zijn geen perfecte bloemen
@@ -234,9 +234,9 @@ Conceptuele data extractie van de kwantitatieve data voor elke PDF wordt gedaan 
 | Algehele predatiesuccespercentage | 2,4% | Poidatz et al. 2023 | Frankrijk |
 | Succespercentage (bijen die kast binnengaan) | 69,46% | Poidatz et al. 2023 | Frankrijk |
 | Succespercentage (bijen die kast verlaten) | 15,27% | Poidatz et al. 2023 | Frankrijk |
-| Piek succes (aantal hoornaars) | ~8 hoornaars | Poidatz et al. 2023 | Frankrijk |
+| Piek succes (aantal _Vespa velutina_) | ~8 _Vespa velutina_ | Poidatz et al. 2023 | Frankrijk |
 | Aanvalssuccespercentage | 25% | Perrard et al. 2009 | Frankrijk |
-| Maximale vangsten (aantal hoornaars) | 9 hoornaars | Monceau et al. 2013 | Frankrijk |
+| Maximale vangsten (aantal _Vespa velutina_) | 9 _Vespa velutina_ | Monceau et al. 2013 | Frankrijk |
 
 **Gedetailleerde Bevindingen**
 
@@ -244,7 +244,7 @@ Conceptuele data extractie van de kwantitatieve data voor elke PDF wordt gedaan 
 - Algehele predatiesucces: **2,4%** (126 succesvolle gebeurtenissen uit 5.175 interacties)
 - Succespercentage voor bijen die kast binnengaan: **69,46%** (4× hoger dan bijen die verlaten)
 - Succespercentage voor bijen die kast verlaten: **15,27%**
-- Piek succes treedt op bij **~8 hoornaars**, daarna neemt het af
+- Piek succes treedt op bij **~8 _Vespa velutina_**, daarna neemt het af
 - Steekproef: 5.175 predator-prooi interacties uit 603.259 trajecten
 
 **Perrard et al. 2009** (Frankrijk, 2007)
@@ -253,9 +253,9 @@ Conceptuele data extractie van de kwantitatieve data voor elke PDF wordt gedaan 
 - Steekproef: 359 waargenomen aanvallen, 1 gevangene kolonie
 
 **Monceau et al. 2013** (Frankrijk, 2008-2009)
-- Maximale vangsten bij **9 hoornaars per kast**
+- Maximale vangsten bij **9 _Vespa velutina_ per kast**
 - Piek vangsttijd: **13:00-14:00 uur** (middag)
-- Gevangen hoornaars:
+- Gevangen _Vespa velutina_:
   - ART locatie: **916 individuen** (14 kasten), piek: 106 op 12 nov 2008
   - VIL locatie: **1.894 individuen** (9 kasten), piek: 217 op 12 nov 2008
 - Predatieduur: **5 maanden**
@@ -263,11 +263,11 @@ Conceptuele data extractie van de kwantitatieve data voor elke PDF wordt gedaan 
 - Steekproef: 23 kasten over 2 locaties
 
 **Monceau et al. 2014** (Frankrijk, 2011)
-- Dagelijks bezoekende hoornaars: **~350 hoornaars** (6 kasten)
-- Maximum hoornaars bij enkele kast: **20 hoornaars** gelijktijdig
+- Dagelijks bezoekende _Vespa velutina_: **~350 individuen** (6 kasten)
+- Maximum _Vespa velutina_ bij enkele kast: **20 individuen** gelijktijdig
 - Herinvangstpercentage: **56,67%** totaal (204/360 gemarkeerd), **73,94%** op D1 ochtend
 - Dagelijkse bezoeken per halve dag: **1,88 bezoeken** (bereik: 1,70-2,20)
-- Steekproef: 360 gemarkeerde hoornaars, 6 kasten
+- Steekproef: 360 gemarkeerde _Vespa velutina_, 6 kasten
 
 **Rome et al. 2021** (Frankrijk, 2008-2010)
 - Piek predatietiming: **Begin oktober**
@@ -275,7 +275,7 @@ Conceptuele data extractie van de kwantitatieve data voor elke PDF wordt gedaan 
 - Steekproef: 16 nesten
 
 **Diéguez-Antón et al. 2025** (Spanje, 2021-2022)
-- Totaal getelde hoornaars: **11.406 individuen** over alle bijenstanden (6 kolonies)
+- Totaal getelde _Vespa velutina_: **11.406 individuen** over alle bijenstanden (6 kolonies)
 - Predatiedruk duur: Tot **11 maanden** (Bijenstand 3, beide jaren)
 - Steekproef: 3 bijenstanden, 6 kolonies
 
@@ -287,17 +287,17 @@ Conceptuele data extractie van de kwantitatieve data voor elke PDF wordt gedaan 
 |--------|-------------|--------|---------|
 | Apis mellifera in dieet | 22,55% - 98,1% | Verschillend | Meerdere |
 | Apis mellifera gevonden in alle nesten | 100% | Metabarcoding | Pedersen et al. 2025 |
-| Prooiconsumptie per hoornaarkolonie | 97.246 honingbij-equivalent/seizoen | Pellet analyse | Rome et al. 2021 |
-| Biomassa consumptie per hoornaarkolonie | 11,32 kg/seizoen | Pellet analyse | Rome et al. 2021 |
+| Prooiconsumptie per _Vespa velutina_ kolonie | 97.246 honingbij-equivalent/seizoen | Pellet analyse | Rome et al. 2021 |
+| Biomassa consumptie per _Vespa velutina_ kolonie | 11,32 kg/seizoen | Pellet analyse | Rome et al. 2021 |
 | Proportie kastproductie geconsumeerd | 40% | Pellet analyse | Rome et al. 2021 |
 
 **Gedetailleerde Bevindingen**
 
 **Rome et al. 2021** (Frankrijk, 2008-2010, 16 nesten, pellet verzameling)
 - Apis mellifera in prooipellets: **38,1%** (820/2.151 pellets)
-- Prooiconsumptie per hoornaarkolonie: **97.246 honingbij-equivalent** per seizoen
-- Biomassa consumptie per hoornaarkolonie: **11,32 kg** insecten per seizoen
-- Proportie van kastproductie geconsumeerd: **~40%** (één hoornaarkolonie consumeert ~40% van individuen geproduceerd door één kast)
+- Prooiconsumptie per _Vespa velutina_ kolonie: **97.246 honingbij-equivalent** per seizoen
+- Biomassa consumptie per _Vespa velutina_ kolonie: **11,32 kg** insecten per seizoen
+- Proportie van kastproductie geconsumeerd: **~40%** (één _Vespa velutina_ kolonie consumeert ~40% van individuen geproduceerd door één kast)
 - Wilde bijen proportie: **0,02%** (hommels en solitaire bijen, exclusief wilde honingbijkolonies)
 
 **Pedersen et al. 2025** (Meerdere landen, 2020-2022, 103 nesten, larvaal darminhoud)
@@ -353,9 +353,9 @@ Conceptuele data extractie van de kwantitatieve data voor elke PDF wordt gedaan 
 **Requier et al. 2020** (Frankrijk, 2013-2016, BEEHAVE model simulaties)
 - Snuitmasker uitgeruste overleving: **55%** (100 simulaties)
 - Controle overleving: **35%** (100 simulaties)
-- Overlevingsverhoging met bescherming: **Tot 51%** in context van hoge hoornaar abundantie (>5 hoornaars)
-- Lage hoornaar belasting (<5): Snuitmasker overleving marginaal lager dan controle
-- Hoge hoornaar belasting (>5): Snuitmasker verhoogt significant overlevingskans
+- Overlevingsverhoging met bescherming: **Tot 51%** in context van hoge _Vespa velutina_ abundantie (>5 _Vespa velutina_)
+- Lage _Vespa velutina_ belasting (<5): Snuitmasker overleving marginaal lager dan controle
+- Hoge _Vespa velutina_ belasting (>5): Snuitmasker verhoogt significant overlevingskans
 
 **Rojas-Nossa et al. 2022** (Spanje, 2018-2020, elektrische harp bescherming)
 - Beschermde kolonie overleving: **77,8%**
@@ -377,8 +377,8 @@ Conceptuele data extractie van de kwantitatieve data voor elke PDF wordt gedaan 
 
 | Drempel | Risiconiveau | Studie | Locatie |
 |----------|------------|-------|----------|
-| ≥5 hoornaars | Minimum risico | Diéguez-Antón et al. 2025 | Spanje |
-| ≥10 hoornaars | Hoog risico | Diéguez-Antón et al. 2025 | Spanje |
+| ≥5 _Vespa velutina_ | Minimum risico | Diéguez-Antón et al. 2025 | Spanje |
+| ≥10 _Vespa velutina_ | Hoog risico | Diéguez-Antón et al. 2025 | Spanje |
 
 **Wintersterfte Profielen** (Requier et al. 2019, Frankrijk, 2012-2016, BEEHAVE simulaties)
 
@@ -410,8 +410,8 @@ Conceptuele data extractie van de kwantitatieve data voor elke PDF wordt gedaan 
 - Hobby imkers hadden **dubbel** de wintersterfte
 
 **Hoge Druk Gebeurtenissen** (Diéguez-Antón et al. 2025, Spanje, 2021-2022)
-- Bijenstand 1 (oktober 2021): **31 gebeurtenissen** met >5 hoornaars, **5 dagen** met >10 hoornaars
-- Bijenstand 2 (augustus 2021): **20 dagen** met ≥5 hoornaars, tot **37 keer** per dag
+- Bijenstand 1 (oktober 2021): **31 gebeurtenissen** met >5 _Vespa velutina_, **5 dagen** met >10 _Vespa velutina_
+- Bijenstand 2 (augustus 2021): **20 dagen** met ≥5 _Vespa velutina_, tot **37 keer** per dag
 
 ### 4.4 Apis mellifera gedrag
 
@@ -421,41 +421,41 @@ Conceptuele data extractie van de kwantitatieve data voor elke PDF wordt gedaan 
 
 | Drempel | Waarde | Studie | Locatie |
 |-----------|-------|-------|----------|
-| Volledige foerageerparalyse | ≥12,6 hoornaars | Requier et al. 2019 | Frankrijk |
-| Foerageerafname | >10 hoornaars | Monceau et al. 2018 | Frankrijk |
-| Foerageerparalyse (HRH) | >0,8 hoornaars/kast/10min | Rojas-Nossa et al. 2022 | Spanje |
+| Volledige foerageerparalyse | ≥12,6 _Vespa velutina_ | Requier et al. 2019 | Frankrijk |
+| Foerageerafname | >10 _Vespa velutina_ | Monceau et al. 2018 | Frankrijk |
+| Foerageerparalyse (HRH) | >0,8 _Vespa velutina_/kast/10min | Rojas-Nossa et al. 2022 | Spanje |
 
 **Gedetailleerde Bevindingen**
 
 **Requier et al. 2019** (Frankrijk, 2012-2016, 131 kolonies, 603 observaties)
-- Foerageerparalyse drempel: **≥12,6 hoornaars** (95% CI) voor volledige FP
+- Foerageerparalyse drempel: **≥12,6 _Vespa velutina_** (95% CI) voor volledige FP
 - Statistisch effect: Z=-20,65, P<0,001 (negatieve impact op vluchtactiviteit)
-- Piekperiode: 28 augustus - 6 november (hoornaars >5 alleen tijdens deze periode)
+- Piekperiode: 28 augustus - 6 november (_Vespa velutina_ >5 alleen tijdens deze periode)
 
 **Requier et al. 2020** (Frankrijk, 2013-2016, 44 kolonies, snuitmasker beschermingsstudie)
 - Foerageerparalyse reductie met snuitmasker: **Tot 41%**
 - Activiteitsniveaus:
-  - Snuitmasker (0 hoornaars): **84%** van baseline
-  - Snuitmasker (20 hoornaars): **76%** van baseline (16-24% FP)
-  - Controle (0 hoornaars): **100%** van baseline
-  - Controle (20 hoornaars): **35%** van baseline (0-65% FP)
+  - Snuitmasker (0 _Vespa velutina_): **84%** van baseline
+  - Snuitmasker (20 _Vespa velutina_): **76%** van baseline (16-24% FP)
+  - Controle (0 _Vespa velutina_): **100%** van baseline
+  - Controle (20 _Vespa velutina_): **35%** van baseline (0-65% FP)
 - Controle max FP: **Tot 76%** (95% CI voorspelling)
 
 **Monceau et al. 2018** (Frankrijk, 2009, 2 kasten)
-- Foerageerafname drempel: **>10 hoornaars** per kast (aantal foerageerders daalt hierboven)
+- Foerageerafname drempel: **>10 _Vespa velutina_** per kast (aantal foerageerders daalt hierboven)
 
 **Rojas-Nossa et al. 2022** (Spanje, 2018-2020)
-- Foerageerparalyse drempel: **>0,8 hoornaars/kast/10min** (HRH)
+- Foerageerparalyse drempel: **>0,8 _Vespa velutina_/kast/10min** (HRH)
 
 **Diéguez-Antón et al. 2025** (Spanje, 2021-2022, 6 kolonies)
-- Foerageerparalyse waargenomen: Ja (wanneer hoornaardruk hoog is)
+- Foerageerparalyse waargenomen: Ja (wanneer _Vespa velutina_ druk hoog is)
 
 #### 4.4.2 Activiteitsreducties en Gedragsreacties
 
 **Defensieve Gedragingen**
 
 **Arca et al. 2014** (Frankrijk, 2008-2010, 95 kolonies)
-- **Kolonieactiviteit**: Dramatische daling wanneer hoornaar aanwezig
+- **Kolonieactiviteit**: Dramatische daling wanneer _Vespa velutina_ aanwezig
 - **Bijentapijt vorming**:
   - 30-60% toename: 14 kolonies
   - 60-80% toename: 17 kolonies
@@ -469,13 +469,13 @@ Conceptuele data extractie van de kwantitatieve data voor elke PDF wordt gedaan 
       - 20-30 bijen: 15 kolonies (16%)
       - >30 bijen: 1 kolonie (1%)
     - Effectiviteit:
-      - Buiten kast (natuurlijke omstandigheden): **9,5%** hoornaars gedood door balling in 5 min
-      - In kast (experimentele omstandigheden): **76,4%** hoornaars gedood (42/55) — Opmerking: Hoornaars gaan niet natuurlijk kasten binnen; dit was experimenteel
-- **Hoornaar zweefafstand**: ~15 cm van kastingang
+      - Buiten kast (natuurlijke omstandigheden): **9,5%** _Vespa velutina_ gedood door balling in 5 min
+      - In kast (experimentele omstandigheden): **76,4%** _Vespa velutina_ gedood (42/55) — Opmerking: _Vespa velutina_ gaan niet natuurlijk kasten binnen; dit was experimenteel
+- **_Vespa velutina_ zweefafstand**: ~15 cm van kastingang
 
 **Monceau et al. 2018** (Frankrijk, 2009, 2 kasten)
-- **Bijentapijt maximum**: Laat augustus-begin september bij **7 hoornaars**
-- **Honingbijen volgen hoornaars**: H1: 21 gevallen, H2: 46 gevallen
+- **Bijentapijt maximum**: Laat augustus-begin september bij **7 _Vespa velutina_**
+- **Honingbijen volgen _Vespa velutina_**: H1: 21 gevallen, H2: 46 gevallen
 - **Balling voorkomens**: H1: 2 voorkomens, H2: 1 voorkomen
 
 **Vluchtprestatie Veranderingen**
@@ -483,11 +483,11 @@ Conceptuele data extractie van de kwantitatieve data voor elke PDF wordt gedaan 
 **Poidatz et al. 2023** (Frankrijk, 603.259 trajecten)
 - **Vluchtsnelheid**:
   - Bijen die verlaten vs binnengaan: **1,9× sneller** (bijen die verlaten)
-  - Bijen vs hoornaars: **1,25× sneller** (bijen die binnengaan)
-- **Zweeftijd**: Hoornaars **2,1× meer** zweeftijd dan bijen
-- **Reactie op hoornaardichtheid**:
-  - Bijen die binnengaan: Snelheid en kromming **nemen toe** met hoornaardichtheid
-  - Bijen die verlaten: Snelheid **neemt af** met hoornaardichtheid
+  - Bijen vs _Vespa velutina_: **1,25× sneller** (bijen die binnengaan)
+- **Zweeftijd**: _Vespa velutina_ **2,1× meer** zweeftijd dan bijen
+- **Reactie op _Vespa velutina_ dichtheid**:
+  - Bijen die binnengaan: Snelheid en kromming **nemen toe** met _Vespa velutina_ dichtheid
+  - Bijen die verlaten: Snelheid **neemt af** met _Vespa velutina_ dichtheid
 
 **Activiteitspatronen**
 
@@ -495,7 +495,7 @@ Conceptuele data extractie van de kwantitatieve data voor elke PDF wordt gedaan 
 
 | Studie | Piek Activiteitstijd | Piek Seizoen | Locatie |
 |-------|-------------------|-------------|----------|
-| Poidatz et al. 2023 | Hoornaar: 13:00 uur, Bij: 15:00 uur | - | Frankrijk |
+| Poidatz et al. 2023 | _Vespa velutina_: 13:00 uur, Bij: 15:00 uur | - | Frankrijk |
 | Monceau et al. 2017 | Nest A: 14:00 uur, Nest B: 13:00 uur | Oktober | Frankrijk |
 | Requier et al. 2019 | 9:06-18:08 uur (dagelijkse periode) | September-oktober | Frankrijk |
 | Perrard et al. 2009 | 15:30-16:30 uur | - | Frankrijk |
@@ -504,20 +504,20 @@ Conceptuele data extractie van de kwantitatieve data voor elke PDF wordt gedaan 
 **Monceau et al. 2013** (Frankrijk, 2009, 2 kasten)
 - **Vliegactiviteitspatroon**: Hoger vroeg in de ochtend, afgenomen middag/avond
 - **Seizoenspatroon**: Hoger in juli, afgenomen gedurende zomer tot oktober
-- **Activiteitsrelatie met hoornaars**: Negatief (negatief gerelateerd aan aantal hoornaars)
+- **Activiteitsrelatie met _Vespa velutina_**: Negatief (negatief gerelateerd aan aantal _Vespa velutina_)
 - **Terugkerende foerageerders vs bewakers**: P=0,01 (vliegende honingbijen die terugkeren leden meer predatie)
 - **Foerageerder belasting**: Tot **40%** extra lichaamsmassa (stuifmeel of nectar belastingen)
 
 **Milieu Correlaties**
 
 **Diéguez-Antón et al. 2022** (Spanje, 2020-2021, 2 kolonies)
-- **Optimale temperatuur**: **15-25°C** voor hoornaaractiviteit
-- **Optimale vochtigheid**: **>60%** voor hoornaaractiviteit
+- **Optimale temperatuur**: **15-25°C** voor _Vespa velutina_ activiteit
+- **Optimale vochtigheid**: **>60%** voor _Vespa velutina_ activiteit
 - **Temperatuurcorrelatie**: r=0,368, p<0,01 (positief)
 - **Vochtigheidscorrelatie**: r=-0,347, p<0,01 (invers)
 
 **Diéguez-Antón et al. 2025** (Spanje, 2021-2022, 6 kolonies)
-- **Optimale temperatuurbereik**: **17-26°C** (meest geschikt voor waarnemen hoger aantal hoornaars)
+- **Optimale temperatuurbereik**: **17-26°C** (meest geschikt voor waarnemen hoger aantal _Vespa velutina_)
 
 **Perrard et al. 2009** (Frankrijk, 2007, 1 gevangene kolonie)
 - **Activiteit start**: 6:00 uur (werkstervluchten)
@@ -543,8 +543,8 @@ Conceptuele data extractie van de kwantitatieve data voor elke PDF wordt gedaan 
 
 | Scenario | Verloren Kolonies | Percentage van Veestapel | Economische Kosten (€) | Impact vs Honing Opbrengsten |
 |----------|---------------|------------------------|-------------------|--------------------------|
-| Lage predatie (1 hoornaar/nest) | 27.821 | 2,6% | €2,8 miljoen | 2,4% |
-| Hoge predatie (20 hoornaars/nest) | 308.379 | 29,2% | €30,8 miljoen | 26,6% |
+| Lage predatie (1 _Vespa velutina_/nest) | 27.821 | 2,6% | €2,8 miljoen | 2,4% |
+| Hoge predatie (20 _Vespa velutina_/nest) | 308.379 | 29,2% | €30,8 miljoen | 26,6% |
 
 **Kernmetrieken**:
 - **Kolonie vervangingskosten**: €100 per kolonie (Requier et al. 2020a)
@@ -566,7 +566,7 @@ Conceptuele data extractie van de kwantitatieve data voor elke PDF wordt gedaan 
 
 **Methodologische Notities**:
 - Gebaseerd op ruimtelijke modellering die velddata (1.260 nesten over 28.348 km²), niche modellering en BEEHAVE agent-gebaseerde simulaties combineert
-- Laag scenario waarschijnlijk onderschat (1 hoornaar/nest < waargenomen gemiddelde van 2,3)
+- Laag scenario waarschijnlijk onderschat (1 _Vespa velutina_/nest < waargenomen gemiddelde van 2,3)
 - Hoog scenario gebaseerd op maximum waargenomen waarden (realistisch maar extreem)
 - Werkelijke economische kosten waarschijnlijk tussen laag en hoog scenario
 
@@ -624,7 +624,7 @@ De InvaCost database is een uitgebreide wereldwijde repository die economische k
 
 ### 4.6.2 Bijenstanden en Kolonies
 
-| Studie | Bijenstanden | Kolonies | Nesten | Hoornaars | Notities |
+| Studie | Bijenstanden | Kolonies | Nesten | _Vespa velutina_ | Notities |
 |-------|----------|----------|-------|---------|-------|
 | Arca et al. 2014 | 8 | 95 | Niet gespecificeerd | Variabel | Defensief gedrag studie |
 | Monceau et al. 2013 | 2 | 23 | Niet gespecificeerd | 2.810 gevangen | Predatiedruk |
@@ -636,7 +636,7 @@ De InvaCost database is een uitgebreide wereldwijde repository die economische k
 | Rojas-Nossa et al. 2022 | 3 | Variabel | Niet gespecificeerd | 4.359 gevangen | Elektrische harpen |
 | Jacques et al. 2017 | 5.798 | Variabel | Niet van toepassing | Niet van toepassing | Pan-Europese studie |
 
-### 4.6.3 Bestudeerde Hoornaarnesten
+### 4.6.3 Bestudeerde _Vespa velutina_ Nesten
 
 | Studie | Nesten | Methode | Locatie |
 |-------|-------|--------|----------|
@@ -675,7 +675,7 @@ De InvaCost database is een uitgebreide wereldwijde repository die economische k
 1. **Hoge methodologische heterogeniteit**: Studies gebruiken verschillende observatiemethoden (visuele tellingen, videotracking, vangen, DNA metabarcoding, pellet analyse), waardoor directe vergelijking van effectgroottes problematisch is.
 2. **Inconsistente uitkomstmetingen**: Predatiesnelheden, overlevingspercentages en gedragsveranderingen worden gemeten met verschillende metrieken, tijdsframes en eenheden over studies heen.
 3. **Gebrek aan gestandaardiseerde controlegroepen**: De meeste studies zijn observationeel zonder expliciete controlegroepen, waardoor het moeilijk is om vergelijkbare effectgroottes te berekenen.
-4. **Geografische en temporele variatie**: Studies beslaan verschillende landen, jaren en seizoenen, met variërende hoornaarpopulatiedichtheden en imkerpraktijken.
+4. **Geografische en temporele variatie**: Studies beslaan verschillende landen, jaren en seizoenen, met variërende _Vespa velutina_ populatiedichtheden en imkerpraktijken.
 5. **Kleine steekproefgroottes per studie**: Veel studies hebben kleine steekproefgroottes (2-6 kolonies, 1-3 bijenstanden), wat de statistische kracht voor meta-analyse beperkt.
 6. **Diverse studieontwerpen**: Mix van experimentele interventies (snuitmaskers, elektrische harpen), observationele studies en modelleringsbenaderingen kunnen niet zinvol worden gecombineerd in een enkele meta-analyse.
 

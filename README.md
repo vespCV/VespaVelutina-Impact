@@ -12,23 +12,23 @@ This repository synthesizes evidence from **30 scientific studies** to quantify 
 
 ### Predation Pressure on _Apis mellifera_
 - **Honeybee in diet**: 22-98% depending on method and location — [see details](#422-prey-composition)
-- Biomass consumption per hornet colony: **11.32 kg** of insects per season
-- Prey consumption per hornet colony: **97,246 honeybee-equivalent** per season
-- **Range**: 0-20+ hornets simultaneously at apiaries — [see details](#421-predation-rates-and-success)
+- Biomass consumption per _Vespa velutina_ colony: **11.32 kg** of insects per season
+- Prey consumption per _Vespa velutina_ colony: **97,246 honeybee-equivalent** per season
+- **Range**: 0-20+ _Vespa velutina_ simultaneously at apiaries — [see details](#421-predation-rates-and-success)
 - **Peak periods**: July-October (varies by location) — [see details](#422-prey-composition)
 - **Predation success rate**: 2.4% (video tracking of natural predation at hive entrance) — [see details](#421-predation-rates-and-success)
 
 ### Domesticated Honeybee Colony Survival
-- Without protection: **35-56%** of colonies survive under high hornet pressure (Requier et al. 2020; Rojas-Nossa et al. 2022) — [see details](#431-colony-survival)
+- Without protection: **35-56%** of colonies survive under high _Vespa velutina_ pressure (Requier et al. 2020; Rojas-Nossa et al. 2022) — [see details](#431-colony-survival)
 - With protection (electric harps, muzzles): **55-78%** survival (Requier et al. 2020; Rojas-Nossa et al. 2022) — [see details](#431-colony-survival)
-- **Risk threshold**: When you see **≥5 hornets** at your apiary, your colonies are at risk (Diéguez-Antón et al. 2025) — [see details](#432-mortality-factors)
-- **Colony loss**: is multifactoral, influence of the hornet cannot be separated from other causes of colony loss — [see details](#43-colony-survival-and-loss)
+- **Risk threshold**: When you see **≥5 _Vespa velutina_** at your apiary, your colonies are at risk (Diéguez-Antón et al. 2025) — [see details](#432-mortality-factors)
+- **Colony loss**: is multifactoral, influence of _Vespa velutina_ cannot be separated from other causes of colony loss — [see details](#43-colony-survival-and-loss)
 
 ### Behavioral Changes of _Apis mellifera_
-- Bees stop foraging when **≥12.6 hornets** are present (foraging paralysis) (Requier et al. 2019) — [see details](#441-foraging-paralysis-thresholds)
+- Bees stop foraging when **≥12.6 _Vespa velutina_** are present (foraging paralysis) (Requier et al. 2019) — [see details](#441-foraging-paralysis-thresholds)
 - This leads to colony starvation and winter mortality (Requier et al. 2019) — [see details](#44-apis-mellifera-behavior)
 - Protection measures can reduce foraging paralysis by up to 41% (Requier et al. 2020) — [see details](#441-foraging-paralysis-thresholds)
-- **Defensive behavior** (*Apis mellifera*): 9.5% of hornets killed by balling outside hive in natural conditions; 76.4% killed when experimentally placed inside hive (Arca et al. 2014) — [see details](#442-activity-reductions)
+- **Defensive behavior** (*Apis mellifera*): 9.5% of _Vespa velutina_ killed by balling outside hive in natural conditions; 76.4% killed when experimentally placed inside hive (Arca et al. 2014) — [see details](#442-activity-reductions)
 
 ### Economic Impact of _Vespa velutina_ on _Apis mellifera_
 
@@ -70,7 +70,7 @@ This repository synthesizes evidence from **30 scientific studies** to quantify 
   - [4.6 Background data](#46-background-data)
     - [4.6.1 Study Locations](#461-study-locations)
     - [4.6.2 Apiaries and Colonies](#462-apiaries-and-colonies)
-    - [4.6.3 Hornet Nests Studied](#463-hornet-nests-studied)
+    - [4.6.3 _Vespa velutina_ Nests Studied](#463-vespa-velutina-nests-studied)
   - [4.7 Notes and biases](#47-notes-and-biases)
     - [4.7.1 Methodological Heterogeneity](#471-methodological-heterogeneity)
 - [Notes](#notes)
@@ -78,17 +78,17 @@ This repository synthesizes evidence from **30 scientific studies** to quantify 
   
 ## Project Overview
 
-Nearly a quarter century has passed since _Vespa velutina_ arrived by accident in Europe. And this Asian hornet with its yellow legs is using her wings to spread over a large part of Europe. Adult workers need protein-rich prey to feed the developing larvae in their nests, which they obtain primarily from insects. They don't make it difficult for themselves—in Europe domesticated bees (_Apis mellifera_) are widely available and easy to catch. So, let's find out what is published about the contribution of the **yellow-legged hornet** to the decline of Western **honeybee** populations.
+Nearly a quarter century has passed since _Vespa velutina_ arrived by accident in Europe. And this Asian hornet (_Vespa velutina_) with its yellow legs is using her wings to spread over a large part of Europe. Adult workers need protein-rich prey to feed the developing larvae in their nests, which they obtain primarily from insects. They don't make it difficult for themselves—in Europe domesticated bees (_Apis mellifera_) are widely available and easy to catch. So, let's find out what is published about the contribution of the **yellow-legged hornet** (_Vespa velutina_) to the decline of Western **honeybee** populations.
 
 **Population:** _Apis mellifera_ colonies in Europe
 
 **Comparison:** Colonies without _Vespa velutina_ predation/presence
 
 **Outcome:** Impact measures including:
-- Predation rates
-- Colony loss
+- _Apis mellifera_ Predation rates
+- _Apis mellifera_ Colony loss
 - _Apis mellifera_ behavior changes
-- Economic impact
+- Economic impact of _Vespa velutina_ on _Apis mellifera_
 
 **Limitations**
 - Studies on the impact of _Vespa velutina_ on _Apis mellifera_ aren't perfect flowers
@@ -234,9 +234,9 @@ Draft data extraction of the quantitative data for each PDF is done with Cursor.
 | Overall predation success rate | 2.4% | Poidatz et al. 2023 | France |
 | Success rate (bees entering hive) | 69.46% | Poidatz et al. 2023 | France |
 | Success rate (bees leaving hive) | 15.27% | Poidatz et al. 2023 | France |
-| Peak success (hornet number) | ~8 hornets | Poidatz et al. 2023 | France |
+| Peak success (_Vespa velutina_ number) | ~8 _Vespa velutina_ | Poidatz et al. 2023 | France |
 | Attack success rate | 25% | Perrard et al. 2009 | France |
-| Maximum captures (hornet number) | 9 hornets | Monceau et al. 2013 | France |
+| Maximum captures (_Vespa velutina_ number) | 9 _Vespa velutina_ | Monceau et al. 2013 | France |
 
 **Detailed Findings**
 
@@ -244,7 +244,7 @@ Draft data extraction of the quantitative data for each PDF is done with Cursor.
 - Overall predation success: **2.4%** (126 successful events out of 5,175 interactions)
 - Success rate for bees entering hive: **69.46%** (4× higher than bees leaving)
 - Success rate for bees leaving hive: **15.27%**
-- Peak success occurs at **~8 hornets**, then decreases
+- Peak success occurs at **~8 _Vespa velutina_**, then decreases
 - Sample: 5,175 predator-prey interactions from 603,259 trajectories
 
 **Perrard et al. 2009** (France, 2007)
@@ -253,9 +253,9 @@ Draft data extraction of the quantitative data for each PDF is done with Cursor.
 - Sample: 359 attacks observed, 1 captive colony
 
 **Monceau et al. 2013** (France, 2008-2009)
-- Maximum captures at **9 hornets per hive**
+- Maximum captures at **9 _Vespa velutina_ per hive**
 - Peak capture time: **13:00-14:00 h** (midday)
-- Hornets trapped:
+- _Vespa velutina_ trapped:
   - ART site: **916 individuals** (14 hives), peak: 106 on 12 Nov 2008
   - VIL site: **1,894 individuals** (9 hives), peak: 217 on 12 Nov 2008
 - Predation duration: **5 months**
@@ -263,11 +263,11 @@ Draft data extraction of the quantitative data for each PDF is done with Cursor.
 - Sample: 23 hives across 2 sites
 
 **Monceau et al. 2014** (France, 2011)
-- Hornets visiting daily: **~350 hornets** (6 hives)
-- Maximum hornets at single hive: **20 hornets** simultaneously
+- _Vespa velutina_ visiting daily: **~350 individuals** (6 hives)
+- Maximum _Vespa velutina_ at single hive: **20 individuals** simultaneously
 - Recapture rate: **56.67%** overall (204/360 marked), **73.94%** on D1 morning
 - Daily visits per half-day: **1.88 visits** (range: 1.70-2.20)
-- Sample: 360 marked hornets, 6 hives
+- Sample: 360 marked _Vespa velutina_, 6 hives
 
 **Rome et al. 2021** (France, 2008-2010)
 - Peak predation timing: **Early October**
@@ -275,7 +275,7 @@ Draft data extraction of the quantitative data for each PDF is done with Cursor.
 - Sample: 16 nests
 
 **Diéguez-Antón et al. 2025** (Spain, 2021-2022)
-- Total hornets counted: **11,406 individuals** across all apiaries (6 colonies)
+- Total _Vespa velutina_ counted: **11,406 individuals** across all apiaries (6 colonies)
 - Predation pressure duration: Up to **11 months** (Apiary 3, both years)
 - Sample: 3 apiaries, 6 colonies
 
@@ -287,17 +287,17 @@ Draft data extraction of the quantitative data for each PDF is done with Cursor.
 |--------|-------------|--------|---------|
 | Apis mellifera in diet | 22.55% - 98.1% | Various | Multiple |
 | Apis mellifera found in all nests | 100% | Metabarcoding | Pedersen et al. 2025 |
-| Prey consumption per hornet colony | 97,246 honeybee-equivalent/season | Pellet analysis | Rome et al. 2021 |
-| Biomass consumption per hornet colony | 11.32 kg/season | Pellet analysis | Rome et al. 2021 |
+| Prey consumption per _Vespa velutina_ colony | 97,246 honeybee-equivalent/season | Pellet analysis | Rome et al. 2021 |
+| Biomass consumption per _Vespa velutina_ colony | 11.32 kg/season | Pellet analysis | Rome et al. 2021 |
 | Proportion hive production consumed | 40% | Pellet analysis | Rome et al. 2021 |
 
 **Detailed Findings**
 
 **Rome et al. 2021** (France, 2008-2010, 16 nests, pellet collection)
 - Apis mellifera in prey pellets: **38.1%** (820/2,151 pellets)
-- Prey consumption per hornet colony: **97,246 honeybee-equivalent** per season
-- Biomass consumption per hornet colony: **11.32 kg** of insects per season
-- Proportion of hive production consumed: **~40%** (one hornet colony consumes ~40% of individuals produced by one hive)
+- Prey consumption per _Vespa velutina_ colony: **97,246 honeybee-equivalent** per season
+- Biomass consumption per _Vespa velutina_ colony: **11.32 kg** of insects per season
+- Proportion of hive production consumed: **~40%** (one _Vespa velutina_ colony consumes ~40% of individuals produced by one hive)
 - Wild bees proportion: **0.02%** (bumblebees and solitary bees, excluding wild honeybee colonies)
 
 **Pedersen et al. 2025** (Multiple countries, 2020-2022, 103 nests, larval gut contents)
@@ -353,9 +353,9 @@ Draft data extraction of the quantitative data for each PDF is done with Cursor.
 **Requier et al. 2020** (France, 2013-2016, BEEHAVE model simulations)
 - Muzzle-equipped survival: **55%** (100 simulations)
 - Control survival: **35%** (100 simulations)
-- Survival increase with protection: **Up to 51%** in context of high hornet abundance (>5 hornets)
-- Low hornet loads (<5): Muzzle survival marginally lower than control
-- High hornet loads (>5): Muzzle significantly increases survival probability
+- Survival increase with protection: **Up to 51%** in context of high _Vespa velutina_ abundance (>5 _Vespa velutina_)
+- Low _Vespa velutina_ loads (<5): Muzzle survival marginally lower than control
+- High _Vespa velutina_ loads (>5): Muzzle significantly increases survival probability
 
 **Rojas-Nossa et al. 2022** (Spain, 2018-2020, electric harp protection)
 - Protected colony survival: **77.8%**
@@ -377,8 +377,8 @@ Draft data extraction of the quantitative data for each PDF is done with Cursor.
 
 | Threshold | Risk Level | Study | Location |
 |----------|------------|-------|----------|
-| ≥5 hornets | Minimum risk | Diéguez-Antón et al. 2025 | Spain |
-| ≥10 hornets | High risk | Diéguez-Antón et al. 2025 | Spain |
+| ≥5 _Vespa velutina_ | Minimum risk | Diéguez-Antón et al. 2025 | Spain |
+| ≥10 _Vespa velutina_ | High risk | Diéguez-Antón et al. 2025 | Spain |
 
 **Winter Mortality Profiles** (Requier et al. 2019, France, 2012-2016, BEEHAVE simulations)
 
@@ -410,8 +410,8 @@ Draft data extraction of the quantitative data for each PDF is done with Cursor.
 - Hobby beekeepers had **double** the winter mortality
 
 **High Pressure Events** (Diéguez-Antón et al. 2025, Spain, 2021-2022)
-- Apiary 1 (October 2021): **31 events** with >5 hornets, **5 days** with >10 hornets
-- Apiary 2 (August 2021): **20 days** with ≥5 hornets, up to **37 times** per day
+- Apiary 1 (October 2021): **31 events** with >5 _Vespa velutina_, **5 days** with >10 _Vespa velutina_
+- Apiary 2 (August 2021): **20 days** with ≥5 _Vespa velutina_, up to **37 times** per day
 
 ### 4.4 Apis mellifera Behavior
 
@@ -421,41 +421,41 @@ Draft data extraction of the quantitative data for each PDF is done with Cursor.
 
 | Threshold | Value | Study | Location |
 |-----------|-------|-------|----------|
-| Complete foraging paralysis | ≥12.6 hornets | Requier et al. 2019 | France |
-| Foraging decline | >10 hornets | Monceau et al. 2018 | France |
-| Foraging paralysis (HRH) | >0.8 hornets/hive/10min | Rojas-Nossa et al. 2022 | Spain |
+| Complete foraging paralysis | ≥12.6 _Vespa velutina_ | Requier et al. 2019 | France |
+| Foraging decline | >10 _Vespa velutina_ | Monceau et al. 2018 | France |
+| Foraging paralysis (HRH) | >0.8 _Vespa velutina_/hive/10min | Rojas-Nossa et al. 2022 | Spain |
 
 **Detailed Findings**
 
 **Requier et al. 2019** (France, 2012-2016, 131 colonies, 603 observations)
-- Foraging paralysis threshold: **≥12.6 hornets** (95% CI) for complete FP
+- Foraging paralysis threshold: **≥12.6 _Vespa velutina_** (95% CI) for complete FP
 - Statistical effect: Z=-20.65, P<0.001 (negative impact on flight activity)
-- Peak period: August 28 - November 6 (hornets >5 only during this period)
+- Peak period: August 28 - November 6 (_Vespa velutina_ >5 only during this period)
 
 **Requier et al. 2020** (France, 2013-2016, 44 colonies, muzzle protection study)
 - Foraging paralysis reduction with muzzle: **Up to 41%**
 - Activity levels:
-  - Muzzle (0 hornets): **84%** of baseline
-  - Muzzle (20 hornets): **76%** of baseline (16-24% FP)
-  - Control (0 hornets): **100%** of baseline
-  - Control (20 hornets): **35%** of baseline (0-65% FP)
+  - Muzzle (0 _Vespa velutina_): **84%** of baseline
+  - Muzzle (20 _Vespa velutina_): **76%** of baseline (16-24% FP)
+  - Control (0 _Vespa velutina_): **100%** of baseline
+  - Control (20 _Vespa velutina_): **35%** of baseline (0-65% FP)
 - Control max FP: **Up to 76%** (95% CI prediction)
 
 **Monceau et al. 2018** (France, 2009, 2 hives)
-- Foraging decline threshold: **>10 hornets** per hive (number of foragers drops above this)
+- Foraging decline threshold: **>10 _Vespa velutina_** per hive (number of foragers drops above this)
 
 **Rojas-Nossa et al. 2022** (Spain, 2018-2020)
-- Foraging paralysis threshold: **>0.8 hornets/hive/10min** (HRH)
+- Foraging paralysis threshold: **>0.8 _Vespa velutina_/hive/10min** (HRH)
 
 **Diéguez-Antón et al. 2025** (Spain, 2021-2022, 6 colonies)
-- Foraging paralysis observed: Yes (when hornet pressure is high)
+- Foraging paralysis observed: Yes (when _Vespa velutina_ pressure is high)
 
 #### 4.4.2 Activity Reductions and Behavioral Responses
 
 **Defensive Behaviors**
 
 **Arca et al. 2014** (France, 2008-2010, 95 colonies)
-- **Colony activity**: Dramatic drop when hornet present
+- **Colony activity**: Dramatic drop when _Vespa velutina_ present
 - **Bee-carpet formation**:
   - 30-60% increase: 14 colonies
   - 60-80% increase: 17 colonies
@@ -469,13 +469,13 @@ Draft data extraction of the quantitative data for each PDF is done with Cursor.
       - 20-30 bees: 15 colonies (16%)
       - >30 bees: 1 colony (1%)
     - Effectiveness:
-      - Outside hive (natural conditions): **9.5%** hornets killed by balling in 5 min
-      - Inside hive (experimental conditions): **76.4%** hornets killed (42/55) — Note: Hornets do not naturally enter hives; this was experimental
-- **Hornet hovering distance**: ~15 cm from hive entrance
+      - Outside hive (natural conditions): **9.5%** _Vespa velutina_ killed by balling in 5 min
+      - Inside hive (experimental conditions): **76.4%** _Vespa velutina_ killed (42/55) — Note: _Vespa velutina_ do not naturally enter hives; this was experimental
+- **_Vespa velutina_ hovering distance**: ~15 cm from hive entrance
 
 **Monceau et al. 2018** (France, 2009, 2 hives)
-- **Bee-carpet maximum**: Late August-early September at **7 hornets**
-- **Honeybees tracking hornets**: H1: 21 instances, H2: 46 instances
+- **Bee-carpet maximum**: Late August-early September at **7 _Vespa velutina_**
+- **Honeybees tracking _Vespa velutina_**: H1: 21 instances, H2: 46 instances
 - **Balling occurrences**: H1: 2 occurrences, H2: 1 occurrence
 
 **Flight Performance Changes**
@@ -483,11 +483,11 @@ Draft data extraction of the quantitative data for each PDF is done with Cursor.
 **Poidatz et al. 2023** (France, 603,259 trajectories)
 - **Flight speed**:
   - Bees leaving vs entering: **1.9× faster** (bees leaving)
-  - Bees vs hornets: **1.25× faster** (bees entering)
-- **Hovering time**: Hornets **2.1× more** hovering time than bees
-- **Response to hornet density**:
-  - Bees entering: Speed and curvature **increase** with hornet density
-  - Bees leaving: Speed **decreases** with hornet density
+  - Bees vs _Vespa velutina_: **1.25× faster** (bees entering)
+- **Hovering time**: _Vespa velutina_ **2.1× more** hovering time than bees
+- **Response to _Vespa velutina_ density**:
+  - Bees entering: Speed and curvature **increase** with _Vespa velutina_ density
+  - Bees leaving: Speed **decreases** with _Vespa velutina_ density
 
 **Activity Patterns**
 
@@ -495,7 +495,7 @@ Draft data extraction of the quantitative data for each PDF is done with Cursor.
 
 | Study | Peak Activity Time | Peak Season | Location |
 |-------|-------------------|-------------|----------|
-| Poidatz et al. 2023 | Hornet: 13:00 h, Bee: 15:00 h | - | France |
+| Poidatz et al. 2023 | _Vespa velutina_: 13:00 h, Bee: 15:00 h | - | France |
 | Monceau et al. 2017 | Nest A: 14:00 h, Nest B: 13:00 h | October | France |
 | Requier et al. 2019 | 9:06-18:08 h (daily period) | September-October | France |
 | Perrard et al. 2009 | 15:30-16:30 h | - | France |
@@ -504,20 +504,20 @@ Draft data extraction of the quantitative data for each PDF is done with Cursor.
 **Monceau et al. 2013** (France, 2009, 2 hives)
 - **Flying activity pattern**: Higher early morning, decreased afternoon/evening
 - **Seasonal pattern**: Higher in July, decreased throughout summer until October
-- **Activity relation to hornets**: Negative (negatively related to number of hornets)
+- **Activity relation to _Vespa velutina_**: Negative (negatively related to number of _Vespa velutina_)
 - **Returning foragers vs guards**: P=0.01 (flying honeybees returning suffered more predation)
 - **Forager load**: Up to **40%** extra body mass (pollen or nectar loads)
 
 **Environmental Correlations**
 
 **Diéguez-Antón et al. 2022** (Spain, 2020-2021, 2 colonies)
-- **Optimal temperature**: **15-25°C** for hornet activity
-- **Optimal humidity**: **>60%** for hornet activity
+- **Optimal temperature**: **15-25°C** for _Vespa velutina_ activity
+- **Optimal humidity**: **>60%** for _Vespa velutina_ activity
 - **Temperature correlation**: r=0.368, p<0.01 (positive)
 - **Humidity correlation**: r=-0.347, p<0.01 (inverse)
 
 **Diéguez-Antón et al. 2025** (Spain, 2021-2022, 6 colonies)
-- **Optimal temperature range**: **17-26°C** (most suitable for observing higher number of hornets)
+- **Optimal temperature range**: **17-26°C** (most suitable for observing higher number of _Vespa velutina_)
 
 **Perrard et al. 2009** (France, 2007, 1 captive colony)
 - **Activity start**: 6:00 h (workers' flights)
@@ -543,8 +543,8 @@ Draft data extraction of the quantitative data for each PDF is done with Cursor.
 
 | Scenario | Colonies Lost | Percentage of Livestock | Economic Cost (€) | Impact vs Honey Revenues |
 |----------|---------------|------------------------|-------------------|--------------------------|
-| Low predation (1 hornet/nest) | 27,821 | 2.6% | €2.8 million | 2.4% |
-| High predation (20 hornets/nest) | 308,379 | 29.2% | €30.8 million | 26.6% |
+| Low predation (1 _Vespa velutina_/nest) | 27,821 | 2.6% | €2.8 million | 2.4% |
+| High predation (20 _Vespa velutina_/nest) | 308,379 | 29.2% | €30.8 million | 26.6% |
 
 **Key Metrics**:
 - **Colony replacement cost**: €100 per colony (Requier et al. 2020a)
@@ -566,7 +566,7 @@ Draft data extraction of the quantitative data for each PDF is done with Cursor.
 
 **Methodological Notes**:
 - Based on spatial modeling combining field data (1,260 nests over 28,348 km²), niche modeling, and BEEHAVE agent-based simulations
-- Low scenario likely underestimated (1 hornet/nest < observed mean of 2.3)
+- Low scenario likely underestimated (1 _Vespa velutina_/nest < observed mean of 2.3)
 - High scenario based on maximum observed values (realistic but extreme)
 - Real economic cost likely between low and high scenarios
 
@@ -624,7 +624,7 @@ The InvaCost database is a comprehensive global repository documenting economic 
 
 ### 4.6.2 Apiaries and Colonies
 
-| Study | Apiaries | Colonies | Nests | Hornets | Notes |
+| Study | Apiaries | Colonies | Nests | _Vespa velutina_ | Notes |
 |-------|----------|----------|-------|---------|-------|
 | Arca et al. 2014 | 8 | 95 | Not specified | Variable | Defensive behavior study |
 | Monceau et al. 2013 | 2 | 23 | Not specified | 2,810 trapped | Predation pressure |
@@ -636,7 +636,7 @@ The InvaCost database is a comprehensive global repository documenting economic 
 | Rojas-Nossa et al. 2022 | 3 | Variable | Not specified | 4,359 captured | Electric harps |
 | Jacques et al. 2017 | 5,798 | Variable | Not applicable | Not applicable | Pan-European study |
 
-### 4.6.3 Hornet Nests Studied
+### 4.6.3 _Vespa velutina_ Nests Studied
 
 | Study | Nests | Method | Location |
 |-------|-------|--------|----------|
