@@ -7,10 +7,10 @@ _If bees only gathered nectar from perfect flowers, they wouldn't be able to mak
 
 ## Table of Contents
 - [Summary](#summary)
-  - [Predation Pressure](#predation-pressure)
-  - [Colony Survival](#colony-survival)
-  - [Behavioral Changes](#behavioral-changes)
-  - [Economic Impact](#economic-impact)
+  - [Predation Pressure on _Apis mellifera_](#predation-pressure-on-apis-mellifera)
+  - [Domesticated Honeybee Colony Survival](#domesticated-honeybee-colony-survival)
+  - [Behavioral Changes of _Apis mellifera_](#behavioral-changes-of-apis-mellifera)
+  - [Economic Impact of _Vespa velutina_ on _Apis mellifera_](#economic-impact-of-vespa-velutina-on-apis-mellifera)
 - [1. Literature searches](#1-literature-searches)
   - [1.1 Keywords](#11-keywords)
   - [1.2. Database searches](#12-database-searches)
@@ -48,7 +48,7 @@ _If bees only gathered nectar from perfect flowers, they wouldn't be able to mak
 
 ## Summary
 
-This repository synthesizes evidence from **30 scientific studies** to quantify the impact of Asian hornet (_Vespa velutina_) on domestic honeybee colonies (_Apis mellifera) in Europe/the Netherlands.
+This repository synthesizes evidence from **30 scientific studies** to quantify the impact of Asian hornet (_Vespa velutina_) on domestic honeybee colonies (_Apis mellifera_) in Europe.
 
 ### Predation Pressure on _Apis mellifera_
 - **Range**: 0-20+ hornets simultaneously at apiaries — [see details](#421-predation-rates-and-success)
@@ -88,11 +88,11 @@ Nearly a quarter century has passed since _Vespa velutina_ arrived by accident i
 - Economic impact
 
 **Limitations**
-- Studies on the impact of _Vespa velutina_ on _Apix mellifera_ aren't perfect flowers
+- Studies on the impact of _Vespa velutina_ on _Apis mellifera_ aren't perfect flowers
   - High methodological heterogeneity
   - Inconsistent outcome measures
   - Lack of explicit control groups
-  - Limited to free online literature databases and available pdf's.
+  - Limited to free online literature databases and available PDFs.
 
 ## 1. Literature searches
 **Updated:** 2025-10-30
@@ -177,7 +177,7 @@ Only open access databases were used.
 - No Apis mellifera data
 - No Vespa velutina data
 - Non-European location
-- Not English, -Dutch, -German language
+- Not English, Dutch, or German language
 - Simulation studies, models, prediction, laboratory conditions
 - Reviews (check for missed articles with citation chaser)
 - Gray literature
@@ -192,7 +192,7 @@ Only open access databases were used.
 
 ## 3 Phase II screening
 ### 3.1 Full-text screening
-Screening based on full text and supplemental material (if available). `_updata_phase_II.md is used to instruct Cursor.AI to extract the quantitative items from the pdf's. First inclusion- and excludion criteria are extracted, subsequent additional quantifiable data are extracted. Short notes were allowed. The results are saved in a .md file with the similar name as the pdf. Then the were manualy checked, corrected and additional relevant information was added.
+Screening based on full text and supplemental material (if available). `_update_phase_II.md` is used to instruct Cursor.AI to extract the quantitative items from the PDFs. First inclusion and exclusion criteria are extracted, subsequent additional quantifiable data are extracted. Short notes were allowed. The results are saved in a .md file with a similar name as the PDF. Then they were manually checked, corrected, and additional relevant information was added.
 #### Included: 28
 - Apis_mellifera_predation
 - Other_species_predation
@@ -219,7 +219,7 @@ Screening based on full text and supplemental material (if available). `_updata_
 **Master Dataset**: `3_phase_II/_pdf_phase_II.csv` contains all extracted quantitative data, study characteristics, inclusion/exclusion criteria, and outcome measures.
 
 ### 4.1 Data Extraction
-Draft data extraction of the quatitative data for each pdf is done with Cursor.ai and checked manually.
+Draft data extraction of the quantitative data for each PDF is done with Cursor.ai and checked manually.
 ### 4.2 Predation Data
 
 #### 4.2.1 Predation Rates and Success
