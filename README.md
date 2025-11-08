@@ -202,177 +202,309 @@ Draft data extraction of the quatitative data for each pdf is done with Cursor.a
 
 #### 4.2.1 Predation Rates and Success
 
-| Study | Metric | Value | Sample Size | Location | Time Period | Notes |
-|-------|--------|-------|-------------|----------|-------------|-------|
-| Poidatz et al. 2023 | Overall predation success rate | 2.4% | 5,175 interactions | France | - | 126 successful events out of 5,175 interactions |
-| Poidatz et al. 2023 | Success rate (bees entering hive) | 69.46% | 126 events | France | - | 4× higher for bees entering vs leaving |
-| Poidatz et al. 2023 | Success rate (bees leaving hive) | 15.27% | 126 events | France | - | - |
-| Poidatz et al. 2023 | Peak success (hornet number) | ~8 hornets | 5,175 interactions | France | - | Peak success at ~8 hornets, then decreases |
-| Perrard et al. 2009 | Attack success rate | 25% | 359 attacks | France | 2007 | Average 4 trials necessary to catch one honeybee |
-| Perrard et al. 2009 | Honeybee predation rate (captive) | 37.5 honeybees/day | 1 captive colony | France | 2007 | 25 to 50 honeybees per day (mean 37.5) |
-| Monceau et al. 2013 | Maximum captures (hornet number) | 9 hornets | 2 hives | France | 2009 | Maximum captures at 9 hornets per hive |
-| Monceau et al. 2013 | Peak capture time | 13:00-14:00 h | 2 hives | France | 2009 | Peak at midday (01:00-02:00 pm) |
-| Monceau et al. 2013 | Hornets trapped (ART site) | 916 individuals | 14 hives | France | 2008 | Artigues-près-Bordeaux site |
-| Monceau et al. 2013 | Hornets trapped (VIL site) | 1,894 individuals | 9 hives | France | 2008 | Villenave d'Ornon site |
-| Monceau et al. 2013 | Peak capture (ART site) | 106 individuals | 14 hives | France | 2008 | 12th November 2008 |
-| Monceau et al. 2013 | Peak capture (VIL site) | 217 individuals | 9 hives | France | 2008 | 12th November 2008 |
-| Monceau et al. 2013 | Predation duration | 5 months | 23 hives | France | 2008 | 5 months duration |
-| Monceau et al. 2013 | Delay to predation increase | 44 days | 23 hives | France | 2008 | Approximately 44 days from first capture |
-| Monceau et al. 2014 | Hornets visiting daily | ~350 hornets | 6 hives | France | 2011 | ~350 hornets visiting patch daily |
-| Monceau et al. 2014 | Maximum hornets (single hive) | 20 hornets | 6 hives | France | 2011 | Up to 20 hornets at same time |
-| Monceau et al. 2014 | Recapture rate (D1 morning) | 73.94% | 188 marked | France | 2011 | 73 out of 188 |
-| Monceau et al. 2014 | Recapture rate (overall) | 56.67% | 360 marked | France | 2011 | 204 out of 360 recaptured at least once |
-| Monceau et al. 2014 | Daily visits per half-day | 1.88 visits | 360 marked | France | 2011 | Average range 1.70-2.20 |
-| Rome et al. 2021 | Peak predation timing | Early October | 16 nests | France | 2008-2010 | - |
-| Rome et al. 2021 | Peak predation time of day | Midday | 16 nests | France | 2008-2010 | Around midday |
-| Diéguez-Antón et al. 2025 | Total hornets counted (all apiaries) | 11,406 individuals | 6 colonies | Spain | 2021-2022 | Total across all apiaries |
-| Diéguez-Antón et al. 2025 | Predation pressure duration (Apiary 3) | 11 months | 2 colonies | Spain | 2021-2022 | Both years |
+**Key Metrics Summary**
+
+| Metric | Value | Study | Location |
+|--------|-------|-------|----------|
+| Overall predation success rate | 2.4% | Poidatz et al. 2023 | France |
+| Success rate (bees entering hive) | 69.46% | Poidatz et al. 2023 | France |
+| Success rate (bees leaving hive) | 15.27% | Poidatz et al. 2023 | France |
+| Peak success (hornet number) | ~8 hornets | Poidatz et al. 2023 | France |
+| Attack success rate | 25% | Perrard et al. 2009 | France |
+| Maximum captures (hornet number) | 9 hornets | Monceau et al. 2013 | France |
+
+**Detailed Findings**
+
+**Poidatz et al. 2023** (France)
+- Overall predation success: **2.4%** (126 successful events out of 5,175 interactions)
+- Success rate for bees entering hive: **69.46%** (4× higher than bees leaving)
+- Success rate for bees leaving hive: **15.27%**
+- Peak success occurs at **~8 hornets**, then decreases
+- Sample: 5,175 predator-prey interactions from 603,259 trajectories
+
+**Perrard et al. 2009** (France, 2007)
+- Attack success rate: **25%** (average 4 trials necessary to catch one honeybee)
+- Honeybee predation rate (captive colony): **37.5 honeybees/day** (range: 25-50)
+- Sample: 359 attacks observed, 1 captive colony
+
+**Monceau et al. 2013** (France, 2008-2009)
+- Maximum captures at **9 hornets per hive**
+- Peak capture time: **13:00-14:00 h** (midday)
+- Hornets trapped:
+  - ART site: **916 individuals** (14 hives), peak: 106 on 12 Nov 2008
+  - VIL site: **1,894 individuals** (9 hives), peak: 217 on 12 Nov 2008
+- Predation duration: **5 months**
+- Delay to predation increase: **~44 days** from first capture
+- Sample: 23 hives across 2 sites
+
+**Monceau et al. 2014** (France, 2011)
+- Hornets visiting daily: **~350 hornets** (6 hives)
+- Maximum hornets at single hive: **20 hornets** simultaneously
+- Recapture rate: **56.67%** overall (204/360 marked), **73.94%** on D1 morning
+- Daily visits per half-day: **1.88 visits** (range: 1.70-2.20)
+- Sample: 360 marked hornets, 6 hives
+
+**Rome et al. 2021** (France, 2008-2010)
+- Peak predation timing: **Early October**
+- Peak predation time of day: **Midday**
+- Sample: 16 nests
+
+**Diéguez-Antón et al. 2025** (Spain, 2021-2022)
+- Total hornets counted: **11,406 individuals** across all apiaries (6 colonies)
+- Predation pressure duration: Up to **11 months** (Apiary 3, both years)
+- Sample: 3 apiaries, 6 colonies
 
 #### 4.2.2 Prey Composition
 
-| Study | Metric | Value | Sample Size | Location | Time Period | Notes |
-|-------|--------|-------|-------------|----------|-------------|-------|
-| Rome et al. 2021 | Apis mellifera in prey pellets | 38.1% | 2,151 pellets | France | 2008-2010 | 820 out of 2,151 pellets |
-| Rome et al. 2021 | Prey consumption per colony | 97,246.45 honeybee-equivalent | 16 nests | France | 2008-2010 | Per colony per season |
-| Rome et al. 2021 | Biomass consumption per colony | 11.32 kg | 16 nests | France | 2008-2010 | 11.32 kg of insects per average colony per season |
-| Rome et al. 2021 | Proportion hive production consumed | 40% | 16 nests | France | 2008-2010 | ~40% of individuals produced by one hive consumed by one hornet colony |
-| Rome et al. 2021 | Wild bees proportion | 0.02% | 2,151 pellets | France | 2008-2010 | Bumblebees and solitary bees excluding wild honeybee colonies |
-| Perrard et al. 2009 | Apis mellifera in pellets | 84.8% | 171 flesh pellets | France | 2007 | 145 out of 171 flesh pellets |
-| Herrera et al. 2025 | Apis mellifera in diet | 22.55% | 7 nests | Spain | 2016 | 22.55% of Apidae family |
-| Herrera et al. 2025 | Apis mellifera range | 14.86-29.27% | 7 nests | Spain | 2016 | Range across nests |
-| Herrera et al. 2025 | Apis mellifera shared OTU | Yes | 7 nests | Spain | 2016 | Shared OTU across all nests |
-| Pedersen et al. 2025 | Apis mellifera prevalence | 98.1% | 103 nests | Multiple | 2020-2022 | Found in every nest, average prevalence |
-| Pedersen et al. 2025 | Apis mellifera found in all nests | 100% | 103 nests | Multiple | 2020-2022 | Found in every nest |
-| Pedersen et al. 2025 | Top 50 prey pollinators | 43 species | 103 nests | Multiple | 2020-2022 | 43 were potential pollinators |
-| Pedersen et al. 2025 | Crop pollinators dominant | 3 species | 103 nests | Multiple | 2020-2022 | 3 most dominant European crop pollinators |
-| Stainton et al. 2023 | Honeybee detection rate | 65.8% | 38 samples | UK | 2016-2020 | Present in 25 of 38 larvae |
-| Stainton et al. 2023 | Honeybee detection by nest | 80% | 5 nests | UK | 2016-2020 | 4 of 5 nests |
-| Stainton et al. 2023 | Honeybee reads (Jersey) | 20.5% | 9 samples | UK | 2019 | - |
-| Stainton et al. 2023 | Honeybee reads (Tetbury) | 0.33% | 10 samples | UK | 2016 | - |
-| Stainton et al. 2023 | Honeybee reads (Woolacombe) | 7.3% | 10 samples | UK | 2017 | - |
-| Verdasca et al. 2022 | Honeybee reads (total) | 75% | 32 samples | Portugal | 2018 | 79,143 out of 108,979 reads |
-| Verdasca et al. 2022 | Honeybee reads (faecal pellets) | 84% | 12 samples | Portugal | 2018 | 50,549 out of 60,518 reads |
-| Verdasca et al. 2022 | Honeybee reads (jaws) | 74% | 10 samples | Portugal | 2018 | 20,458 out of 27,546 reads |
-| Verdasca et al. 2022 | Honeybee reads (stomachs) | 39% | 10 samples | Portugal | 2018 | 8,136 out of 20,915 reads |
-| Verdasca et al. 2022 | Honeybee detection (faecal pellets) | 100% | 12 samples | Portugal | 2018 | All replicates of all samples |
-| Verdasca et al. 2022 | Honeybee detection (jaws) | 70% | 10 samples | Portugal | 2018 | - |
-| Verdasca et al. 2022 | Honeybee detection (stomachs) | 40% | 10 samples | Portugal | 2018 | - |
-| Verdasca et al. 2022 | DNA persistence (faecal pellets) | ≥28 days | 12 samples | Portugal | 2018 | At least 28 days maximum known period |
+**Key Metrics Summary**
+
+| Metric | Value Range | Method | Studies |
+|--------|-------------|--------|---------|
+| Apis mellifera in diet | 22.55% - 98.1% | Various | Multiple |
+| Apis mellifera found in all nests | 100% | Metabarcoding | Pedersen et al. 2025 |
+| Prey consumption per colony | 97,246 honeybee-equivalent/season | Pellet analysis | Rome et al. 2021 |
+| Biomass consumption per colony | 11.32 kg/season | Pellet analysis | Rome et al. 2021 |
+| Proportion hive production consumed | 40% | Pellet analysis | Rome et al. 2021 |
+
+**Detailed Findings**
+
+**Rome et al. 2021** (France, 2008-2010, 16 nests, pellet collection)
+- Apis mellifera in prey pellets: **38.1%** (820/2,151 pellets)
+- Prey consumption per colony: **97,246 honeybee-equivalent** per season
+- Biomass consumption per colony: **11.32 kg** of insects per season
+- Proportion of hive production consumed: **~40%** (one hornet colony consumes ~40% of individuals produced by one hive)
+- Wild bees proportion: **0.02%** (bumblebees and solitary bees, excluding wild honeybee colonies)
+
+**Pedersen et al. 2025** (Multiple countries, 2020-2022, 103 nests, larval gut contents)
+- Apis mellifera prevalence: **98.1%** average (found in every nest)
+- Apis mellifera found in all nests: **100%**
+- Top 50 prey species: **43 were potential pollinators**
+- Crop pollinators: **3 most dominant European crop pollinators** identified
+
+**Perrard et al. 2009** (France, 2007, pellet analysis)
+- Apis mellifera in pellets: **84.8%** (145/171 flesh pellets)
+
+**Herrera et al. 2025** (Spain, Mallorca, 2016, 7 nests, meconium analysis)
+- Apis mellifera in diet: **22.55%** of Apidae family
+- Range across nests: **14.86-29.27%**
+- Shared OTU: Yes (found across all nests)
+
+**Verdasca et al. 2022** (Portugal, 2018, 12 nests, metabarcoding)
+- Honeybee reads:
+  - Total: **75%** (79,143/108,979 reads)
+  - Faecal pellets: **84%** (50,549/60,518 reads)
+  - Jaws: **74%** (20,458/27,546 reads)
+  - Stomachs: **39%** (8,136/20,915 reads)
+- Detection rates:
+  - Faecal pellets: **100%** (all replicates)
+  - Jaws: **70%**
+  - Stomachs: **40%**
+- DNA persistence in faecal pellets: **≥28 days** (maximum known period)
+
+**Stainton et al. 2023** (UK, 2016-2020, 5 nests, larval gut contents)
+- Honeybee detection rate: **65.8%** (25/38 larvae)
+- Detection by nest: **80%** (4/5 nests)
+- Honeybee reads by location:
+  - Jersey (2019): **20.5%** (9 samples)
+  - Tetbury (2016): **0.33%** (10 samples)
+  - Woolacombe (2017): **7.3%** (10 samples)
 
 ### 4.3 Colony Survival and Loss
 
 #### 4.3.1 Colony Survival
 
-| Study | Metric | Value | Sample Size | Location | Time Period | Notes |
-|-------|--------|-------|-------------|----------|-------------|-------|
-| Requier et al. 2020 | Muzzle-equipped survival rate | 55% | 100 simulations | France | 2013-2016 | BEEHAVE model simulations |
-| Requier et al. 2020 | Control survival rate | 35% | 100 simulations | France | 2013-2016 | BEEHAVE model simulations |
-| Requier et al. 2020 | Survival increase (high hornets) | Up to 51% | 100 simulations | France | 2013-2016 | Up to 51% increase with >5 hornets |
-| Rojas-Nossa et al. 2022 | Protected colony survival | 77.8% | Variable colonies | Spain | 2018-2020 | - |
-| Rojas-Nossa et al. 2022 | Unprotected colony survival | 55.6% | Variable colonies | Spain | 2018-2020 | - |
-| Requier et al. 2019 | Colony collapse rate | 55.3% | 993 simulations | France | 2012-2016 | BEEHAVE model simulations |
-| Requier et al. 2019 | Collapse during predation period | 2.5% | 993 simulations | France | 2012-2016 | 24 colonies out of 993 |
-| Diéguez-Antón et al. 2022 | Colony death | 1 colony | 2 colonies | Spain | 2020-2021 | Colony 2 died at end of study |
-| Monceau et al. 2018 | Colony survival (H1) | Died | 1 hive | France | 2009 | Passed away first before winter |
-| Monceau et al. 2018 | Colony survival (H2) | Died | 1 hive | France | 2009 | Survived longer but died later in winter |
+**Key Metrics Summary**
+
+| Metric | Value | Study | Location |
+|--------|-------|-------|----------|
+| Protected colony survival | 77.8% | Rojas-Nossa et al. 2022 | Spain |
+| Muzzle-equipped survival | 55% | Requier et al. 2020 | France |
+| Unprotected colony survival | 55.6% | Rojas-Nossa et al. 2022 | Spain |
+| Control survival (no protection) | 35% | Requier et al. 2020 | France |
+| Colony collapse rate | 55.3% | Requier et al. 2019 | France |
+
+**Detailed Findings**
+
+**Requier et al. 2020** (France, 2013-2016, BEEHAVE model simulations)
+- Muzzle-equipped survival: **55%** (100 simulations)
+- Control survival: **35%** (100 simulations)
+- Survival increase with protection: **Up to 51%** in context of high hornet abundance (>5 hornets)
+- Low hornet loads (<5): Muzzle survival marginally lower than control
+- High hornet loads (>5): Muzzle significantly increases survival probability
+
+**Rojas-Nossa et al. 2022** (Spain, 2018-2020, electric harp protection)
+- Protected colony survival: **77.8%**
+- Unprotected colony survival: **55.6%**
+- Honeybee weight reduction (unprotected): **6.7%** lighter workers
+
+**Requier et al. 2019** (France, 2012-2016, BEEHAVE model simulations, 993 simulations)
+- Colony collapse rate: **55.3%** (549/993 reached endpoint)
+- Collapse during predation period: **2.5%** (24 colonies)
+- Collapse during winter: January 13 - May 1
+
+**Field Observations**
+- **Diéguez-Antón et al. 2022** (Spain, 2020-2021): 1 colony died out of 2 monitored
+- **Monceau et al. 2018** (France, 2009): Both monitored colonies died (H1 before winter, H2 later in winter)
 
 #### 4.3.2 Mortality Factors
 
-| Study | Metric | Value | Sample Size | Location | Time Period | Notes |
-|-------|--------|-------|-------------|----------|-------------|-------|
-| Requier et al. 2019 | Winter mortality (Profile A) | 100% | 27 simulations | France | 2012-2016 | Larvae population <5 individuals |
-| Requier et al. 2019 | Winter mortality (Profile B low) | 80.5% | 288 simulations | France | 2012-2016 | Larvae >5 adult <9950 |
-| Requier et al. 2019 | Winter mortality (Profile B high) | 96.8% | 288 simulations | France | 2012-2016 | Larvae >5 adult <9950 |
-| Requier et al. 2019 | Winter mortality (Profile C) | 100% | 66 simulations | France | 2012-2016 | Larvae >5 adult >9950 honey ≤21 kg |
-| Diéguez-Antón et al. 2025 | Risk threshold (minimum) | ≥5 hornets | 6 colonies | Spain | 2021-2022 | ≥5 hornets poses risk to colony survival |
-| Diéguez-Antón et al. 2025 | Risk threshold (high) | ≥10 hornets | 6 colonies | Spain | 2021-2022 | ≥10 hornets high risk |
-| Diéguez-Antón et al. 2025 | High pressure events (Apiary 1, Oct 2021) | 31 events | 2 colonies | Spain | 2021 | Events with >5 hornets |
-| Diéguez-Antón et al. 2025 | High pressure days (Apiary 1, Oct 2021) | 5 days | 2 colonies | Spain | 2021 | Days with >10 hornets |
-| Diéguez-Antón et al. 2025 | High pressure days (Apiary 2, Aug 2021) | 20 days | 2 colonies | Spain | 2021 | Days with ≥5 hornets |
-| Jacques et al. 2017 | Winter mortality range (Year 1, low) | 5.01% | 2,332 apiaries | 17 countries | 2012-2014 | Italy lowest |
-| Jacques et al. 2017 | Winter mortality range (Year 1, high) | 31.73% | 2,332 apiaries | 17 countries | 2012-2014 | Belgium highest |
-| Jacques et al. 2017 | Seasonal mortality range (Year 1, low) | 0.09% | 2,332 apiaries | 17 countries | 2012-2014 | Lithuania lowest |
-| Jacques et al. 2017 | Seasonal mortality range (Year 1, high) | 9.63% | 2,332 apiaries | 17 countries | 2012-2014 | France highest |
-| Jacques et al. 2017 | Winter mortality range (Year 2, low) | 2.16% | 2,426 apiaries | 17 countries | 2012-2014 | Lithuania lowest |
-| Jacques et al. 2017 | Winter mortality range (Year 2, high) | 13.85% | 2,426 apiaries | 17 countries | 2012-2014 | Belgium highest |
-| Jacques et al. 2017 | Seasonal mortality range (Year 2, low) | 0.16% | 2,426 apiaries | 17 countries | 2012-2014 | Lithuania lowest |
-| Jacques et al. 2017 | Seasonal mortality range (Year 2, high) | 8.06% | 2,426 apiaries | 17 countries | 2012-2014 | France highest |
-| Jacques et al. 2017 | Hobby vs professional mortality | 14.04% vs 8.11% | 2,332 apiaries | 17 countries | 2012-2014 | Hobby beekeepers had double the winter mortality |
-| Rojas-Nossa et al. 2022 | Honeybee weight reduction | 6.7% | Variable bees | Spain | 2018-2020 | Workers from unprotected hives 6.7% lighter |
+**Risk Thresholds**
+
+| Threshold | Risk Level | Study | Location |
+|----------|------------|-------|----------|
+| ≥5 hornets | Minimum risk | Diéguez-Antón et al. 2025 | Spain |
+| ≥10 hornets | High risk | Diéguez-Antón et al. 2025 | Spain |
+
+**Winter Mortality Profiles** (Requier et al. 2019, France, 2012-2016, BEEHAVE simulations)
+
+- **Profile A** (n=27): **100% mortality**
+  - Larvae population <5 individuals
+  - Changes: Larvae decreased, adult population increased (+4,874), honey reserves decreased (-26.8 kg)
+
+- **Profile B** (n=288): **80.5-96.8% mortality**
+  - Larvae >5, adult population <9,950
+  - Changes: Larvae decreased, adult population decreased (-19,732), honey reserves increased (+12.3 kg)
+
+- **Profile C** (n=66): **100% mortality**
+  - Larvae >5, adult >9,950, honey reserve ≤21 kg
+  - Changes: Intermediary population and reserve trajectories
+
+**Pan-European Mortality** (Jacques et al. 2017, EPILOBEE, 17 countries, 2012-2014)
+
+**Year 1** (2,332 apiaries):
+- Winter mortality range: **5.01%** (Italy) to **31.73%** (Belgium)
+- Seasonal mortality range: **0.09%** (Lithuania) to **9.63%** (France)
+
+**Year 2** (2,426 apiaries):
+- Winter mortality range: **2.16%** (Lithuania) to **13.85%** (Belgium)
+- Seasonal mortality range: **0.16%** (Lithuania) to **8.06%** (France)
+
+**Beekeeper Type Comparison**:
+- Hobby beekeepers: **14.04%** winter mortality
+- Professional beekeepers: **8.11%** winter mortality
+- Hobby beekeepers had **double** the winter mortality
+
+**High Pressure Events** (Diéguez-Antón et al. 2025, Spain, 2021-2022)
+- Apiary 1 (October 2021): **31 events** with >5 hornets, **5 days** with >10 hornets
+- Apiary 2 (August 2021): **20 days** with ≥5 hornets, up to **37 times** per day
 
 ### 4.4 Apis mellifera Behavior
 
 #### 4.4.1 Foraging Paralysis Thresholds
 
-| Study | Metric | Value | Sample Size | Location | Time Period | Notes |
-|-------|--------|-------|-------------|----------|-------------|-------|
-| Requier et al. 2019 | Foraging paralysis threshold | ≥12.6 hornets | 131 colonies | France | 2012-2016 | Complete FP at ≥12.6 hornets (95% CI) |
-| Requier et al. 2019 | Foraging paralysis effect | Z=-20.65, P<0.001 | 603 observations | France | 2012-2016 | Negative impact on flight activity |
-| Requier et al. 2020 | Foraging paralysis reduction (muzzle) | Up to 41% | 44 colonies | France | 2013-2016 | Up to 41% FP reduction with muzzle |
-| Requier et al. 2020 | Muzzle activity (0 hornets) | 84% of baseline | 22 colonies | France | 2013-2016 | 84% of baseline activity |
-| Requier et al. 2020 | Muzzle activity (20 hornets) | 76% of baseline | 22 colonies | France | 2013-2016 | 76% of baseline activity (16-24% FP) |
-| Requier et al. 2020 | Control activity (0 hornets) | 100% of baseline | 22 colonies | France | 2013-2016 | 100% of baseline activity |
-| Requier et al. 2020 | Control activity (20 hornets) | 35% of baseline | 22 colonies | France | 2013-2016 | 35% of baseline activity (0-65% FP) |
-| Requier et al. 2020 | Control max FP | Up to 76% | 22 colonies | France | 2013-2016 | 95% CI prediction up to 76% FP |
-| Monceau et al. 2018 | Foraging decline threshold | >10 hornets | 2 hives | France | 2009 | Above 10 hornets per hive number of foragers drops |
-| Rojas-Nossa et al. 2022 | Foraging paralysis threshold | >0.8 hornets/hive/10min | Variable hives | Spain | 2018-2020 | Occurred at HRH > 0.8 |
-| Diéguez-Antón et al. 2025 | Foraging paralysis observed | Yes | 6 colonies | Spain | 2021-2022 | Observed when hornet pressure is high |
+**Key Thresholds Summary**
+
+| Threshold | Value | Study | Location |
+|-----------|-------|-------|----------|
+| Complete foraging paralysis | ≥12.6 hornets | Requier et al. 2019 | France |
+| Foraging decline | >10 hornets | Monceau et al. 2018 | France |
+| Foraging paralysis (HRH) | >0.8 hornets/hive/10min | Rojas-Nossa et al. 2022 | Spain |
+
+**Detailed Findings**
+
+**Requier et al. 2019** (France, 2012-2016, 131 colonies, 603 observations)
+- Foraging paralysis threshold: **≥12.6 hornets** (95% CI) for complete FP
+- Statistical effect: Z=-20.65, P<0.001 (negative impact on flight activity)
+- Peak period: August 28 - November 6 (hornets >5 only during this period)
+
+**Requier et al. 2020** (France, 2013-2016, 44 colonies, muzzle protection study)
+- Foraging paralysis reduction with muzzle: **Up to 41%**
+- Activity levels:
+  - Muzzle (0 hornets): **84%** of baseline
+  - Muzzle (20 hornets): **76%** of baseline (16-24% FP)
+  - Control (0 hornets): **100%** of baseline
+  - Control (20 hornets): **35%** of baseline (0-65% FP)
+- Control max FP: **Up to 76%** (95% CI prediction)
+
+**Monceau et al. 2018** (France, 2009, 2 hives)
+- Foraging decline threshold: **>10 hornets** per hive (number of foragers drops above this)
+
+**Rojas-Nossa et al. 2022** (Spain, 2018-2020)
+- Foraging paralysis threshold: **>0.8 hornets/hive/10min** (HRH)
+
+**Diéguez-Antón et al. 2025** (Spain, 2021-2022, 6 colonies)
+- Foraging paralysis observed: Yes (when hornet pressure is high)
 
 #### 4.4.2 Activity Reductions and Behavioral Responses
 
-| Study | Metric | Value | Sample Size | Location | Time Period | Notes |
-|-------|--------|-------|-------------|----------|-------------|-------|
-| Arca et al. 2014 | Colony activity drop | Dramatic drop | 95 colonies | France | 2008-2010 | Activity dropped dramatically when hornet present |
-| Arca et al. 2014 | Bee-carpet formation (30-60% increase) | 14 colonies | 95 colonies | France | 2008-2010 | 30-60% increase in bee-carpet behavior |
-| Arca et al. 2014 | Bee-carpet formation (60-80% increase) | 17 colonies | 95 colonies | France | 2008-2010 | 60-80% increase in bee-carpet behavior |
-| Arca et al. 2014 | Bee-carpet formation (>80% increase) | 48 colonies | 95 colonies | France | 2008-2010 | >80% increase in bee-carpet behavior |
-| Arca et al. 2014 | Bee-carpet pattern 1 | 42% | 95 colonies | France | 2008-2010 | Large number of honeybees gathered on flight board |
-| Arca et al. 2014 | Bee-carpet pattern 2 | 20% | 95 colonies | France | 2008-2010 | Bee-carpet with coordinated behavior |
-| Arca et al. 2014 | Bee-carpet pattern 3 | 38% | 95 colonies | France | 2008-2010 | No coordinated behavior |
-| Arca et al. 2014 | Balling occurrence | 68 colonies (72%) | 95 colonies | France | 2008-2010 | 72% of colonies exhibited balling |
-| Arca et al. 2014 | Balling size (<10 bees) | 31 colonies (33%) | 95 colonies | France | 2008-2010 | - |
-| Arca et al. 2014 | Balling size (10-20 bees) | 20 colonies (21%) | 95 colonies | France | 2008-2010 | - |
-| Arca et al. 2014 | Balling size (20-30 bees) | 15 colonies (16%) | 95 colonies | France | 2008-2010 | - |
-| Arca et al. 2014 | Balling size (>30 bees) | 1 colony (1%) | 95 colonies | France | 2008-2010 | - |
-| Arca et al. 2014 | Hornets killed by balling (outside) | 9.5% | 95 colonies | France | 2008-2010 | Only 9.5% hornets killed by balling in 5 min |
-| Arca et al. 2014 | Hornets killed (inside hive) | 76.4% | 55 hornets | France | 2008-2010 | 42 out of 55 hornets killed inside hive |
-| Arca et al. 2014 | Hornet hovering distance | ~15 cm | NA | France | 2008-2010 | About 15 cm from hive entrance |
-| Monceau et al. 2013 | Flying activity pattern | Decreased | 2 hives | France | 2009 | Higher early morning, decreased afternoon/evening |
-| Monceau et al. 2013 | Seasonal activity pattern | Decreased | 2 hives | France | 2009 | Higher in July, decreased throughout summer until October |
-| Monceau et al. 2013 | Activity relation to hornets | Negative | 2 hives | France | 2009 | Negatively related to number of hornets |
-| Monceau et al. 2013 | Returning foragers vs guards | P=0.01 | 2 hives | France | 2009 | Flying honeybees returning suffered more predation |
-| Monceau et al. 2013 | Forager load extra mass | Up to 40% | NA | France | 2009 | Pollen or nectar loads can represent up to 40% extra body mass |
-| Monceau et al. 2018 | Bee-carpet maximum timing | Late August-early September | 2 hives | France | 2009 | - |
-| Monceau et al. 2018 | Bee-carpet maximum (hornets) | 7 hornets | 2 hives | France | 2009 | Maximum at 7 hornets |
-| Monceau et al. 2018 | Honeybees tracking hornets (H1) | 21 instances | 1 hive | France | 2009 | - |
-| Monceau et al. 2018 | Honeybees tracking hornets (H2) | 46 instances | 1 hive | France | 2009 | - |
-| Monceau et al. 2018 | Balling occurrences (H1) | 2 occurrences | 1 hive | France | 2009 | - |
-| Monceau et al. 2018 | Balling occurrences (H2) | 1 occurrence | 1 hive | France | 2009 | - |
-| Poidatz et al. 2023 | Flight speed (bees leaving vs entering) | 1.9× faster | 603,259 trajectories | France | - | Bees leaving 1.9× faster than entering |
-| Poidatz et al. 2023 | Flight speed (bees vs hornets) | 1.25× faster | 603,259 trajectories | France | - | Bees entering 1.25× faster than hornets |
-| Poidatz et al. 2023 | Hovering time (hornets vs bees) | 2.1× more | 603,259 trajectories | France | - | Hornets 2.1× more hovering time than bees |
-| Poidatz et al. 2023 | Speed increase (bees entering) | Positive | 603,259 trajectories | France | - | With hornet density |
-| Poidatz et al. 2023 | Speed decrease (bees leaving) | Negative | 603,259 trajectories | France | - | With hornet density |
-| Requier et al. 2019 | Homing failure effect | Z=-5.37, P<0.001 | 603 observations | France | 2012-2016 | Significantly dependent on flight activity |
-| Requier et al. 2019 | Hornet activity period | 9:06-18:08 h | NA | France | 2012-2016 | Daily activity start and end time |
-| Requier et al. 2019 | Peak activity period | September-October | NA | France | 2012-2016 | - |
-| Poidatz et al. 2023 | Hornet activity peak | 13:00 h (1 pm) | NA | France | - | Peak at 1 pm |
-| Poidatz et al. 2023 | Honeybee activity peak | 15:00 h (3 pm) | NA | France | - | Peak at 3 pm |
-| Monceau et al. 2017 | Foraging flight peak (Nest A) | 14:00 h | 2 nests | France | 2008-2009 | 14:00 for Nest A |
-| Monceau et al. 2017 | Foraging flight peak (Nest B) | 13:00 h | 2 nests | France | 2008-2009 | 13:00 for Nest B |
-| Monceau et al. 2017 | Foraging flight seasonal peak | October | 2 nests | France | 2008-2009 | Reached maximum in October |
-| Diéguez-Antón et al. 2022 | Daily activity period | 7:00-21:00 h | 2 colonies | Spain | 2020-2021 | 7:00 h - 21:00 h |
-| Diéguez-Antón et al. 2022 | Peak months (2020) | September | 2 colonies | Spain | 2020 | Maximum number of hornets |
-| Diéguez-Antón et al. 2022 | Peak months (2021) | October | 2 colonies | Spain | 2021 | Exponential increase |
-| Diéguez-Antón et al. 2022 | Optimal temperature (hornet activity) | 15-25°C | 2 colonies | Spain | 2020-2021 | - |
-| Diéguez-Antón et al. 2022 | Optimal humidity (hornet activity) | >60% | 2 colonies | Spain | 2020-2021 | - |
-| Diéguez-Antón et al. 2022 | Hornet-temperature correlation | r=0.368, p<0.01 | 2 colonies | Spain | 2020-2021 | Positive correlation |
-| Diéguez-Antón et al. 2022 | Hornet-humidity correlation | r=-0.347, p<0.01 | 2 colonies | Spain | 2020-2021 | Inverse correlation |
-| Diéguez-Antón et al. 2025 | Optimal temperature range | 17-26°C | 6 colonies | Spain | 2021-2022 | Most suitable for observing higher number of hornets |
-| Perrard et al. 2009 | Activity start time | 6:00 h | 1 captive colony | France | 2007 | Workers' flights |
-| Perrard et al. 2009 | Activity end time | 22:00-22:30 h | 1 captive colony | France | 2007 | Dusk between 10:00 pm and 10:30 pm |
-| Perrard et al. 2009 | Peak activity time | 15:30-16:30 h | 1 captive colony | France | 2007 | 3:30 pm to 4:30 pm |
-| Perrard et al. 2009 | Minimum activity temperature | 10°C | 1 captive colony | France | 2007 | No activity below 10°C |
+**Defensive Behaviors**
+
+**Arca et al. 2014** (France, 2008-2010, 95 colonies)
+- **Colony activity**: Dramatic drop when hornet present
+- **Bee-carpet formation**:
+  - 30-60% increase: 14 colonies
+  - 60-80% increase: 17 colonies
+  - >80% increase: 48 colonies
+  - Patterns: 42% large gathering, 20% coordinated behavior, 38% no coordination
+- **Balling behavior**:
+  - Occurrence: 68 colonies (72%) exhibited balling
+  - Ball size distribution:
+    - <10 bees: 31 colonies (33%)
+    - 10-20 bees: 20 colonies (21%)
+    - 20-30 bees: 15 colonies (16%)
+    - >30 bees: 1 colony (1%)
+  - Effectiveness:
+    - Outside hive: **9.5%** hornets killed by balling in 5 min
+    - Inside hive: **76.4%** hornets killed (42/55)
+- **Hornet hovering distance**: ~15 cm from hive entrance
+
+**Monceau et al. 2018** (France, 2009, 2 hives)
+- **Bee-carpet maximum**: Late August-early September at **7 hornets**
+- **Honeybees tracking hornets**: H1: 21 instances, H2: 46 instances
+- **Balling occurrences**: H1: 2 occurrences, H2: 1 occurrence
+
+**Flight Performance Changes**
+
+**Poidatz et al. 2023** (France, 603,259 trajectories)
+- **Flight speed**:
+  - Bees leaving vs entering: **1.9× faster** (bees leaving)
+  - Bees vs hornets: **1.25× faster** (bees entering)
+- **Hovering time**: Hornets **2.1× more** hovering time than bees
+- **Response to hornet density**:
+  - Bees entering: Speed and curvature **increase** with hornet density
+  - Bees leaving: Speed **decreases** with hornet density
+
+**Activity Patterns**
+
+**Temporal Patterns**
+
+| Study | Peak Activity Time | Peak Season | Location |
+|-------|-------------------|-------------|----------|
+| Poidatz et al. 2023 | Hornet: 13:00 h, Bee: 15:00 h | - | France |
+| Monceau et al. 2017 | Nest A: 14:00 h, Nest B: 13:00 h | October | France |
+| Requier et al. 2019 | 9:06-18:08 h (daily period) | September-October | France |
+| Perrard et al. 2009 | 15:30-16:30 h | - | France |
+| Diéguez-Antón et al. 2022 | 7:00-21:00 h (daily period) | Sept (2020), Oct (2021) | Spain |
+
+**Monceau et al. 2013** (France, 2009, 2 hives)
+- **Flying activity pattern**: Higher early morning, decreased afternoon/evening
+- **Seasonal pattern**: Higher in July, decreased throughout summer until October
+- **Activity relation to hornets**: Negative (negatively related to number of hornets)
+- **Returning foragers vs guards**: P=0.01 (flying honeybees returning suffered more predation)
+- **Forager load**: Up to **40%** extra body mass (pollen or nectar loads)
+
+**Environmental Correlations**
+
+**Diéguez-Antón et al. 2022** (Spain, 2020-2021, 2 colonies)
+- **Optimal temperature**: **15-25°C** for hornet activity
+- **Optimal humidity**: **>60%** for hornet activity
+- **Temperature correlation**: r=0.368, p<0.01 (positive)
+- **Humidity correlation**: r=-0.347, p<0.01 (inverse)
+
+**Diéguez-Antón et al. 2025** (Spain, 2021-2022, 6 colonies)
+- **Optimal temperature range**: **17-26°C** (most suitable for observing higher number of hornets)
+
+**Perrard et al. 2009** (France, 2007, 1 captive colony)
+- **Activity start**: 6:00 h (workers' flights)
+- **Activity end**: 22:00-22:30 h (dusk)
+- **Peak activity**: 15:30-16:30 h (3:30-4:30 pm)
+- **Minimum activity temperature**: **10°C** (no activity below this)
+
+**Homing Failure**
+
+**Requier et al. 2019** (France, 2012-2016, 603 observations)
+- **Homing failure effect**: Z=-5.37, P<0.001 (significantly dependent on flight activity)
+- Pattern: Maximal under very low flight activity, decreases with increased flight activity
 
 ### 4.5 Economic Impact
 **Website**: https://invacost.fr/  
