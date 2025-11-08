@@ -87,6 +87,9 @@ De InvaCost database biedt een uitgebreide wereldwijde repository van economisch
     - [4.6.3 Bestudeerde _Vespa velutina_ Nesten](#463-bestudeerde-vespa-velutina-nesten)
   - [4.7 Notities en bias](#47-notities-en-bias)
     - [4.7.1 Methodologische Heterogeniteit](#471-methodologische-heterogeniteit)
+- [5 [EXPERIMENTEEL] Planning en Prioritering](#5-experimenteel-planning-en-prioritering)
+  - [5.1 Verwijderingsprioriteitsindex (RPI)](#51-verwijderingsprioriteitsindex-rpi)
+  - [5.2 Maandelijkse Outputs](#52-maandelijkse-outputs)
 - [Notities](#notities)
   - [Snelle Referentie: Kern Drempelwaarden en Observaties](#snelle-referentie-kern-drempelwaarden-en-observaties)
   - [Beperkingen](#beperkingen)
@@ -703,5 +706,42 @@ De InvaCost database is een uitgebreide wereldwijde repository die economische k
 4. **Geografische en temporele variatie**: Studies beslaan verschillende landen, jaren en seizoenen, met variërende _Vespa velutina_ populatiedichtheden en imkerpraktijken.
 5. **Kleine steekproefgroottes per studie**: Veel studies hebben kleine steekproefgroottes (2-6 kolonies, 1-3 bijenstanden), wat de statistische kracht voor meta-analyse beperkt.
 6. **Diverse studieontwerpen**: Mix van experimentele interventies (snuitmaskers, elektrische harpen), observationele studies en modelleringsbenaderingen kunnen niet zinvol worden gecombineerd in een enkele meta-analyse.
+
+## 5 [EXPERIMENTEEL] Planning en Prioritering 
+
+### 5.1 Verwijderingsprioriteitsindex (RPI)
+
+Doel: prioriteren van gebieden voor verwijdering van Aziatische hoornaarnesten in de komende maand met behulp van een transparante, reproduceerbare 0–100 score. Doelgroep: provinciale coördinatoren, gemeenten, imkerorganisaties.
+
+Inputs (genormaliseerd; zie gedetailleerde documentatie):
+- Recente waarnemingen/nesten intensiteit (laatste 30–90 dagen), waarbij secundaire nesten hoger worden gewogen (Vespa-Watch.nl; GBIF).
+- Bijenstand/kastdichtheid proxy (FAOSTAT nationale kasten geschaald subnationaal) [te verifiëren].
+- Seizoensfactor (piek juli–oktober; 15–26°C optimaal) gebaseerd op gepubliceerde drempelwaarden.
+- Kosten-van-vertraging multiplier geïnformeerd door economische impact/beheerskosten literatuur.
+
+Formule (samenvatting): RPI = 100 × Σ(gewicht × genormaliseerde_input). Initiële gewichten: waarnemingen 0,40; secundair aandeel 0,20; bijenstand proxy 0,20; seizoen 0,10; kosten-van-vertraging 0,10. Banden en acties:
+- 0–24 Laag: Monitoren; imker zelfbescherming briefing.
+- 25–49 Matig: Valideren; verwijderen bij herhaalde gebeurtenissen ≥5 hoornaars.
+- 50–74 Hoog: Verwijdering plannen ≤7 dagen; lokale imkers waarschuwen.
+- 75–100 Zeer Hoog: Onmiddellijke verwijdering ≤72 uur; surge capaciteit.
+
+Methodologie en variabelen zijn gespecificeerd in: `5_visualisation_reporting/RPI_methodology.md`.
+
+Databronnen en URL's: GBIF (`https://www.gbif.org/`), EPPO (`https://gd.eppo.int/`), Vespa‑Watch.nl (`https://vespa-watch.nl/`), FAOSTAT (`https://www.fao.org/faostat/`), InvaCost (`https://invacost.fr/`), EASIN (`https://easin.jrc.ec.europa.eu/`).
+
+Kern drempelwaarden gerefereerd: Monceau et al. 2018; Requier et al. 2019, 2020, 2023 [te verifiëren]; Rojas‑Nossa et al. 2022; Diéguez‑Antón et al. 2025.
+
+Aannames en beperkingen:
+- Burgerwetenschapsdata zijn bevooroordeeld; normalisatie gebruikt percentielschaling en banden worden met voorzichtigheid geïnterpreteerd.
+- Bijenstand proxy kan grof zijn waar subnationale data niet beschikbaar zijn [te verifiëren].
+- RPI is beslissingsondersteuning, geen causaal impact.
+
+### 5.2 Maandelijkse Outputs
+
+- Scores (CSV): `4_data_extraction/rpi_scores_202511.csv` (schema gedocumenteerd in `RPI_methodology.md`).
+- Choropleth kaart: `5_visualisation_reporting/rpi_map_202511.jpg` (RPI banden).
+- Optioneel: Top 20 gebieden tabel: `5_visualisation_reporting/rpi_top20_202511.csv`.
+
+Elk maandelijks artefact moet downloaddata, filters en eventuele preprocessing notities bevatten consistent met de Data Management Standards.
 
 _De Nederlandse vertaling is automatisch gegeneerd door Cursor.ai_

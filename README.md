@@ -88,6 +88,9 @@ The InvaCost database provides a comprehensive global repository of economic cos
     - [4.6.3 _Vespa velutina_ Nests Studied](#463-vespa-velutina-nests-studied)
   - [4.7 Notes and biases](#47-notes-and-biases)
     - [4.7.1 Methodological Heterogeneity](#471-methodological-heterogeneity)
+- [5 [EXPERIMENTAL] Planning and Prioritization](#5-experimental-planning-and-prioritization)
+  - [5.1 Removal Priority Index (RPI)](#51-removal-priority-index-rpi)
+  - [5.2 Monthly Outputs](#52-monthly-outputs)
 - [Notes](#notes)
   - [Meta-Analysis Feasibility Assessment](#meta-analysis-feasibility-assessment)
   
@@ -703,3 +706,40 @@ The InvaCost database is a comprehensive global repository documenting economic 
 4. **Geographic and temporal variation**: Studies span different countries, years, and seasons, with varying _Vespa velutina_ population densities and beekeeping practices.
 5. **Small sample sizes per study**: Many studies have small sample sizes (2-6 colonies, 1-3 apiaries), limiting statistical power for meta-analysis.
 6. **Diverse study designs**: Mix of experimental interventions (muzzles, electric harps), observational studies, and modeling approaches cannot be meaningfully combined in a single meta-analysis.
+
+## 5 [EXPERIMENTAL] Planning and Prioritization 
+
+### 5.1 Removal Priority Index (RPI)
+
+Purpose: prioritize areas for Asian hornet nest removal in the next month using a transparent, reproducible 0–100 score. Audience: provincial coordinators, municipalities, beekeeper organizations.
+
+Inputs (normalized; see detailed documentation):
+- Recent sightings/nests intensity (last 30–90 days), weighting secondary nests higher (Vespa-Watch.nl; GBIF).
+- Apiary/hive density proxy (FAOSTAT national hives scaled subnationally) [to be verified].
+- Seasonal factor (peak July–October; 15–26°C optimal) based on published thresholds.
+- Cost-of-delay multiplier informed by economic impact/control cost literature.
+
+Formula (summary): RPI = 100 × Σ(weight × normalized_input). Initial weights: sightings 0.40; secondary share 0.20; apiary proxy 0.20; season 0.10; cost-of-delay 0.10. Bands and actions:
+- 0–24 Low: Monitor; beekeeper self-protection briefing.
+- 25–49 Moderate: Validate; remove if repeated events ≥5 hornets.
+- 50–74 High: Schedule removal ≤7 days; alert local beekeepers.
+- 75–100 Very High: Immediate removal ≤72 h; surge capacity.
+
+Methodology and variables are specified here: `5_visualisation_reporting/RPI_methodology.md`.
+
+Data sources and URLs: GBIF (`https://www.gbif.org/`), EPPO (`https://gd.eppo.int/`), Vespa‑Watch.nl (`https://vespa-watch.nl/`), FAOSTAT (`https://www.fao.org/faostat/`), InvaCost (`https://invacost.fr/`), EASIN (`https://easin.jrc.ec.europa.eu/`).
+
+Key thresholds referenced: Monceau et al. 2018; Requier et al. 2019, 2020, 2023 [to be verified]; Rojas‑Nossa et al. 2022; Diéguez‑Antón et al. 2025.
+
+Assumptions and limitations:
+- Citizen science data are biased; normalization uses percentile scaling and bands are interpreted with caution.
+- Apiary proxy may be coarse where subnational data are unavailable [to be verified].
+- RPI is decision support, not causal impact.
+
+### 5.2 Monthly Outputs
+
+- Scores (CSV): `4_data_extraction/rpi_scores_202511.csv` (schema documented in `RPI_methodology.md`).
+- Choropleth map: `5_visualisation_reporting/rpi_map_202511.jpg` (RPI bands).
+- Optional: Top 20 areas table: `5_visualisation_reporting/rpi_top20_202511.csv`.
+
+Each monthly artifact must include download dates, filters, and any preprocessing notes consistent with the Data Management Standards.

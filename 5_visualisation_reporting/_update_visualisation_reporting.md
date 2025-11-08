@@ -342,3 +342,37 @@ If visualizations are referenced in README:
 - Check image format (should be JPG)
 - Verify no unnecessary data duplication
 
+## Part 6: RPI Monthly Artifacts (Planning and Prioritization)
+
+### 6.1 Overview
+The Removal Priority Index (RPI) translates recent sightings/nests, apiary exposure, seasonal risk, and cost‑of‑delay into a 0–100 score per area for nest‑removal prioritization. See `5_visualisation_reporting/RPI_methodology.md` for variables, normalization, weights, and bands.
+
+### 6.2 Data Preparation
+1. Collect data sources (document access dates, filters): GBIF, Vespa‑Watch.nl, FAOSTAT, EPPO (context), EASIN (context), InvaCost (context).  
+2. Build area units: municipalities or H3 grid (document choice in `area_id_type`).  
+3. Compute variables and normalized components according to methodology.
+
+### 6.3 Create Monthly CSV
+- File: `4_data_extraction/rpi_scores_YYYYMM.csv` (semicolon‑delimited).  
+- Use the header schema defined in `RPI_methodology.md`.  
+- Ensure each row includes: `rpi_score`, `rpi_band`, `recommended_action`, `target_sla_days`.  
+- Optional: Export Top 20 table to `5_visualisation_reporting/rpi_top20_YYYYMM.csv` (sorted by `rpi_score` desc).
+
+### 6.4 Visualization Output
+- File: `5_visualisation_reporting/rpi_map_YYYYMM.jpg`  
+- Requirements:
+  - Legend with four RPI bands (Low, Moderate, High, Very High).  
+  - Caption with methods summary, data sources, and access dates.  
+  - Note any known biases (citizen science) and proxy limitations.
+- Tools: QGIS or equivalent (map production is manual or scripted outside this repo; no code provided here).
+
+### 6.5 Quality Checks
+- CSV schema matches `RPI_methodology.md`.  
+- Bands correctly derived from `rpi_score`.  
+- Top 20 list matches CSV sort by score (descending).  
+- Map colors/breaks match band definitions.  
+- README links updated for current month (see section “5.2 Monthly Outputs” in `README.md`).
+
+### 6.6 Documentation
+- Record: download dates, filters, and preprocessing in the monthly commit message and, if needed, a short note at the top of the CSV (separate README or log file, not in CSV body).  
+- Keep methodology changes versioned (update `RPI_methodology.md` with change log).
