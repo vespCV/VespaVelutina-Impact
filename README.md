@@ -51,10 +51,12 @@ _If bees only gathered nectar from perfect flowers, they wouldn't be able to mak
 This repository synthesizes evidence from **30 scientific studies** to quantify the impact of Asian hornet (_Vespa velutina_) on domestic honeybee colonies (_Apis mellifera_) in Europe.
 
 ### Predation Pressure on _Apis mellifera_
+- **Honeybee in diet**: 22-98% depending on method and location — [see details](#422-prey-composition)
+- Biomass consumption per hornet colony: **11.32 kg** of insects per season
+- Prey consumption per hornet colony: **97,246 honeybee-equivalent** per season
 - **Range**: 0-20+ hornets simultaneously at apiaries — [see details](#421-predation-rates-and-success)
 - **Peak periods**: July-October (varies by location) — [see details](#422-prey-composition)
 - **Predation success rate**: 2.4% (video tracking of natural predation at hive entrance) — [see details](#421-predation-rates-and-success)
-- **Honeybee in diet**: 22-98% depending on method and location — [see details](#422-prey-composition)
 
 ### Domesticated Honeybee Colony Survival
 - Without protection: **35-56%** of colonies survive under high hornet pressure (Requier et al. 2020; Rojas-Nossa et al. 2022) — [see details](#431-colony-survival)
@@ -292,8 +294,8 @@ Draft data extraction of the quantitative data for each PDF is done with Cursor.
 
 **Rome et al. 2021** (France, 2008-2010, 16 nests, pellet collection)
 - Apis mellifera in prey pellets: **38.1%** (820/2,151 pellets)
-- Prey consumption per colony: **97,246 honeybee-equivalent** per season
-- Biomass consumption per colony: **11.32 kg** of insects per season
+- Prey consumption per hornet colony: **97,246 honeybee-equivalent** per season
+- Biomass consumption per hornet colony: **11.32 kg** of insects per season
 - Proportion of hive production consumed: **~40%** (one hornet colony consumes ~40% of individuals produced by one hive)
 - Wild bees proportion: **0.02%** (bumblebees and solitary bees, excluding wild honeybee colonies)
 

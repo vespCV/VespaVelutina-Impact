@@ -51,10 +51,12 @@ _Als bijen alleen nectar verzamelden van perfecte bloemen, zouden ze niet eens �
 Deze repository synthetiseert bewijs uit **30 wetenschappelijke studies** om de impact van de Aziatische hoornaar (_Vespa velutina_) op gedomesticeerde honingbijkolonies (_Apis mellifera_) in Europa te kwantificeren.
 
 ### Predatiedruk op _Apis mellifera_
+- **Honingbij in dieet**: 22-98% afhankelijk van methode en locatie — [zie details](#422-prooisamenstelling)
+- Biomassa consumptie per hoornaarkolonie: **11,32 kg** insecten per seizoen
+- Prooiconsumptie per hoornaarkolonie: **97.246 honingbij-equivalent** per seizoen
 - **Bereik**: 0-20+ hoornaars gelijktijdig bij bijenstanden — [zie details](#421-predatiesnelheden-en-succes)
 - **Piekperioden**: juli-oktober (varieert per locatie) — [zie details](#422-prooisamenstelling)
 - **Predatiesuccespercentage**: 2,4% (videotracking van natuurlijke predatie bij kastingang) — [zie details](#421-predatiesnelheden-en-succes)
-- **Honingbij in dieet**: 22-98% afhankelijk van methode en locatie — [zie details](#422-prooisamenstelling)
 
 ### Overleving van gedomesticeerde honingbijkolonies
 - Zonder bescherming: **35-56%** van de kolonies overleeft onder hoge hoornaardruk (Requier et al. 2020; Rojas-Nossa et al. 2022) — [zie details](#431-kolonie-overleving)
@@ -284,16 +286,16 @@ Conceptuele data extractie van de kwantitatieve data voor elke PDF wordt gedaan 
 |--------|-------------|--------|---------|
 | Apis mellifera in dieet | 22,55% - 98,1% | Verschillend | Meerdere |
 | Apis mellifera gevonden in alle nesten | 100% | Metabarcoding | Pedersen et al. 2025 |
-| Prooiconsumptie per kolonie | 97.246 honingbij-equivalent/seizoen | Pellet analyse | Rome et al. 2021 |
-| Biomassa consumptie per kolonie | 11,32 kg/seizoen | Pellet analyse | Rome et al. 2021 |
+| Prooiconsumptie per hoornaarkolonie | 97.246 honingbij-equivalent/seizoen | Pellet analyse | Rome et al. 2021 |
+| Biomassa consumptie per hoornaarkolonie | 11,32 kg/seizoen | Pellet analyse | Rome et al. 2021 |
 | Proportie kastproductie geconsumeerd | 40% | Pellet analyse | Rome et al. 2021 |
 
 **Gedetailleerde Bevindingen**
 
 **Rome et al. 2021** (Frankrijk, 2008-2010, 16 nesten, pellet verzameling)
 - Apis mellifera in prooipellets: **38,1%** (820/2.151 pellets)
-- Prooiconsumptie per kolonie: **97.246 honingbij-equivalent** per seizoen
-- Biomassa consumptie per kolonie: **11,32 kg** insecten per seizoen
+- Prooiconsumptie per hoornaarkolonie: **97.246 honingbij-equivalent** per seizoen
+- Biomassa consumptie per hoornaarkolonie: **11,32 kg** insecten per seizoen
 - Proportie van kastproductie geconsumeerd: **~40%** (één hoornaarkolonie consumeert ~40% van individuen geproduceerd door één kast)
 - Wilde bijen proportie: **0,02%** (hommels en solitaire bijen, exclusief wilde honingbijkolonies)
 
