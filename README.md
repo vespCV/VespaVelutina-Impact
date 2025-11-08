@@ -50,33 +50,25 @@ _If bees only gathered nectar from perfect flowers, they wouldn't be able to mak
 
 This repository synthesizes evidence from **30 scientific studies** to quantify the impact of Asian hornet (_Vespa velutina_) on domestic honeybee colonies (_Apis mellifera) in Europe/the Netherlands.
 
-### Predation Pressure
+### Predation Pressure on _Apis mellifera_
 - **Range**: 0-20+ hornets simultaneously at apiaries — [see details](#421-predation-rates-and-success)
 - **Peak periods**: July-October (varies by location) — [see details](#422-prey-composition)
-- **Success rate**: 2.4% (video tracking) to 76.4% (inside hive) — [see details](#421-predation-rates-and-success)
+- **Predation success rate**: 2.4% (video tracking of natural predation at hive entrance) — [see details](#421-predation-rates-and-success)
 - **Honeybee in diet**: 22-98% depending on method and location — [see details](#422-prey-composition)
 
-### Colony Survival
+### Domesticated Honeybee Colony Survival
 - Without protection: **35-56%** of colonies survive under high hornet pressure (Requier et al. 2020; Rojas-Nossa et al. 2022) — [see details](#431-colony-survival)
 - With protection (electric harps, muzzles): **55-78%** survival (Requier et al. 2020; Rojas-Nossa et al. 2022) — [see details](#431-colony-survival)
 - **Risk threshold**: When you see **≥5 hornets** at your apiary, your colonies are at risk (Diéguez-Antón et al. 2025) — [see details](#432-mortality-factors)
 - **Colony loss**: is multifactoral, influence of the hornet cannot be separated from other causes of colony loss — [see details](#43-colony-survival-and-loss)
 
-### Behavioral Changes
+### Behavioral Changes of _Apis mellifera_
 - Bees stop foraging when **≥12.6 hornets** are present (foraging paralysis) (Requier et al. 2019) — [see details](#441-foraging-paralysis-thresholds)
 - This leads to colony starvation and winter mortality (Requier et al. 2019) — [see details](#44-apis-mellifera-behavior)
 - Protection measures can reduce foraging paralysis by up to 41% (Requier et al. 2020) — [see details](#441-foraging-paralysis-thresholds)
+- **Defensive behavior** (*Apis mellifera*): 9.5% of hornets killed by balling outside hive in natural conditions; 76.4% killed when experimentally placed inside hive (Arca et al. 2014) — [see details](#442-activity-reductions)
 
-### Economic Impact
-
-**France** (Requier et al. 2023 — [see details](#451-colony-loss-costs)):
-- **Low impact scenario**: €2.8 million per year in colony losses (2.6% of all colonies)
-- **High impact scenario**: €30.8 million per year (29.2% of all colonies)
-- **Cost per colony lost**: €100 replacement cost
-- **Economic damage is 2-3× higher than control costs** (€11.9M/year for nest removal)
-- **Note**: Analysis originally based on preprint version; published 2023. Data based on spatial modeling; France-specific analysis only
-
-**Other countries**: Quantitative economic impact studies are limited. Spain has aggregated cost data for all invasive species (€232 million 1997-2022; Angulo et al. 2021), but *Vespa velutina*-specific costs are not separately reported. Portugal and Belgium lack quantitative economic impact studies. — [see details](#452-other-countries)
+### Economic Impact of _Vespa velutina_ on _Apis mellifera_
 
 **Invacost Database**: The InvaCost database provides a comprehensive global repository of economic costs of invasive alien species, including *Vespa velutina*. Data can be accessed via the website, GitHub repository, or R package for analysis. — [see details](#453-invacost-database)
 
@@ -466,16 +458,16 @@ Draft data extraction of the quatitative data for each pdf is done with Cursor.a
   - 60-80% increase: 17 colonies
   - >80% increase: 48 colonies
   - Patterns: 42% large gathering, 20% coordinated behavior, 38% no coordination
-- **Balling behavior**:
-  - Occurrence: 68 colonies (72%) exhibited balling
-  - Ball size distribution:
-    - <10 bees: 31 colonies (33%)
-    - 10-20 bees: 20 colonies (21%)
-    - 20-30 bees: 15 colonies (16%)
-    - >30 bees: 1 colony (1%)
-  - Effectiveness:
-    - Outside hive: **9.5%** hornets killed by balling in 5 min
-    - Inside hive: **76.4%** hornets killed (42/55)
+  - **Balling behavior** (*Apis mellifera*):
+    - Occurrence: 68 colonies (72%) exhibited balling
+    - Ball size distribution:
+      - <10 bees: 31 colonies (33%)
+      - 10-20 bees: 20 colonies (21%)
+      - 20-30 bees: 15 colonies (16%)
+      - >30 bees: 1 colony (1%)
+    - Effectiveness:
+      - Outside hive (natural conditions): **9.5%** hornets killed by balling in 5 min
+      - Inside hive (experimental conditions): **76.4%** hornets killed (42/55) — Note: Hornets do not naturally enter hives; this was experimental
 - **Hornet hovering distance**: ~15 cm from hive entrance
 
 **Monceau et al. 2018** (France, 2009, 2 hives)

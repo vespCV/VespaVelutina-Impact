@@ -13,7 +13,7 @@ This report summarizes quantitative data extracted from 30 peer-reviewed studies
 
 ### 1. Predation Pressure
 
-- **Predation success rates**: Range from 2.4% (video tracking) to 76.4% (inside hive balling)
+- **Predation success rate**: 2.4% (video tracking of natural predation at hive entrance)
 - **Honeybee in diet**: 22-98% depending on detection method and location
 - **Peak predation periods**: July-October (varies by geographic location)
 - **Maximum hornets observed**: Up to 20+ simultaneously at single apiaries
@@ -29,7 +29,9 @@ This report summarizes quantitative data extracted from 30 peer-reviewed studies
 
 - **Foraging paralysis threshold**: Complete paralysis at ≥12.6 hornets
 - **Activity reductions**: Up to 65% reduction in foraging activity under high hornet pressure
-- **Defensive behaviors**: Balling behavior observed in 72% of colonies, but only 9.5% effective outside hive
+- **Defensive behaviors** (*Apis mellifera*): Balling behavior observed in 72% of colonies
+  - **Outside hive** (natural conditions): 9.5% of hornets killed by balling in 5 min
+  - **Inside hive** (experimental conditions): 76.4% of hornets killed (42/55) — Note: Hornets do not naturally enter hives; this was experimental
 
 ### 4. Economic Impact (France)
 
