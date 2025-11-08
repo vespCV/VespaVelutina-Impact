@@ -678,3 +678,4 @@ De InvaCost database is een uitgebreide wereldwijde repository die economische k
 
 **Alternatieve benadering**: Narratieve synthese met kwantitatieve samenvattende tabellen (zoals gepresenteerd in deze repository) is de meest geschikte methode voor het synthetiseren van deze heterogene studies.
 
+_De Nederlandse vertaling is automatisch gegeneerd door Cursor.ai_
