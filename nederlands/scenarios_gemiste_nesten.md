@@ -21,10 +21,10 @@ Scenario's op basis van waarnemingen.nl meldingen, maximaal waargenomen nestdich
 ## Huidige situatie
 
 **Bekende cijfers** (waarnemingen.nl, nesten gemeld in juni-november):
-- 2024 (juni-november): 1,887 gemeld, 1,521 verwijderd (80.6% verwijderingsgraad)
+- 2024 (januari-december): 2,481 gemeld, 2,000 verwijderd (-->verwijderdingsgraad = 80.6%)
+Note: Secundaire nesten worden niet afzonderlijk gemeld op waarnemingen.nl Nesten gemeld in juni-december (eventueel januari–februari van het daaropvolgende jaar) aangenomen dat hiervan >95% secundaire nesten betreft. [te verifieren]
+- 2024 (juni-november): 1,887 gemeld, 1,521 verwijderd (aangenomen dat 80.6% verwijderingsgraad ook voor deze periode geldt)
 - 2025 (juni-7 november): 6,569 gemeld (verwijderingscijfers nog niet beschikbaar). **Cijfers voor 2025 betreffen meldingen t/m 7 november; het uiteindelijke aantal zal hoger liggen.** [Wordt geactualiseerd na einde 2025]
-- Totaal 2024: 2,481 gemeld, 2,000 verwijderd (80.6%)
-Note: Secundaire nesten worden niet afzonderlijk gemeld op waarnemingen.nl Nesten gemeld in juni-december (eventueel januari–februari van het daaropvolgende jaar) aangenomen dat hiervan >90% secundaire nesten betreft. [te verifieren]
 
 ### Waargenomen trends
 
@@ -39,7 +39,7 @@ Note: Secundaire nesten worden niet afzonderlijk gemeld op waarnemingen.nl Neste
 - Uit ieder gemist nest komen 6 nieuwe nesten
 - Reproductie komt van alle gemiste nesten (niet-verwijderd + niet-gedetecteerd)
 - Totaal 2024: 2,481 gemeld, 2,000 verwijderd → 481 niet verwijderd (19.4% van 2,481)
-- Secundaire nesten 2024 (juni-november): 1,887 gemeld, (aanname dat 19.4% ook geld voor secundaire nesten) 1,521 verwijderd → 366 niet verwijderd
+- Secundaire nesten 2024 (juni-november): 1,887 gemeld, (aanname dat 19.4% geldt voor secundaire nesten) 1,521 verwijderd → 366 niet verwijderd
 - Secundaire nesten 2025 (juni-november): 6,569 gemeld
 
 **Berekening**:
