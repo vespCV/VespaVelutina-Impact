@@ -30,6 +30,7 @@ This repository synthesizes evidence from **30 scientific studies** to quantify 
   - During predation period: **2.5%** of colonies (Requier et al. 2019)
   - During winter (January-May): Majority of losses occur (Requier et al. 2019)
 - **Risk threshold**: **≥5 _Vespa velutina_** at apiary (Diéguez-Antón et al. 2025) — [see details](#432-mortality-factors)
+  - **Note**: In Diéguez-Antón et al. 2025, thresholds refer to hornets counted simultaneously in a single hourly photograph (snapshot count per photo).
 - **Colony loss**: is multifactoral, influence of _Vespa velutina_ cannot be separated from other causes of colony loss — [see details](#43-colony-survival-and-loss)
 
 ### Behavioral Changes of _Apis mellifera_
@@ -50,8 +51,8 @@ This repository synthesizes evidence from **30 scientific studies** to quantify 
 
 | Metric | Threshold/Observation | Study | Context |
 |--------|----------------------|-------|---------|
-| Minimum risk | ≥5 _Vespa velutina_ at apiary | Diéguez-Antón et al. 2025 | Colony survival risk |
-| High risk | ≥10 _Vespa velutina_ at apiary | Diéguez-Antón et al. 2025 | Colony survival risk |
+| Minimum risk | ≥5 _Vespa velutina_ at apiary | Diéguez-Antón et al. 2025 | Colony survival risk (per hourly photo) |
+| High risk | ≥10 _Vespa velutina_ at apiary | Diéguez-Antón et al. 2025 | Colony survival risk (per hourly photo) |
 | Foraging decline | >10 _Vespa velutina_ per hive | Monceau et al. 2018 | Bee behavior |
 | Foraging paralysis | ≥12.6 _Vespa velutina_ | Requier et al. 2019 | Complete foraging stop |
 | Peak predation period | July-October | Multiple | Seasonal pattern |
@@ -389,6 +390,8 @@ Draft data extraction of the quantitative data for each PDF is done with Cursor.
 |----------|------------|-------|----------|
 | ≥5 _Vespa velutina_ | Minimum risk | Diéguez-Antón et al. 2025 | Spain |
 | ≥10 _Vespa velutina_ | High risk | Diéguez-Antón et al. 2025 | Spain |
+
+**Note**: In Diéguez-Antón et al. 2025, thresholds refer to hornets counted simultaneously in a single hourly photograph (snapshot count per photo), not daily totals or averages.
 
 **Winter Mortality Profiles** (Requier et al. 2019, France, 2012-2016, BEEHAVE simulations)
 

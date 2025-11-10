@@ -30,6 +30,7 @@ Deze repository synthetiseert bewijs uit **30 wetenschappelijke studies** om de 
   - Tijdens predatieperiode: **2,5%** van de kolonies (Requier et al. 2019)
   - Tijdens winter (januari-mei): Meerderheid van verliezen treedt op (Requier et al. 2019)
 - **Risicodrempel**: **≥5 _Vespa velutina_** bij bijenstand (Diéguez-Antón et al. 2025) — [zie details](#432-mortaliteitsfactoren)
+  - **Opmerking**: In Diéguez-Antón et al. 2025 verwijzen drempels naar hoornaars geteld gelijktijdig in één uurlijkse foto (momentopname per foto).
 - **Kolonieverlies**: is multifactorieel, de invloed van _Vespa velutina_ kan niet worden gescheiden van andere oorzaken van kolonieverlies — [zie details](#43-kolonie-overleving-en-verlies)
 
 ### Gedragsveranderingen van _Apis mellifera_
@@ -50,8 +51,8 @@ Deze repository synthetiseert bewijs uit **30 wetenschappelijke studies** om de 
 
 | Metriek | Drempel/Observatie | Studie | Context |
 |--------|----------------------|-------|---------|
-| Minimum risico | ≥5 _Vespa velutina_ bij bijenstand | Diéguez-Antón et al. 2025 | Kolonie overlevingsrisico |
-| Hoog risico | ≥10 _Vespa velutina_ bij bijenstand | Diéguez-Antón et al. 2025 | Kolonie overlevingsrisico |
+| Minimum risico | ≥5 _Vespa velutina_ bij bijenstand | Diéguez-Antón et al. 2025 | Kolonie overlevingsrisico (per uurlijkse foto) |
+| Hoog risico | ≥10 _Vespa velutina_ bij bijenstand | Diéguez-Antón et al. 2025 | Kolonie overlevingsrisico (per uurlijkse foto) |
 | Foerageerafname | >10 _Vespa velutina_ per kast | Monceau et al. 2018 | Bijengedrag |
 | Foerageerparalyse | ≥12,6 _Vespa velutina_ | Requier et al. 2019 | Volledige foerageerstop |
 | Piek predatieperiode | Juli-oktober | Meerdere | Seizoenspatroon |
@@ -390,6 +391,8 @@ Conceptuele data extractie van de kwantitatieve data voor elke PDF wordt gedaan 
 |----------|------------|-------|----------|
 | ≥5 _Vespa velutina_ | Minimum risico | Diéguez-Antón et al. 2025 | Spanje |
 | ≥10 _Vespa velutina_ | Hoog risico | Diéguez-Antón et al. 2025 | Spanje |
+
+**Opmerking**: In Diéguez-Antón et al. 2025 verwijzen drempels naar hoornaars geteld gelijktijdig in één uurlijkse foto (momentopname per foto).
 
 **Wintersterfte Profielen** (Requier et al. 2019, Frankrijk, 2012-2016, BEEHAVE simulaties)
 

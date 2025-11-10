@@ -49,7 +49,7 @@
 
 ### Outcomes
 - **outcome_apis_predation**: Yes - hornet counts monitored, predation pressure assessed
-- **outcome_predation_time_of_the_day**: Yes - photos every hour from 6:00 am to 11:00 pm
+- **outcome_predation_time_of_the_day**: Yes - photos every hour from 6:00 h to 0:00 h (18 hourly photographs per day)
 - **outcome_apis_behavior_foraging**: Yes - foraging paralysis observed when hornet pressure is high
 - **outcome_other_apis_behavior**: Yes - foraging paralysis behavioral response
 - **outcome_apis_behavior_paralysis**: Yes - foraging paralysis observed
@@ -63,12 +63,14 @@
 - **First V. velutina nest detection**: 2015 (all three areas)
 
 ### Monitoring Protocol
-- **Camera type**: APEMAN 20MP 1080P Hunting Camera
-- **Camera distance**: 1 m from hives
+- **Camera type**: APEMAN 20MP 1080P Hunting Camera (940 nm IR Brightness LED Free Night Detection, IP66 Waterproof)
+- **Camera distance**: ~1 m from hives (distance that made it possible to distinguish V. velutina and honeybees)
 - **Photo window area**: 200 × 150 cm²
-- **Photo frequency**: Every hour from 6:00 am to 11:00 pm
-- **Photos per day**: 17 photos
-- **Total photos per year per apiary**: ~6,205 photos
+- **Photo frequency**: Every hour from 6:00 h to 0:00 h (18 hours)
+- **Photos per day**: 18 photos
+- **Total photographs analyzed**: 9,567 photographs
+- **Counting method**: "Sightings were counted when the hornets were in front of each colony" (hornets visible in the photo window area)
+- **Threshold interpretation**: The thresholds ">5" or ">10" hornets refer to the number of hornets counted simultaneously in a single hourly photograph (snapshot count per photo)
 
 ### Environmental Conditions
 - **Monitoring system**: Beehive Monitoring System
@@ -96,6 +98,7 @@
 - **Period 2**: 5-9 hornets (moderate pressure)
 - **Period 3**: ≥10 hornets (high pressure)
 - **Risk threshold**: ≥5 hornets poses risk to colony survival
+- **Threshold unit**: Number of hornets counted simultaneously in a single hourly photograph (snapshot count per photo, not daily total or average)
 
 ### Temperature Analysis
 - **Optimal temperature range**: 17-26 °C (most suitable for observing higher number of hornets)
@@ -110,9 +113,10 @@
 - **Statistical test**: Log-rank test
 
 ### High Pressure Events
-- **Apiary 1 (October 2021)**: 31 events with >5 hornets, 5 days with >10 hornets
-- **Apiary 2 (August 2021)**: 20 days with ≥5 hornets, up to 37 times
+- **Apiary 1 (October 2021)**: 31 hourly photographs with >5 hornets (31 events), 5 days with >10 hornets in at least one photo
+- **Apiary 2 (August 2021)**: 20 days with ≥5 hornets in at least one hourly photo, up to 37 hourly photographs (events) exceeding threshold
 - **Apiary 2 (2022)**: Increased pressure compared to 2021
+- **Note**: "Events" refer to individual hourly photographs where the hornet count exceeded the threshold (snapshot counts per photo)
 
 ## Other Quantitative Data
 
@@ -122,7 +126,7 @@
 - **Apiary 3**: Not specified in abstract
 
 ### Temporal Patterns
-- **Activity period**: 16 hours per day (6:00 am - 11:00 pm)
+- **Activity period**: 18 hours per day (6:00 h - 0:00 h, hourly photographs)
 - **Peak activity**: July-October (varies by apiary and year)
 - **Pressure increase**: From July onwards in most cases
 
