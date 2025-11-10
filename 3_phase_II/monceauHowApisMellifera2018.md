@@ -86,7 +86,17 @@
 ### Hornet Monitoring
 - **Monitoring period**: First 5 minutes of each sample point
 - **Count method**: Maximum number of hornets in frame at same time (to avoid pseudo-replication)
+- **Rationale**: Recording peak hornet presence during each 5-minute window rather than cumulative counts reduces the risk of counting the same individual multiple times
 - **Outlier excluded**: 20 hornets on H2 on 15th September (clearly biased the model)
+
+### Hornet Counting Methodology Details
+- **Video analysis period**: First 5 minutes of each hour during sample days
+- **Counting approach**: Maximum number of hornets visible simultaneously in the video frame
+- **Purpose**: To avoid pseudo-replication (same individual counted multiple times as it moves in and out of frame)
+- **Sample points**: 139 per hive (range: 10-14 per day per hive)
+- **Analysis timing**: Beginning of each hour during 11 sample days (every 10 days from 10/07/2009 to 25/10/2009)
+- **Video quality**: Some sample sessions postponed due to adverse climatic conditions or poor video quality
+- **Reference**: Same methodology used in Monceau et al. 2013 (Native Prey study)
 
 ### Honeybee Monitoring
 - **Monitoring period**: First 2 minutes of each sample point

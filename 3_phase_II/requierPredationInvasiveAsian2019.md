@@ -67,6 +67,32 @@
 - **Predator-prey interactions**: Video segments with both hornet and bee present
 - **Successful predation events**: 126 recorded
 
+### Visual Survey Methodology (Foraging Paralysis Assessment)
+- **Observation protocol**: 17 min visual observation per colony
+- **Observer distance**: 3-5 m from beehive entrances
+- **Single observer**: All observations carried out by one person to mitigate observer effect
+- **First 15 minutes**: Record maximum number of hornets hovering in front of beehive at the same time
+- **Last 2 minutes**: Count number of returning bees (flight activity assessment)
+- **Hornet counting method**: Maximum number of hornets visible simultaneously (to avoid pseudo-replication)
+- **Total colonies observed**: 131 colonies across 75 apiaries
+- **Observation period**: July to December (2012-2016), during complete hornet predation period
+- **Foraging paralysis calculation**: Relative flight activity compared to maximum level of flight activity
+
+### Video Surveillance Methodology (Homing Failure Assessment)
+- **Camera type**: Stereovision camera (G3 Evo 3, TYZX®)
+- **Camera position**: 50 cm above flight board of beehive
+- **Camera rationale**: Non-trivial trade-off between device intrusiveness, image definition (at least 8 pixels per bee), and observed volume (must include at least 50 cm wide flight board)
+- **Recording period**: October 16-25, 2015 (peak predation period)
+- **Daily recording**: 9:00-18:00 h (diurnal insects), 10 consecutive days without interruption
+- **Total recording time**: 90 hours
+- **Analysis unit**: 15-min slots (n = 255 slots)
+- **Trajectory extraction**: All insects flying in front of beehive tracked using RGB-D images
+- **Trajectory classification**: Bees vs hornets distinguished using clustering approach based on flight dynamics (e.g., max speed) and appearance features (e.g., body size)
+- **Predation detection**: Each video slot with both hornet(s) and honey bee(s) manually reviewed twice
+- **Predation success criteria**: Hornet catches bee and flies away with caught prey within video screen limit (about 1.5 m² around beehive entrance)
+- **Unclear events**: Excluded from analysis
+- **Homing failure calculation**: Ratio of number of bees caught to total number of incoming bee trajectories per 15-min slot
+
 ### Foraging Paralysis (FP)
 - **Hornet load range**: 0-20 hornets simultaneously hovering
 - **Peak period**: August 28 - November 6 (hornets >5 only during this period)

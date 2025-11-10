@@ -35,7 +35,9 @@ This repository synthesizes evidence from **30 scientific studies** to quantify 
 
 ### Behavioral Changes of _Apis mellifera_
 - **Foraging paralysis threshold**: **≥12.6 _Vespa velutina_** present (Requier et al. 2019) — [see details](#441-foraging-paralysis-thresholds)
+  - **Note**: In Requier et al. 2019, hornets were counted as the maximum number hovering simultaneously in front of beehive during 15-minute visual observation periods (to avoid counting the same hornet more than once).
 - **Foraging decline threshold**: **>10 _Vespa velutina_** per hive (Monceau et al. 2018)
+  - **Note**: In Monceau et al. 2018, hornets were counted as the maximum number visible simultaneously in video frame during first 5 minutes of each hour (to avoid pseudo-replication).
 - **Activity reduction with protection**: Up to **41%** reduction in foraging paralysis (Requier et al. 2020) — [see details](#441-foraging-paralysis-thresholds)
 - **Defensive behavior effectiveness** (*Apis mellifera*):
   - Natural conditions (outside hive): **9.5%** of _Vespa velutina_ killed by balling (Arca et al. 2014)
@@ -444,6 +446,8 @@ Draft data extraction of the quantitative data for each PDF is done with Cursor.
 - Foraging paralysis threshold: **≥12.6 _Vespa velutina_** (95% CI) for complete FP
 - Statistical effect: Z=-20.65, P<0.001 (negative impact on flight activity)
 - Peak period: August 28 - November 6 (_Vespa velutina_ >5 only during this period)
+- **Counting method (visual surveys)**: Maximum number of hornets hovering simultaneously in front of beehive during first 15 minutes of 17-minute observation periods (observer at 3-5 m distance)
+- **Video surveillance**: Stereovision camera tracking trajectories; predation events manually reviewed twice; 15-min analysis slots
 
 **Requier et al. 2020** (France, 2013-2016, 44 colonies, muzzle protection study)
 - Foraging paralysis reduction with muzzle: **Up to 41%**
@@ -456,6 +460,7 @@ Draft data extraction of the quantitative data for each PDF is done with Cursor.
 
 **Monceau et al. 2018** (France, 2009, 2 hives)
 - Foraging decline threshold: **>10 _Vespa velutina_** per hive (number of foragers drops above this)
+- **Counting method**: Maximum number of hornets visible simultaneously in video frame during first 5 minutes of each hour (to avoid pseudo-replication)
 
 **Rojas-Nossa et al. 2022** (Spain, 2018-2020)
 - Foraging paralysis threshold: **>0.8 _Vespa velutina_/hive/10min** (HRH)

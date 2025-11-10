@@ -35,7 +35,9 @@ Deze repository synthetiseert bewijs uit **30 wetenschappelijke studies** om de 
 
 ### Gedragsveranderingen van _Apis mellifera_
 - **Foerageerparalyse drempel**: **≥12,6 _Vespa velutina_** aanwezig (Requier et al. 2019) — [zie details](#441-foerageerparalyse-drempelwaarden)
+  - **Opmerking**: In Requier et al. 2019 werden hoornaars geteld als het maximum aantal gelijktijdig zwevend voor de bijenkast tijdens 15-minuten visuele observatieperioden (om te vermijden dat een hoornaar meer dan eens geteld wordt).
 - **Foerageerafname drempel**: **>10 _Vespa velutina_** per kast (Monceau et al. 2018)
+  - **Opmerking**: In Monceau et al. 2018 werden hoornaars geteld als het maximum aantal gelijktijdig zichtbaar in videoframe tijdens eerste 5 minuten van elk uur (om pseudo-replicatie te vermijden).
 - **Activiteitsreductie met bescherming**: Tot **41%** reductie in foerageerparalyse (Requier et al. 2020) — [zie details](#441-foerageerparalyse-drempelwaarden)
 - **Defensief gedrag effectiviteit** (*Apis mellifera*):
   - Natuurlijke omstandigheden (buiten kast): **9,5%** van _Vespa velutina_ gedood door balling (Arca et al. 2014)
@@ -445,6 +447,8 @@ Conceptuele data extractie van de kwantitatieve data voor elke PDF wordt gedaan 
 - Foerageerparalyse drempel: **≥12,6 _Vespa velutina_** (95% CI) voor volledige FP
 - Statistisch effect: Z=-20,65, P<0,001 (negatieve impact op vluchtactiviteit)
 - Piekperiode: 28 augustus - 6 november (_Vespa velutina_ >5 alleen tijdens deze periode)
+- **Telmethode (visuele surveys)**: Maximum aantal hoornaars gelijktijdig zwevend voor de bijenkast tijdens eerste 15 minuten van 17-minuten observatieperioden (waarnemer op 3-5 m afstand)
+- **Video surveillance**: Stereovision camera volgt trajecten; predatiegebeurtenissen handmatig tweemaal beoordeeld; 15-minuten analyse slots
 
 **Requier et al. 2020** (Frankrijk, 2013-2016, 44 kolonies, snuitmasker beschermingsstudie)
 - Foerageerparalyse reductie met snuitmasker: **Tot 41%**
@@ -457,6 +461,7 @@ Conceptuele data extractie van de kwantitatieve data voor elke PDF wordt gedaan 
 
 **Monceau et al. 2018** (Frankrijk, 2009, 2 kasten)
 - Foerageerafname drempel: **>10 _Vespa velutina_** per kast (aantal foerageerders daalt hierboven)
+- **Telmethode**: Maximum aantal hoornaars gelijktijdig zichtbaar in videoframe tijdens eerste 5 minuten van elk uur (om pseudo-replicatie te vermijden)
 
 **Rojas-Nossa et al. 2022** (Spanje, 2018-2020)
 - Foerageerparalyse drempel: **>0,8 _Vespa velutina_/kast/10min** (HRH)
