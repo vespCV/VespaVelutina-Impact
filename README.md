@@ -55,8 +55,8 @@ This repository synthesizes evidence from **30 scientific studies** to quantify 
 |--------|----------------------|-------|---------|
 | Minimum risk | ≥5 _Vespa velutina_ at apiary | Diéguez-Antón et al. 2025 | Colony survival risk (per hourly photo) |
 | High risk | ≥10 _Vespa velutina_ at apiary | Diéguez-Antón et al. 2025 | Colony survival risk (per hourly photo) |
-| Foraging decline | >10 _Vespa velutina_ per hive | Monceau et al. 2018 | Bee behavior |
-| Foraging paralysis | ≥12.6 _Vespa velutina_ | Requier et al. 2019 | Complete foraging stop |
+| Foraging decline | >10 _Vespa velutina_ per hive | Monceau et al. 2018 | Bee behavior (per video frame, first 5 min/hour) |
+| Foraging paralysis | ≥12.6 _Vespa velutina_ | Requier et al. 2019 | Complete foraging stop (per 15-min visual observation) |
 | Peak predation period | July-October | Multiple | Seasonal pattern |
 | Peak daily activity | 13:00-15:00 h | Multiple | Time of day |
 | Optimal temperature | 15-26°C | Diéguez-Antón et al. 2022, 2025 | _Vespa velutina_ activity |

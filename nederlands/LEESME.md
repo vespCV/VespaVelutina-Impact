@@ -55,8 +55,8 @@ Deze repository synthetiseert bewijs uit **30 wetenschappelijke studies** om de 
 |--------|----------------------|-------|---------|
 | Minimum risico | ≥5 _Vespa velutina_ bij bijenstand | Diéguez-Antón et al. 2025 | Kolonie overlevingsrisico (per uurlijkse foto) |
 | Hoog risico | ≥10 _Vespa velutina_ bij bijenstand | Diéguez-Antón et al. 2025 | Kolonie overlevingsrisico (per uurlijkse foto) |
-| Foerageerafname | >10 _Vespa velutina_ per kast | Monceau et al. 2018 | Bijengedrag |
-| Foerageerparalyse | ≥12,6 _Vespa velutina_ | Requier et al. 2019 | Volledige foerageerstop |
+| Foerageerafname | >10 _Vespa velutina_ per kast | Monceau et al. 2018 | Bijengedrag (per videoframe, eerste 5 min/uur) |
+| Foerageerparalyse | ≥12,6 _Vespa velutina_ | Requier et al. 2019 | Volledige foerageerstop (per 15-min visuele observatie) |
 | Piek predatieperiode | Juli-oktober | Meerdere | Seizoenspatroon |
 | Piek dagelijkse activiteit | 13:00-15:00 uur | Meerdere | Tijdstip van de dag |
 | Optimale temperatuur | 15-26°C | Diéguez-Antón et al. 2022, 2025 | _Vespa velutina_ activiteit |
