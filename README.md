@@ -88,6 +88,8 @@ This repository synthesizes evidence from **30 scientific studies** to quantify 
   - [4.5 Economic Impact](#45-economic-impact)
   - [4.6 Background data](#46-background-data)
   - [4.7 Limitations](#47-limitations)
+- [Policy Reports](#policy-reports)
+- [References](#references)
   
 ## Project Overview
 
@@ -680,4 +682,13 @@ The InvaCost database is a comprehensive global repository documenting economic 
 
 <img src="images/outcome_types.jpg" alt="Outcome types" width="450">
 
+## Policy Reports
+
+The EIS report "Hoe verder met de Aziatische hoornaar? - Beleidsadvies" (Zeegers & Buesink, 2024) concludes that the Asian hornet poses no threat to public health and biodiversity, and that money spent on control is wasted. Van Alphen (2025) has published a scientific assessment of this policy advice, concluding that the EIS report does not cite relevant scientific literature and that its conclusions do not align with findings from peer-reviewed scientific publications.
+
+## References
+
+Van Alphen, J.J.M. (2025). Verantwoord beleid bij het beheer van de Aziatische hoornaar in Nederland. Naturalis Biodiversity Center. https://www.bijenhouders.nl/wp-content/uploads/2025/11/Verantwoord-beleid-Aziatische-hoornaar.pdf
+
+Zeegers, T. & Buesink, R. (2024). Hoe verder met de Aziatische hoornaar? Beleidsadvies. EIS. https://www.imkersnederland.nl/userfiles/nieuws/265_aziatische_hoornaar_rapport_compleet_1.pdf
 

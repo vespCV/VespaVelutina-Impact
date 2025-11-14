@@ -2,7 +2,7 @@
 _Als bijen alleen nectar verzamelden van perfecte bloemen, zouden ze niet eens één druppel honing kunnen maken_ – Matshona Dhliwayo
 
 - **Status:** Compleet - klaar voor maandelijkse updates
-- **Bijgewerkt:** 2025-11-08
+- **Bijgewerkt:** 2025-11-14
 - Click [here](../README.md) for the English version.
 
 
@@ -89,6 +89,8 @@ Deze repository synthetiseert bewijs uit **30 wetenschappelijke studies** om de 
   - [4.5 Economische Impact](#45-economische-impact)
   - [4.6 Achtergronddata](#46-achtergronddata)
   - [4.7 Beperkingen](#47-beperkingen)
+- [Beleidsrapporten](#beleidsrapporten)
+- [Referenties](#referenties)
   
 ## Projectoverzicht
 
@@ -678,5 +680,15 @@ De InvaCost database is een uitgebreide wereldwijde repository die economische k
 4. **Geografische en temporele variatie**: Studies beslaan verschillende landen, jaren en seizoenen, met variërende _Vespa velutina_ populatiedichtheden en imkerpraktijken.
 5. **Kleine steekproefgroottes per studie**: Veel studies hebben kleine steekproefgroottes (2-6 kolonies, 1-3 bijenstanden), wat de statistische kracht voor meta-analyse beperkt.
 6. **Diverse studieontwerpen**: Mix van experimentele interventies (snuitmaskers, elektrische harpen), observationele studies en modelleringsbenaderingen kunnen niet zinvol worden gecombineerd in een enkele meta-analyse.
+
+## Beleidsrapporten
+
+Het EIS-rapport "Hoe verder met de Aziatische hoornaar? - Beleidsadvies" (Zeegers & Buesink, 2024) concludeert dat de Aziatische hoornaar geen bedreiging vormt voor volksgezondheid en biodiversiteit, en dat geld besteed aan bestrijding weggegooid is. Van Alphen (2025) heeft een wetenschappelijke beoordeling gepubliceerd van dit beleidsadvies, waarin wordt geconcludeerd dat het EIS-rapport relevante wetenschappelijke literatuur niet citeert en dat de conclusies niet overeenkomen met bevindingen uit peer-reviewed wetenschappelijke publicaties.
+
+## Referenties
+
+Van Alphen, J.J.M. (2025). Verantwoord beleid bij het beheer van de Aziatische hoornaar in Nederland. Naturalis Biodiversity Center. https://www.bijenhouders.nl/wp-content/uploads/2025/11/Verantwoord-beleid-Aziatische-hoornaar.pdf
+
+Zeegers, T. & Buesink, R. (2024). Hoe verder met de Aziatische hoornaar? Beleidsadvies. EIS. https://www.imkersnederland.nl/userfiles/nieuws/265_aziatische_hoornaar_rapport_compleet_1.pdf
 
 _De Nederlandse vertaling is automatisch gegeneerd door Cursor.ai_
