@@ -2,7 +2,7 @@
 _Als bijen alleen nectar verzamelden van perfecte bloemen, zouden ze niet eens één druppel honing kunnen maken_ – Matshona Dhliwayo
 
 - **Status:** Compleet - klaar voor maandelijkse updates
-- **Bijgewerkt:** 2025-11-14
+- **Bijgewerkt:** 2026-03-12
 - Click [here](../README.md) for the English version.
 
 
@@ -24,8 +24,8 @@ Deze repository synthetiseert bewijs uit **30 wetenschappelijke studies** om de 
 - **Predatiesuccespercentage**: 2,4% (videotracking van natuurlijke predatie bij kastingang) — [zie details](#421-predatiesnelheden-en-succes)
 
 ### Overleving van gedomesticeerde honingbijkolonies
-- **Zonder bescherming**: **35-56%** van de kolonies overleeft onder hoge _Vespa velutina_ druk (Requier et al. 2020; Rojas-Nossa et al. 2022) — [zie details](#431-kolonie-overleving)
-- **Met bescherming** (elektrische harpen, snuitmaskers): **55-78%** overleving (Requier et al. 2020; Rojas-Nossa et al. 2022) — [zie details](#431-kolonie-overleving)
+- **Zonder bescherming**: **0-56%** van de kolonies overleeft onder hoge _Vespa velutina_ druk — modelleer- en veldstudies rapporteren 35-56% overleving in veel hoge-drukscenario's (Requier et al. 2020; Rojas-Nossa et al. 2022), maar recent experimenteel werk onder zeer hoge hoornaardruk vond dat alle onbeschermde kolonies instortten vóór het einde van de bemonsteringsperiode (Roura-Pascual et al. 2025) — [zie details](#431-kolonie-overleving)
+- **Met bescherming** (elektrische harpen, snuitmaskers): **25-78%** overleving, afhankelijk van methode en drukniveau — snuitmaskers en elektrische harpen verhogen de overleving in modelleer- en veldstudies (Requier et al. 2020; Rojas-Nossa et al. 2022), en onder zeer hoge hoornaardruk bleven **25%** van de kolonies met elektrische harpen actief terwijl alle kolonies met snuitmaskers en zonder bescherming instortten (Roura-Pascual et al. 2025) — [zie details](#431-kolonie-overleving)
 - **Timing van kolonieverliezen**: 
   - Tijdens predatieperiode: **2,5%** van de kolonies (Requier et al. 2019)
   - Tijdens winter (januari-mei): Meerderheid van verliezen treedt op (Requier et al. 2019)
@@ -60,8 +60,8 @@ Deze repository synthetiseert bewijs uit **30 wetenschappelijke studies** om de 
 | Piek predatieperiode | Juli-oktober | Meerdere | Seizoenspatroon |
 | Piek dagelijkse activiteit | 13:00-15:00 uur | Meerdere | Tijdstip van de dag |
 | Optimale temperatuur | 15-26°C | Diéguez-Antón et al. 2022, 2025 | _Vespa velutina_ activiteit |
-| Kolonie overleving (onbeschermd) | 35-56% | Requier et al. 2020; Rojas-Nossa et al. 2022 | Hoge druk omstandigheden |
-| Kolonie overleving (beschermd) | 55-78% | Requier et al. 2020; Rojas-Nossa et al. 2022 | Met beschermingsmaatregelen |
+| Kolonie overleving (onbeschermd) | 0-56% | Requier et al. 2020; Rojas-Nossa et al. 2022; Roura-Pascual et al. 2025 | Hoge tot zeer hoge druk omstandigheden |
+| Kolonie overleving (beschermd) | 25-78% | Requier et al. 2020; Rojas-Nossa et al. 2022; Roura-Pascual et al. 2025 | Met beschermingsmaatregelen (inclusief elektrische harpen) |
 
 ## Inhoudsopgave
 - [Samenvatting](#samenvatting)
@@ -362,6 +362,9 @@ Conceptuele data extractie van de kwantitatieve data voor elke PDF wordt gedaan 
 | Snuitmasker uitgeruste overleving | 55% | Requier et al. 2020 | Frankrijk |
 | Onbeschermde kolonie overleving | 55,6% | Rojas-Nossa et al. 2022 | Spanje |
 | Controle overleving (geen bescherming) | 35% | Requier et al. 2020 | Frankrijk |
+| Beschermde overleving (elektrische harp, zeer hoge druk) | 25% | Roura-Pascual et al. 2025 | Spanje |
+| Onbeschermde overleving (zeer hoge druk, experimentele bijenstand) | 0% | Roura-Pascual et al. 2025 | Spanje |
+| Snuitmasker overleving (zeer hoge druk, experimentele bijenstand) | 0% | Roura-Pascual et al. 2025 | Spanje |
 | Kolonie instortingspercentage | 55,3% | Requier et al. 2019 | Frankrijk |
 
 **Gedetailleerde Bevindingen**
@@ -377,6 +380,15 @@ Conceptuele data extractie van de kwantitatieve data voor elke PDF wordt gedaan 
 - Beschermde kolonie overleving: **77,8%**
 - Onbeschermde kolonie overleving: **55,6%**
 - Honingbij gewichtsreductie (onbeschermd): **6,7%** lichtere werksters
+
+**Roura-Pascual et al. 2025** (Spanje, 2023, experimentele bijenstand met 36 kasten, elektrische harpen vs snuitmaskers vs geen bescherming)
+- Hoornaardichtheid bij kasten: **significant lager** bij kolonies beschermd met elektrische harpen dan bij snuitmasker- of onbeschermde kolonies
+- Hulpbronnenopbouw: Honing-, stuifmeel- en broedvoorraden **namen in alle kolonies af**, maar de afname was **trager** bij kolonies met elektrische harpen
+- Kolonieoverleving onder zeer hoge hoornaardruk:
+  - Onbeschermde kolonies: **0%** bleef actief aan het einde van de bemonsteringsperiode
+  - Kolonies met snuitmasker: **0%** bleef actief aan het einde van de bemonsteringsperiode
+  - Kolonies met elektrische harp: **25%** bleef actief aan het einde van de bemonsteringsperiode
+- Interpretatie: Elektrische harpen kunnen de productiviteit en overleving van kolonies **gedeeltelijk bufferen** onder extreme predatiedruk, maar de uitkomsten zijn sterk afhankelijk van de **voorafgaande koloniegezondheid** en voorkomen instorting niet in alle gevallen
 
 **Requier et al. 2019** (Frankrijk, 2012-2016, BEEHAVE model simulaties, 993 simulaties)
 - Kolonie instortingspercentage: **55,3%** (549/993 bereikten eindpunt)
@@ -690,5 +702,7 @@ Het EIS-rapport "Hoe verder met de Aziatische hoornaar? - Beleidsadvies" (Zeeger
 Van Alphen, J.J.M. (2025). Verantwoord beleid bij het beheer van de Aziatische hoornaar in Nederland. Naturalis Biodiversity Center. https://www.bijenhouders.nl/wp-content/uploads/2025/11/Verantwoord-beleid-Aziatische-hoornaar.pdf
 
 Zeegers, T. & Buesink, R. (2024). Hoe verder met de Aziatische hoornaar? Beleidsadvies. EIS. https://www.imkersnederland.nl/userfiles/nieuws/265_aziatische_hoornaar_rapport_compleet_1.pdf
+
+Roura-Pascual, N., Bas, J.M., Hui, C., Canelles, Q., Artola, J., Sampol, K., Bota, G., Vicens, N., Bassols, E., & Pérez-Granados, C. (2025). Evaluating electric harps and muzzles to mitigate the impact of Vespa velutina nigrithorax at beehives. *Journal of Applied Entomology*, 150(3), 364–375. https://doi.org/10.1111/jen.70039
 
 _De Nederlandse vertaling is automatisch gegeneerd door Cursor.ai_
