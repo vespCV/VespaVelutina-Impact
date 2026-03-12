@@ -692,3 +692,5 @@ Van Alphen, J.J.M. (2025). Verantwoord beleid bij het beheer van de Aziatische h
 
 Zeegers, T. & Buesink, R. (2024). Hoe verder met de Aziatische hoornaar? Beleidsadvies. EIS. https://www.imkersnederland.nl/userfiles/nieuws/265_aziatische_hoornaar_rapport_compleet_1.pdf
 
+Roura-Pascual, N., Bas, J.M., Hui, C., Canelles, Q., Artola, J., Sampol, K., Bota, G., Vicens, N., Bassols, E., & Pérez-Granados, C. (2025). Evaluating electric harps and muzzles to mitigate the impact of Vespa velutina nigrithorax at beehives. *Journal of Applied Entomology*, 150(3), 364–375. https://doi.org/10.1111/jen.70039
+
