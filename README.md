@@ -2,7 +2,7 @@
 _If bees only gathered nectar from perfect flowers, they wouldn't be able to make even a single drop of honey_ – Matshona Dhliwayo
 
 - **Status:** Complete - ready for monthly updates
-- **Updated:** 2025-11-08
+- **Updated:** 2026-03-12
 - Klik [hier](nederlands/LEESME.md) voor de nederlandse versie.
 
 
@@ -24,8 +24,8 @@ This repository synthesizes evidence from **30 scientific studies** to quantify 
 - **Predation success rate**: 2.4% (video tracking of natural predation at hive entrance) — [see details](#421-predation-rates-and-success)
 
 ### Domesticated Honeybee Colony Survival
-- **Without protection**: **35-56%** of colonies survive under high _Vespa velutina_ pressure (Requier et al. 2020; Rojas-Nossa et al. 2022) — [see details](#431-colony-survival)
-- **With protection** (electric harps, muzzles): **55-78%** survival (Requier et al. 2020; Rojas-Nossa et al. 2022) — [see details](#431-colony-survival)
+- **Without protection**: **0-56%** of colonies survive under high _Vespa velutina_ pressure — modelling and field studies report 35-56% survival in many high-pressure scenarios (Requier et al. 2020; Rojas-Nossa et al. 2022), but recent experimental work under very high hornet loads found that all unprotected colonies collapsed before the end of the sampling period (Roura-Pascual et al. 2025) — [see details](#431-colony-survival)
+- **With protection** (electric harps, muzzles): **25-78%** survival depending on method and pressure level — muzzles and electric harps increase survival in modelling and field studies (Requier et al. 2020; Rojas-Nossa et al. 2022), and under very high hornet pressure electric harps maintained **25%** of colonies active while all muzzled and unprotected colonies collapsed (Roura-Pascual et al. 2025) — [see details](#431-colony-survival)
 - **Timing of colony losses**: 
   - During predation period: **2.5%** of colonies (Requier et al. 2019)
   - During winter (January-May): Majority of losses occur (Requier et al. 2019)
@@ -113,7 +113,7 @@ Nearly a quarter century has passed since _Vespa velutina_ arrived by accident i
   - Not all PDF's and databases are free online available
 
 ## 1. Literature searches
-**Updated:** 2025-10-30
+**Updated:** 2026-03-12
 
 ### 1.1 Keywords
 - **Vespa velutina:** ("vespa velutina" OR "asian hornet" OR "yellow-legged hornet")
@@ -361,6 +361,9 @@ Draft data extraction of the quantitative data for each PDF is done with Cursor.
 | Muzzle-equipped survival | 55% | Requier et al. 2020 | France |
 | Unprotected colony survival | 55.6% | Rojas-Nossa et al. 2022 | Spain |
 | Control survival (no protection) | 35% | Requier et al. 2020 | France |
+| Protected survival (electric harp, very high pressure) | 25% | Roura-Pascual et al. 2025 | Spain |
+| Unprotected survival (very high pressure experimental apiary) | 0% | Roura-Pascual et al. 2025 | Spain |
+| Muzzle-equipped survival (very high pressure experimental apiary) | 0% | Roura-Pascual et al. 2025 | Spain |
 | Colony collapse rate | 55.3% | Requier et al. 2019 | France |
 
 **Detailed Findings**
@@ -376,6 +379,15 @@ Draft data extraction of the quantitative data for each PDF is done with Cursor.
 - Protected colony survival: **77.8%**
 - Unprotected colony survival: **55.6%**
 - Honeybee weight reduction (unprotected): **6.7%** lighter workers
+
+**Roura-Pascual et al. 2025** (Spain, 2023, 36-hive experimental apiary, electric harps vs muzzles vs no protection)
+- Hornet abundance at hives: **significantly lower** at colonies protected with electric harps than at muzzled or unprotected colonies
+- Resource accumulation: Honey, pollen, and brood stores **declined in all colonies**, but the decline was **slower** in colonies protected with electric harps
+- Colony survival under very high hornet pressure:
+  - Unprotected colonies: **0%** remained active at end of sampling
+  - Muzzle-protected colonies: **0%** remained active at end of sampling
+  - Electric-harp colonies: **25%** remained active at end of sampling
+- Interpretation: Electric harps can **partially buffer** colony productivity and survival under extreme predation pressure, but outcomes are strongly influenced by the **pre-existing health** of colonies and do not prevent collapse in all cases
 
 **Requier et al. 2019** (France, 2012-2016, BEEHAVE model simulations, 993 simulations)
 - Colony collapse rate: **55.3%** (549/993 reached endpoint)
